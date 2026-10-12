@@ -30,3 +30,22 @@ So the server signs the handshake with its private key, the one only the real si
 Your browser checks that signature, and the certificate's chain, name and expiry date.
 All of that takes a single round trip.
 How this fits into everything that happens after you press Enter: the full video.
+
+## Short 3: Where 0.8 seconds actually goes
+- **From:** EP01, chapter 8 (the real waterfall) · **Target:** about 45 seconds
+- **Drafted 12 Oct 2026, revised after the script-reviewer's notes.** Numbers from `demo/README.md` (run 1, cold). Line 6 is your take from chapter 8 (option d), in your own words; swap it if you prefer another.
+- **On screen:** one vertical waterfall bar for the first request, growing phase by phase, with the clock above it.
+
+| # | Line | On screen |
+|---|---|---|
+| 1 | Wikipedia's server answered in about 15 milliseconds. So why did the page take 800? | "~15 ms" small, "800 ms" large; an empty, tall timeline |
+| 2 | I measured it: Wikipedia's page about DNS, in Chrome, on my connection. | the address, then the timeline's scale in milliseconds |
+| 3 | Finding the server's address took about 10 milliseconds. | a thin DNS slice, labelled 14 ms (run 1) |
+| 4 | Opening a connection: 75 milliseconds. Making it private: 80. | TCP and TLS slices |
+| 5 | Each is one trip there and back. | a there-and-back arc on each slice |
+| 6 | Then 90 milliseconds of waiting. | the wait slice splits: "~75 network · ~15 server" |
+| 7 | I used to believe a slow site always meant a slow server. | "slow server?" set large, then struck out |
+| 8 | But before the first byte, almost all the time was round trips: the network, not the server. | TCP, TLS and the network part of the wait light together: about 230 of the first 266 ms (DNS not lit) |
+| 9 | And the images came from a second server, so it paid for its own lookup and both handshakes again. | a second column of about the same height repeats DNS, TCP and TLS |
+| 10 | The rest of the 0.8 seconds is the page itself arriving and being drawn. | the bar extends to 786 ms: files and paint, dimmer |
+| 11 | Every one of those steps, slowed down, is in the full video. | the full map, the packet at the laptop |
