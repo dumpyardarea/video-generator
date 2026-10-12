@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "motion-as-code",
-      "runtimeExecutable": "C:\\Users\\NYOFF\\.bun\\bin\\bun.exe",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["--cwd=app", "run", "dev"],
       "port": 5173
     }
