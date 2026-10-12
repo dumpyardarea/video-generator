@@ -4,7 +4,7 @@
 - **Working title:** "Your browser had the page. Why was it still blank?"
 - **Length:** about 10 min (narration ~9.5 min at 150 wpm, plus slow-motion pauses on the frame).
 - **Audience:** beginner to intermediate developers and curious learners; EP01 viewers first.
-- **Status:** outline drafted 12 Oct 2026. Waiting on the creator: direction, the demo trace, and `channel/style-registry.md` (not in the repo yet).
+- **Status:** outline drafted 12 Oct 2026. Direction approved by the creator on 12 Oct 2026 (topic as outlined, light-table look, a trace script the creator runs). Waiting on the demo trace.
 
 ## Hook (0:00–0:30)
 EP01's millisecond clock comes back, frozen at **0.266 s: first byte**. The HTML has arrived, but the screen is still blank. The clock runs on and nothing appears until **0.716 s**. "Everything had arrived. So what did the browser spend 450 milliseconds on?" Opens on the blank page, with no channel intro. (Numbers from EP01's demo, run 1; the new trace below replaces them if they differ.)
@@ -25,13 +25,13 @@ EP01's millisecond clock comes back, frozen at **0.266 s: first byte**. The HTML
 | — | The whole pipeline | 0:35 | recap, one frame start to finish |
 | | **Total** | **≈ 10:05** | |
 
-## Visual motif (to record in `channel/style-registry.md`)
-Chosen to differ from Motion as Code (graph paper, plotter pen, signal orange, Archivo width animation), the Frontend video (mock page and inspector) and EP01 (contour map, green packet, pink warning). **Check against the registry before plates.**
+## Visual motif (recorded in `channel/style-registry.md`)
+Chosen to differ from Motion as Code (graph paper, plotter pen, signal orange, Archivo width animation), the Frontend video (mock page and inspector) and EP01 (contour map, green packet, pink warning). Checked against the registry on 12 Oct 2026.
 - **The light table.** The screen is a backlit glass plate; each stage of the pipeline is a transparent sheet laid on it: the DOM as a tree etched in thin lines, boxes as cut rectangles, paint as an instruction tape, layers as sheets that **lift apart in 3D** (three.js) and drop back to composite. Nothing travels across a map: the camera stays over one page and the sheets stack up.
-- **The frame meter** (signature device, top of frame): a 16.7 ms bar that fills each frame, segment by segment (script / style / layout / paint / composite). Over budget, the frame shows a hard yellow stripe, the episode's one accent.
+- **The frame meter** (signature device, top of frame): a 16.7 ms bar that fills each frame, segment by segment (script / style / layout / paint / composite). Over budget, the frame shows a hard scarlet stripe, the episode's one accent.
 - **Transitions: sheets.** Each plate's sheet slides off or lifts away to reveal the next one beneath; no whooshing camera rides (those are EP01's).
-- **Palette (proposed):** cool slate ink `#0E1417`, chalk `#E8EEF0`, electric blue `#4DA3FF` (what's being said, the active stage); accent: dropped-frame yellow `#F4D35E`, saved for jank and the slow moments.
-- **Type (proposed):** Archivo condensed (`w620`, 500 and 800), fixed width; Plex Mono for code, tokens and the meter. No Cormorant.
+- **Palette:** green-black ink `#0C110F`, chalk `#E9EEE8`, periwinkle `#8C7CFF` (what's being said, the active stage); accent: dropped-frame scarlet `#FF3355`, saved for jank and the slow moments. (The first proposal, slate / electric blue / yellow, was too close to the Frontend video's navy / cyan / yellow.)
+- **Type:** Archivo condensed (`w620`, 500 and 800), fixed width; Plex Mono for code, tokens and the meter. No Cormorant.
 
 ## Original value
 - **Continuity with a measurement:** it picks up EP01's measured page exactly where EP01 stopped (first byte) and accounts for the time to first paint, on the creator's own machine.
