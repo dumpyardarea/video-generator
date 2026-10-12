@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "motion-as-code",
+      "runtimeExecutable": "C:\\Users\\NYOFF\\.bun\\bin\\bun.exe",
+      "runtimeArgs": ["--cwd=app", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}

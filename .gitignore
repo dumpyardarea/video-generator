@@ -1,0 +1,53 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.vite/
+dist/
+*.log
+
+# renders (MP4s, stills, render jobs' status files) — regenerable and large
+out/
+*.mp4
+*.mov
+*.webm
+
+# audio: the voiceovers (≈ 1.5 MB each) and SFX are kept; raw recordings and mixes are not
+*.wav
+*.flac
+*.aiff
+audio/**/raw/
+
+# analysis: Python env, model weights, stems and intermediates (regenerable, large)
+analysis/.venv/
+analysis/.cache/
+analysis/stems/
+analysis/work/
+analysis/qa/
+analysis/frontend/work/
+analysis/*/work/
+__pycache__/
+*.pyc
+
+# alignment model (downloaded by hand, see README)
+analysis/models/
+
+# local Claude Code settings
+.claude/settings.local.json
+
+# the previous voice kept by analysis/swap_voice.py
+audio/**/voiceover.prev.mp3
+audio/voiceover.prev.mp3
+
+# --- code-only repo: keep content, media and generated data out ---
+# voiceovers and SFX
+audio/
+# aligned word timings / audio metadata (generated per episode)
+data/
+# channel scripts, outlines, reviews
+channel/
+# per-episode scripts and chapters fed to the analysis pipeline
+analysis/**/script.txt
+analysis/**/chapters.json
+# personal notes
+command.md
+PROMPT.md

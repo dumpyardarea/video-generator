@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Render Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/src/library/library.css" />
+</head>
+<body>
+<div class="app booting" id="app">
+  <aside class="sidebar" id="sidebar" aria-label="Rendered videos">
+    <div class="sb-inner">
+      <header class="sb-head">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div>
+            <div class="brand-name">Library</div>
+            <div class="brand-sub">out/</div>
+          </div>
+        </div>
+        <div class="sb-actions">
+          <button class="icon-btn" id="refresh" type="button" aria-label="Rescan renders" title="Rescan renders">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" /></svg>
+          </button>
+          <button class="icon-btn" id="collapse" type="button" aria-label="Hide library" title="Hide library (B)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg>
+          </button>
+        </div>
+      </header>
+      <nav class="tree" id="tree" role="tree" aria-label="Folders"></nav>
+      <section class="jobs" id="jobs" aria-label="Renders" hidden>
+        <div class="live-head">Renders</div>
+        <div id="jobList"></div>
+      </section>
+      <section class="live" aria-label="Live players">
+        <div class="live-head">Live players <span class="live-hint">preview, then render</span></div>
+        <div id="liveList"></div>
+      </section>
+      <footer class="sb-foot" id="foot"></footer>
+    </div>
+    <div class="resizer" id="resizer" role="separator" aria-orientation="vertical" aria-label="Resize library" tabindex="0" title="Drag to resize (20–50% of the window)"></div>
+  </aside>
+
+  <main class="stage" id="stage">
+    <button class="dock" id="dock" type="button" aria-label="Show library" title="Show library (B)">
+      <svg class="folder-ico" viewBox="0 0 32 26" aria-hidden="true">
+        <path class="f-back" d="M2 4.5A2.5 2.5 0 0 1 4.5 2h7l3 3h13A2.5 2.5 0 0 1 30 7.5v14a2.5 2.5 0 0 1-2.5 2.5h-23A2.5 2.5 0 0 1 2 21.5z" />
+        <path class="f-lid" d="M2 10h28v11.5a2.5 2.5 0 0 1-2.5 2.5h-23A2.5 2.5 0 0 1 2 21.5z" />
+      </svg>
+      <span class="dock-count" id="dockCount"></span>
+    </button>
+
+    <section class="empty" id="empty">
+      <h1 class="empty-title">Rendered videos</h1>
+      <p class="empty-sub">Pick a file from the library, or a card below.</p>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="player" id="player" hidden>
+      <div class="screen">
+        <video id="video" controls playsinline preload="metadata"></video>
+        <div class="screen-title" id="screenTitle"></div>
+        <div class="live-chip" id="liveChip" hidden><span class="live-dot" aria-hidden="true"></span><span id="liveChipText"></span></div>
+      </div>
+      <dl class="meta" id="meta"></dl>
+    </section>
+  </main>
+</div>
+<dialog class="rdlg" id="renderDlg" aria-labelledby="rdlgTitle">
+  <form method="dialog" class="rdlg-body" id="renderForm">
+    <header class="rdlg-head">
+      <h2 id="rdlgTitle">Render video</h2>
+      <button class="icon-btn" value="cancel" type="submit" aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+      </button>
+    </header>
+    <fieldset class="rdlg-videos" id="rdlgVideos"><legend>Video</legend></fieldset>
+    <fieldset class="rdlg-res" id="rdlgRes"><legend>Resolution</legend></fieldset>
+    <p class="rdlg-note" id="rdlgNote"></p>
+    <p class="rdlg-err" id="rdlgErr" role="alert"></p>
+    <footer class="rdlg-foot">
+      <a class="btn ghost" id="rdlgPreview" href="/player.html" target="_blank" rel="noopener">Preview live</a>
+      <button class="btn primary" id="rdlgStart" type="button">Start render</button>
+    </footer>
+  </form>
+</dialog>
+<script type="module" src="/src/library/library.ts"></script>
+</body>
+</html>
