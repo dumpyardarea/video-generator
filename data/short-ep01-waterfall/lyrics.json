@@ -1,0 +1,727 @@
+{
+ "source": "episode_vo.py (espeak-ng draft, the voice's own word timings)",
+ "lines": [
+  {
+   "text": "Wikipedia's server answered in about 15 milliseconds. So why did the page take 800?",
+   "start": 0.5,
+   "end": 5.888,
+   "words": [
+    {
+     "w": "Wikipedia's",
+     "start": 0.5,
+     "end": 1.214
+    },
+    {
+     "w": "server",
+     "start": 1.214,
+     "end": 1.597
+    },
+    {
+     "w": "answered",
+     "start": 1.597,
+     "end": 2.02
+    },
+    {
+     "w": "in",
+     "start": 2.02,
+     "end": 2.075
+    },
+    {
+     "w": "about",
+     "start": 2.075,
+     "end": 2.428
+    },
+    {
+     "w": "15",
+     "start": 2.428,
+     "end": 2.897
+    },
+    {
+     "w": "milliseconds.",
+     "start": 2.897,
+     "end": 3.631
+    },
+    {
+     "w": "So",
+     "start": 3.631,
+     "end": 3.843
+    },
+    {
+     "w": "why",
+     "start": 3.843,
+     "end": 4.033
+    },
+    {
+     "w": "did",
+     "start": 4.033,
+     "end": 4.313
+    },
+    {
+     "w": "the",
+     "start": 4.313,
+     "end": 4.428
+    },
+    {
+     "w": "page",
+     "start": 4.428,
+     "end": 4.8
+    },
+    {
+     "w": "take",
+     "start": 4.8,
+     "end": 5.13
+    },
+    {
+     "w": "800?",
+     "start": 5.13,
+     "end": 5.888
+    }
+   ]
+  },
+  {
+   "text": "I measured it: Wikipedia's page about DNS, in Chrome, on my connection.",
+   "start": 6.328,
+   "end": 11.321,
+   "words": [
+    {
+     "w": "I",
+     "start": 6.328,
+     "end": 6.493
+    },
+    {
+     "w": "measured",
+     "start": 6.493,
+     "end": 6.921
+    },
+    {
+     "w": "it:",
+     "start": 6.921,
+     "end": 7.347
+    },
+    {
+     "w": "Wikipedia's",
+     "start": 7.347,
+     "end": 8.054
+    },
+    {
+     "w": "page",
+     "start": 8.054,
+     "end": 8.347
+    },
+    {
+     "w": "about",
+     "start": 8.347,
+     "end": 8.676
+    },
+    {
+     "w": "DNS,",
+     "start": 8.676,
+     "end": 9.564
+    },
+    {
+     "w": "in",
+     "start": 9.564,
+     "end": 9.699
+    },
+    {
+     "w": "Chrome,",
+     "start": 9.699,
+     "end": 10.395
+    },
+    {
+     "w": "on",
+     "start": 10.395,
+     "end": 10.584
+    },
+    {
+     "w": "my",
+     "start": 10.584,
+     "end": 10.7
+    },
+    {
+     "w": "connection.",
+     "start": 10.7,
+     "end": 11.321
+    }
+   ]
+  },
+  {
+   "text": "Finding the server's address took about 10 milliseconds.",
+   "start": 11.761,
+   "end": 14.783,
+   "words": [
+    {
+     "w": "Finding",
+     "start": 11.761,
+     "end": 12.245
+    },
+    {
+     "w": "the",
+     "start": 12.245,
+     "end": 12.357
+    },
+    {
+     "w": "server's",
+     "start": 12.357,
+     "end": 12.804
+    },
+    {
+     "w": "address",
+     "start": 12.804,
+     "end": 13.164
+    },
+    {
+     "w": "took",
+     "start": 13.164,
+     "end": 13.406
+    },
+    {
+     "w": "about",
+     "start": 13.406,
+     "end": 13.739
+    },
+    {
+     "w": "10",
+     "start": 13.739,
+     "end": 14.034
+    },
+    {
+     "w": "milliseconds.",
+     "start": 14.034,
+     "end": 14.783
+    }
+   ]
+  },
+  {
+   "text": "Opening a connection: 75 milliseconds. Making it private: 80.",
+   "start": 15.223,
+   "end": 19.883,
+   "words": [
+    {
+     "w": "Opening",
+     "start": 15.223,
+     "end": 15.583
+    },
+    {
+     "w": "a",
+     "start": 15.583,
+     "end": 15.703
+    },
+    {
+     "w": "connection:",
+     "start": 15.703,
+     "end": 16.625
+    },
+    {
+     "w": "75",
+     "start": 16.625,
+     "end": 17.485
+    },
+    {
+     "w": "milliseconds.",
+     "start": 17.485,
+     "end": 18.215
+    },
+    {
+     "w": "Making",
+     "start": 18.215,
+     "end": 18.513
+    },
+    {
+     "w": "it",
+     "start": 18.513,
+     "end": 18.73
+    },
+    {
+     "w": "private:",
+     "start": 18.73,
+     "end": 19.58
+    },
+    {
+     "w": "80.",
+     "start": 19.58,
+     "end": 19.883
+    }
+   ]
+  },
+  {
+   "text": "Each is one trip there and back.",
+   "start": 20.323,
+   "end": 22.207,
+   "words": [
+    {
+     "w": "Each",
+     "start": 20.323,
+     "end": 20.549
+    },
+    {
+     "w": "is",
+     "start": 20.549,
+     "end": 20.697
+    },
+    {
+     "w": "one",
+     "start": 20.697,
+     "end": 20.954
+    },
+    {
+     "w": "trip",
+     "start": 20.954,
+     "end": 21.333
+    },
+    {
+     "w": "there",
+     "start": 21.333,
+     "end": 21.681
+    },
+    {
+     "w": "and",
+     "start": 21.681,
+     "end": 21.88
+    },
+    {
+     "w": "back.",
+     "start": 21.88,
+     "end": 22.207
+    }
+   ]
+  },
+  {
+   "text": "Then 90 milliseconds of waiting.",
+   "start": 22.647,
+   "end": 24.629,
+   "words": [
+    {
+     "w": "Then",
+     "start": 22.647,
+     "end": 22.93
+    },
+    {
+     "w": "90",
+     "start": 22.93,
+     "end": 23.313
+    },
+    {
+     "w": "milliseconds",
+     "start": 23.313,
+     "end": 24.006
+    },
+    {
+     "w": "of",
+     "start": 24.006,
+     "end": 24.137
+    },
+    {
+     "w": "waiting.",
+     "start": 24.137,
+     "end": 24.629
+    }
+   ]
+  },
+  {
+   "text": "I used to believe a slow site always meant a slow server.",
+   "start": 25.069,
+   "end": 28.227,
+   "words": [
+    {
+     "w": "I",
+     "start": 25.069,
+     "end": 25.244
+    },
+    {
+     "w": "used",
+     "start": 25.244,
+     "end": 25.579
+    },
+    {
+     "w": "to",
+     "start": 25.579,
+     "end": 25.715
+    },
+    {
+     "w": "believe",
+     "start": 25.715,
+     "end": 26.057
+    },
+    {
+     "w": "a",
+     "start": 26.057,
+     "end": 26.125
+    },
+    {
+     "w": "slow",
+     "start": 26.125,
+     "end": 26.404
+    },
+    {
+     "w": "site",
+     "start": 26.404,
+     "end": 26.738
+    },
+    {
+     "w": "always",
+     "start": 26.738,
+     "end": 27.159
+    },
+    {
+     "w": "meant",
+     "start": 27.159,
+     "end": 27.462
+    },
+    {
+     "w": "a",
+     "start": 27.462,
+     "end": 27.522
+    },
+    {
+     "w": "slow",
+     "start": 27.522,
+     "end": 27.799
+    },
+    {
+     "w": "server.",
+     "start": 27.799,
+     "end": 28.227
+    }
+   ]
+  },
+  {
+   "text": "But before the first byte, almost all the time was round trips: the network, not the server.",
+   "start": 28.667,
+   "end": 34.45,
+   "words": [
+    {
+     "w": "But",
+     "start": 28.667,
+     "end": 28.887
+    },
+    {
+     "w": "before",
+     "start": 28.887,
+     "end": 29.219
+    },
+    {
+     "w": "the",
+     "start": 29.219,
+     "end": 29.334
+    },
+    {
+     "w": "first",
+     "start": 29.334,
+     "end": 29.712
+    },
+    {
+     "w": "byte,",
+     "start": 29.712,
+     "end": 30.283
+    },
+    {
+     "w": "almost",
+     "start": 30.283,
+     "end": 30.732
+    },
+    {
+     "w": "all",
+     "start": 30.732,
+     "end": 30.95
+    },
+    {
+     "w": "the",
+     "start": 30.95,
+     "end": 31.068
+    },
+    {
+     "w": "time",
+     "start": 31.068,
+     "end": 31.409
+    },
+    {
+     "w": "was",
+     "start": 31.409,
+     "end": 31.612
+    },
+    {
+     "w": "round",
+     "start": 31.612,
+     "end": 31.93
+    },
+    {
+     "w": "trips:",
+     "start": 31.93,
+     "end": 32.74
+    },
+    {
+     "w": "the",
+     "start": 32.74,
+     "end": 32.87
+    },
+    {
+     "w": "network,",
+     "start": 32.87,
+     "end": 33.601
+    },
+    {
+     "w": "not",
+     "start": 33.601,
+     "end": 33.852
+    },
+    {
+     "w": "the",
+     "start": 33.852,
+     "end": 33.969
+    },
+    {
+     "w": "server.",
+     "start": 33.969,
+     "end": 34.45
+    }
+   ]
+  },
+  {
+   "text": "And the images came from a second server, so it paid for its own lookup and both handshakes again.",
+   "start": 34.89,
+   "end": 40.887,
+   "words": [
+    {
+     "w": "And",
+     "start": 34.89,
+     "end": 35.085
+    },
+    {
+     "w": "the",
+     "start": 35.085,
+     "end": 35.199
+    },
+    {
+     "w": "images",
+     "start": 35.199,
+     "end": 35.613
+    },
+    {
+     "w": "came",
+     "start": 35.613,
+     "end": 35.958
+    },
+    {
+     "w": "from",
+     "start": 35.958,
+     "end": 36.14
+    },
+    {
+     "w": "a",
+     "start": 36.14,
+     "end": 36.237
+    },
+    {
+     "w": "second",
+     "start": 36.237,
+     "end": 36.722
+    },
+    {
+     "w": "server,",
+     "start": 36.722,
+     "end": 37.366
+    },
+    {
+     "w": "so",
+     "start": 37.366,
+     "end": 37.565
+    },
+    {
+     "w": "it",
+     "start": 37.565,
+     "end": 37.742
+    },
+    {
+     "w": "paid",
+     "start": 37.742,
+     "end": 38.063
+    },
+    {
+     "w": "for",
+     "start": 38.063,
+     "end": 38.277
+    },
+    {
+     "w": "its",
+     "start": 38.277,
+     "end": 38.532
+    },
+    {
+     "w": "own",
+     "start": 38.532,
+     "end": 38.767
+    },
+    {
+     "w": "lookup",
+     "start": 38.767,
+     "end": 39.304
+    },
+    {
+     "w": "and",
+     "start": 39.304,
+     "end": 39.503
+    },
+    {
+     "w": "both",
+     "start": 39.503,
+     "end": 39.803
+    },
+    {
+     "w": "handshakes",
+     "start": 39.803,
+     "end": 40.458
+    },
+    {
+     "w": "again.",
+     "start": 40.458,
+     "end": 40.887
+    }
+   ]
+  },
+  {
+   "text": "The rest of the 0.8 seconds is the page itself arriving and being drawn.",
+   "start": 41.327,
+   "end": 45.997,
+   "words": [
+    {
+     "w": "The",
+     "start": 41.327,
+     "end": 41.457
+    },
+    {
+     "w": "rest",
+     "start": 41.457,
+     "end": 41.746
+    },
+    {
+     "w": "of",
+     "start": 41.746,
+     "end": 41.86
+    },
+    {
+     "w": "the",
+     "start": 41.86,
+     "end": 41.973
+    },
+    {
+     "w": "0.8",
+     "start": 41.973,
+     "end": 42.958
+    },
+    {
+     "w": "seconds",
+     "start": 42.958,
+     "end": 43.472
+    },
+    {
+     "w": "is",
+     "start": 43.472,
+     "end": 43.617
+    },
+    {
+     "w": "the",
+     "start": 43.617,
+     "end": 43.725
+    },
+    {
+     "w": "page",
+     "start": 43.725,
+     "end": 44.014
+    },
+    {
+     "w": "itself",
+     "start": 44.014,
+     "end": 44.517
+    },
+    {
+     "w": "arriving",
+     "start": 44.517,
+     "end": 45.115
+    },
+    {
+     "w": "and",
+     "start": 45.115,
+     "end": 45.311
+    },
+    {
+     "w": "being",
+     "start": 45.311,
+     "end": 45.62
+    },
+    {
+     "w": "drawn.",
+     "start": 45.62,
+     "end": 45.997
+    }
+   ]
+  },
+  {
+   "text": "Every one of those steps, slowed down, is in the full video.",
+   "start": 46.437,
+   "end": 50.143,
+   "words": [
+    {
+     "w": "Every",
+     "start": 46.437,
+     "end": 46.774
+    },
+    {
+     "w": "one",
+     "start": 46.774,
+     "end": 46.959
+    },
+    {
+     "w": "of",
+     "start": 46.959,
+     "end": 47.124
+    },
+    {
+     "w": "those",
+     "start": 47.124,
+     "end": 47.351
+    },
+    {
+     "w": "steps,",
+     "start": 47.351,
+     "end": 48.111
+    },
+    {
+     "w": "slowed",
+     "start": 48.111,
+     "end": 48.48
+    },
+    {
+     "w": "down,",
+     "start": 48.48,
+     "end": 49.059
+    },
+    {
+     "w": "is",
+     "start": 49.059,
+     "end": 49.175
+    },
+    {
+     "w": "in",
+     "start": 49.175,
+     "end": 49.283
+    },
+    {
+     "w": "the",
+     "start": 49.283,
+     "end": 49.391
+    },
+    {
+     "w": "full",
+     "start": 49.391,
+     "end": 49.658
+    },
+    {
+     "w": "video.",
+     "start": 49.658,
+     "end": 50.143
+    }
+   ]
+  }
+ ]
+}

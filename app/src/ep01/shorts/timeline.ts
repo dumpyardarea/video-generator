@@ -10,6 +10,7 @@ const modules = import.meta.glob<{ default: SceneClass }>('./*.ts');
 const PLATES: Record<string, [string, string]> = {
   'short-ep01-dns': ['dns', 'How DNS finds a website'],
   'short-ep01-tls': ['tls', 'The TLS handshake, visualised'],
+  'short-ep01-waterfall': ['waterfall', 'Where 0.8 seconds actually goes'],
 };
 
 export function makeEp01ShortTimeline(_ly: Lyrics, au: AudioData): TimelineEntry[] {

@@ -62,6 +62,11 @@ def read_short(md: Path, n: int):
             continue
         if on and s.startswith("#"):
             break
+        if on and s.startswith("|"):  # a table row: | n | line | on screen |
+            cells = [c.strip() for c in s.strip("|").split("|")]
+            if len(cells) >= 2 and cells[0].isdigit():
+                out.append((title, cells[1]))
+            continue
         if on and s and not s.startswith(("- ", "(", ">", "[")):
             out.append((title, s))
     if not out:
@@ -96,6 +101,8 @@ def main():
     ap.add_argument("--no-tts", action="store_true")
     ap.add_argument("--rate", type=int, default=0, help="draft voice speed, -10..10")
     ap.add_argument("--short", type=int, default=0, help="voice Short <n> of the episode's shorts.md instead of its script")
+    ap.add_argument("--engine", choices=("sapi", "espeak"), default="sapi" if os.name == "nt" else "espeak",
+                    help="the draft voice: Windows SAPI (aligned afterwards), or espeak-ng (exact word timings, no alignment model)")
     a = ap.parse_args()
     ep = ROOT / "channel" / "episodes" / a.episode
     lines = read_short(ep / "shorts.md", a.short) if a.short else read_script(ep / "script.md")
@@ -110,6 +117,8 @@ def main():
     work = vdir / "work"
     work.mkdir(exist_ok=True)
     (work / "spoken.txt").write_text("\n".join(spoken_line(l) for _, l in lines) + "\n", encoding="utf-8")
+    if a.engine == "espeak":
+        return espeak_draft(lines, a.video)
     subprocess.run(["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", str(ROOT / "analysis" / "tts_vo.ps1"),
                     "-Script", str(work / "spoken.txt"), "-Work", str(work), "-Rate", str(a.rate)], check=True)
     tts = json.loads((work / "tts.json").read_text(encoding="utf-8-sig"))
@@ -145,6 +154,77 @@ def main():
     bad = [w["w"] for l in lyr["lines"] for w in l["words"] if w["start"] is None or (w["end"] - w["start"] < 0.04 and any(c.isalnum() for c in w["w"]))]
     print(f"aligned {sum(len(l['words']) for l in lyr['lines'])} words; voice ends at {lyr['lines'][-1]['end']:.1f} s"
           + (f"; {len(bad)} doubtful: {', '.join(bad[:12])}" if bad else ""))
+
+
+def trim(y, sr):
+    """(first, last) sample of the sound in y, keeping a little air, as the SAPI path trims."""
+    hop = sr // 100
+    n = len(y) // hop
+    if not n:
+        return 0, len(y)
+    e = np.sqrt((y[: n * hop].reshape(n, hop) ** 2).mean(1))
+    v = np.nonzero(e > max(1e-4, np.percentile(e, 95) * 0.06))[0]
+    return (max(0, (v[0] - 3) * hop), min(len(y), (v[-1] + 9) * hop)) if len(v) else (0, len(y))
+
+
+def espeak_draft(lines, video):
+    """The espeak-ng draft: speak each line, stitch with the same pauses, and write lyrics.json from the voice's own
+    word events (so no alignment step), then the audio analysis."""
+    from espeak_vo import Espeak, speak_line
+    tts = Espeak()
+    sr = tts.sr
+
+    def say(tok):
+        sp = [w.lower() for w in spoken(tok)]
+        tail = re.search(r"[,.:;?!]+[\"”']?$", tok)
+        if sp and tail:
+            sp[-1] += tail.group(0).strip("\"”'")
+        return sp
+
+    chunks, out, t = [np.zeros(int(LEAD * sr), np.float32)], [], LEAD
+    for i, (chapter, text) in enumerate(lines):
+        toks = text.split(" ")
+        y, starts = speak_line(tts, toks, say)
+        a, b = trim(y, sr)
+        y = y[a:b]
+        dur = len(y)
+        # a word the voice gave no event (it ran two words together, or the token is silent) shares the time between
+        # the timed words either side; each word ends where the next starts
+        st = [None if s is None else max(0, s - a) for s in starts]
+        st[0] = st[0] if st[0] is not None else 0
+        k = 0
+        while k < len(st):
+            if st[k] is None:
+                j = k
+                while j < len(st) and st[j] is None:
+                    j += 1
+                lo, hi = st[k - 1], (st[j] if j < len(st) else dur)
+                for m in range(k, j):  # the word before keeps its share too
+                    st[m] = lo + (hi - lo) * (m - k + 1) // (j - k + 1)
+                k = j
+            k += 1
+        words = []
+        for k, tok in enumerate(toks):
+            end = st[k + 1] if k + 1 < len(st) else dur - int(0.06 * sr)
+            words.append({"w": tok, "start": round(t + st[k] / sr, 3), "end": round(t + max(st[k], end) / sr, 3)})
+        out.append({"text": text, "start": words[0]["start"], "end": words[-1]["end"], "words": words})
+        last = i == len(lines) - 1
+        gap = TAIL if last else (CHAPTER_GAP if lines[i + 1][0] != chapter else GAP)
+        chunks += [y, np.zeros(int(gap * sr), np.float32)]
+        t += (dur + int(gap * sr)) / sr
+    y = np.concatenate(chunks)
+    adir, ddir = ROOT / "audio" / video, ROOT / "data" / video
+    adir.mkdir(parents=True, exist_ok=True)
+    ddir.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(sr), "-ac", "1", "-i", "-", "-af", "loudnorm=I=-16:TP=-1.5",
+                    "-ar", str(SR), "-c:a", "libmp3lame", "-b:a", "192k", str(adir / "voiceover.mp3")], input=y.tobytes(), check=True)
+    (ddir / "lyrics.json").write_text(json.dumps({"source": "episode_vo.py (espeak-ng draft, the voice's own word timings)", "lines": out},
+                                                 indent=1, ensure_ascii=False), encoding="utf-8")
+    print(f"draft voice (espeak-ng): {len(y) / sr:.1f} s → audio/{video}/voiceover.mp3; {sum(len(l['words']) for l in out)} words timed")
+    r = subprocess.run([sys.executable, str(ROOT / "analysis" / "audio_vo.py")], env={**os.environ, "VO_VARIANT": video},
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode:
+        sys.exit(f"audio_vo.py failed:\n{r.stderr[-3000:]}")
 
 
 if __name__ == "__main__":
