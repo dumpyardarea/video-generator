@@ -1,0 +1,9307 @@
+{
+ "source": "align_vo.py (wav2vec2-base-960h CTC)",
+ "lines": [
+  {
+   "text": "You type a web address and press Enter.",
+   "start": 0.52,
+   "end": 2.56,
+   "words": [
+    {
+     "w": "You",
+     "start": 0.52,
+     "end": 0.68
+    },
+    {
+     "w": "type",
+     "start": 0.68,
+     "end": 0.96
+    },
+    {
+     "w": "a",
+     "start": 0.96,
+     "end": 1.06
+    },
+    {
+     "w": "web",
+     "start": 1.06,
+     "end": 1.32
+    },
+    {
+     "w": "address",
+     "start": 1.32,
+     "end": 1.72
+    },
+    {
+     "w": "and",
+     "start": 1.72,
+     "end": 1.88
+    },
+    {
+     "w": "press",
+     "start": 1.88,
+     "end": 2.24
+    },
+    {
+     "w": "Enter.",
+     "start": 2.24,
+     "end": 2.56
+    }
+   ]
+  },
+  {
+   "text": "A page appears.",
+   "start": 3.03,
+   "end": 4.03,
+   "words": [
+    {
+     "w": "A",
+     "start": 3.03,
+     "end": 3.16
+    },
+    {
+     "w": "page",
+     "start": 3.16,
+     "end": 3.46
+    },
+    {
+     "w": "appears.",
+     "start": 3.46,
+     "end": 4.03
+    }
+   ]
+  },
+  {
+   "text": "I measured it: on my connection, Wikipedia's page about DNS took about 0.8 seconds.",
+   "start": 4.5,
+   "end": 10.82,
+   "words": [
+    {
+     "w": "I",
+     "start": 4.5,
+     "end": 4.66
+    },
+    {
+     "w": "measured",
+     "start": 4.66,
+     "end": 5.04
+    },
+    {
+     "w": "it:",
+     "start": 5.04,
+     "end": 5.1
+    },
+    {
+     "w": "on",
+     "start": 5.58,
+     "end": 5.76
+    },
+    {
+     "w": "my",
+     "start": 5.76,
+     "end": 5.91
+    },
+    {
+     "w": "connection,",
+     "start": 5.91,
+     "end": 6.48
+    },
+    {
+     "w": "Wikipedia's",
+     "start": 6.88,
+     "end": 7.6
+    },
+    {
+     "w": "page",
+     "start": 7.6,
+     "end": 7.9
+    },
+    {
+     "w": "about",
+     "start": 7.9,
+     "end": 8.18
+    },
+    {
+     "w": "DNS",
+     "start": 8.18,
+     "end": 8.81,
+     "syl": [
+      [
+       8.18,
+       8.46
+      ],
+      [
+       8.46,
+       8.64
+      ],
+      [
+       8.64,
+       8.81
+      ]
+     ]
+    },
+    {
+     "w": "took",
+     "start": 8.81,
+     "end": 9.04
+    },
+    {
+     "w": "about",
+     "start": 9.04,
+     "end": 9.31
+    },
+    {
+     "w": "0.8",
+     "start": 9.31,
+     "end": 10.19,
+     "syl": [
+      [
+       9.31,
+       9.73
+      ],
+      [
+       9.73,
+       10.04
+      ],
+      [
+       10.04,
+       10.19
+      ]
+     ]
+    },
+    {
+     "w": "seconds.",
+     "start": 10.19,
+     "end": 10.82
+    }
+   ]
+  },
+  {
+   "text": "In under a second, about a dozen systems took part before a single pixel appeared.",
+   "start": 11.29,
+   "end": 15.95,
+   "words": [
+    {
+     "w": "In",
+     "start": 11.29,
+     "end": 11.48
+    },
+    {
+     "w": "under",
+     "start": 11.48,
+     "end": 11.72
+    },
+    {
+     "w": "a",
+     "start": 11.72,
+     "end": 11.82
+    },
+    {
+     "w": "second,",
+     "start": 11.82,
+     "end": 12.23
+    },
+    {
+     "w": "about",
+     "start": 12.64,
+     "end": 12.94
+    },
+    {
+     "w": "a",
+     "start": 12.94,
+     "end": 13.02
+    },
+    {
+     "w": "dozen",
+     "start": 13.02,
+     "end": 13.38
+    },
+    {
+     "w": "systems",
+     "start": 13.38,
+     "end": 13.84
+    },
+    {
+     "w": "took",
+     "start": 13.84,
+     "end": 14.0
+    },
+    {
+     "w": "part",
+     "start": 14.1,
+     "end": 14.38
+    },
+    {
+     "w": "before",
+     "start": 14.38,
+     "end": 14.72
+    },
+    {
+     "w": "a",
+     "start": 14.72,
+     "end": 14.8
+    },
+    {
+     "w": "single",
+     "start": 14.8,
+     "end": 15.17
+    },
+    {
+     "w": "pixel",
+     "start": 15.17,
+     "end": 15.6
+    },
+    {
+     "w": "appeared.",
+     "start": 15.6,
+     "end": 15.95
+    }
+   ]
+  },
+  {
+   "text": "Your computer found a server it had never met.",
+   "start": 16.46,
+   "end": 18.77,
+   "words": [
+    {
+     "w": "Your",
+     "start": 16.46,
+     "end": 16.65
+    },
+    {
+     "w": "computer",
+     "start": 16.65,
+     "end": 17.18
+    },
+    {
+     "w": "found",
+     "start": 17.18,
+     "end": 17.5
+    },
+    {
+     "w": "a",
+     "start": 17.5,
+     "end": 17.58
+    },
+    {
+     "w": "server",
+     "start": 17.58,
+     "end": 17.96
+    },
+    {
+     "w": "it",
+     "start": 17.96,
+     "end": 18.08
+    },
+    {
+     "w": "had",
+     "start": 18.08,
+     "end": 18.28
+    },
+    {
+     "w": "never",
+     "start": 18.28,
+     "end": 18.56
+    },
+    {
+     "w": "met.",
+     "start": 18.56,
+     "end": 18.77
+    }
+   ]
+  },
+  {
+   "text": "It agreed on a secret with that server, out in the open.",
+   "start": 19.35,
+   "end": 22.45,
+   "words": [
+    {
+     "w": "It",
+     "start": 19.35,
+     "end": 19.5
+    },
+    {
+     "w": "agreed",
+     "start": 19.5,
+     "end": 19.84
+    },
+    {
+     "w": "on",
+     "start": 19.84,
+     "end": 19.96
+    },
+    {
+     "w": "a",
+     "start": 19.96,
+     "end": 20.04
+    },
+    {
+     "w": "secret",
+     "start": 20.04,
+     "end": 20.43
+    },
+    {
+     "w": "with",
+     "start": 20.43,
+     "end": 20.6
+    },
+    {
+     "w": "that",
+     "start": 20.6,
+     "end": 20.79
+    },
+    {
+     "w": "server,",
+     "start": 20.79,
+     "end": 21.24
+    },
+    {
+     "w": "out",
+     "start": 21.63,
+     "end": 21.84
+    },
+    {
+     "w": "in",
+     "start": 21.84,
+     "end": 21.92
+    },
+    {
+     "w": "the",
+     "start": 21.92,
+     "end": 22.14
+    },
+    {
+     "w": "open.",
+     "start": 22.14,
+     "end": 22.45
+    }
+   ]
+  },
+  {
+   "text": "So freeze the clock at the moment you press Enter, and follow the request there and back.",
+   "start": 22.92,
+   "end": 27.48,
+   "words": [
+    {
+     "w": "So",
+     "start": 22.92,
+     "end": 23.22
+    },
+    {
+     "w": "freeze",
+     "start": 23.22,
+     "end": 23.51
+    },
+    {
+     "w": "the",
+     "start": 23.51,
+     "end": 23.63
+    },
+    {
+     "w": "clock",
+     "start": 23.63,
+     "end": 23.91
+    },
+    {
+     "w": "at",
+     "start": 23.91,
+     "end": 24.06
+    },
+    {
+     "w": "the",
+     "start": 24.06,
+     "end": 24.22
+    },
+    {
+     "w": "moment",
+     "start": 24.22,
+     "end": 24.56
+    },
+    {
+     "w": "you",
+     "start": 24.56,
+     "end": 24.73
+    },
+    {
+     "w": "press",
+     "start": 24.73,
+     "end": 25.06
+    },
+    {
+     "w": "Enter,",
+     "start": 25.06,
+     "end": 25.38
+    },
+    {
+     "w": "and",
+     "start": 25.78,
+     "end": 25.96
+    },
+    {
+     "w": "follow",
+     "start": 25.96,
+     "end": 26.3
+    },
+    {
+     "w": "the",
+     "start": 26.3,
+     "end": 26.42
+    },
+    {
+     "w": "request",
+     "start": 26.42,
+     "end": 26.84
+    },
+    {
+     "w": "there",
+     "start": 26.84,
+     "end": 27.06
+    },
+    {
+     "w": "and",
+     "start": 27.06,
+     "end": 27.22
+    },
+    {
+     "w": "back.",
+     "start": 27.22,
+     "end": 27.48
+    }
+   ]
+  },
+  {
+   "text": "First, the browser decides what you typed: an address, or a search.",
+   "start": 28.57,
+   "end": 33.44,
+   "words": [
+    {
+     "w": "First,",
+     "start": 28.57,
+     "end": 28.93
+    },
+    {
+     "w": "the",
+     "start": 29.4,
+     "end": 29.56
+    },
+    {
+     "w": "browser",
+     "start": 29.56,
+     "end": 30.02
+    },
+    {
+     "w": "decides",
+     "start": 30.02,
+     "end": 30.48
+    },
+    {
+     "w": "what",
+     "start": 30.48,
+     "end": 30.64
+    },
+    {
+     "w": "you",
+     "start": 30.64,
+     "end": 30.79
+    },
+    {
+     "w": "typed:",
+     "start": 30.79,
+     "end": 31.08
+    },
+    {
+     "w": "an",
+     "start": 31.63,
+     "end": 31.86
+    },
+    {
+     "w": "address,",
+     "start": 31.86,
+     "end": 32.32
+    },
+    {
+     "w": "or",
+     "start": 32.72,
+     "end": 32.9
+    },
+    {
+     "w": "a",
+     "start": 32.9,
+     "end": 32.98
+    },
+    {
+     "w": "search.",
+     "start": 32.98,
+     "end": 33.44
+    }
+   ]
+  },
+  {
+   "text": "\"cats\" has no dot, so it goes to your search engine.",
+   "start": 33.93,
+   "end": 37.2,
+   "words": [
+    {
+     "w": "\"cats\"",
+     "start": 33.93,
+     "end": 34.28
+    },
+    {
+     "w": "has",
+     "start": 34.28,
+     "end": 34.54
+    },
+    {
+     "w": "no",
+     "start": 34.54,
+     "end": 34.74
+    },
+    {
+     "w": "dot,",
+     "start": 34.74,
+     "end": 34.98
+    },
+    {
+     "w": "so",
+     "start": 35.46,
+     "end": 35.72
+    },
+    {
+     "w": "it",
+     "start": 35.72,
+     "end": 35.84
+    },
+    {
+     "w": "goes",
+     "start": 35.84,
+     "end": 36.1
+    },
+    {
+     "w": "to",
+     "start": 36.1,
+     "end": 36.24
+    },
+    {
+     "w": "your",
+     "start": 36.24,
+     "end": 36.44
+    },
+    {
+     "w": "search",
+     "start": 36.44,
+     "end": 36.82
+    },
+    {
+     "w": "engine.",
+     "start": 36.82,
+     "end": 37.2
+    }
+   ]
+  },
+  {
+   "text": "\"example.com\" looks like a domain name, so the browser treats it as an address.",
+   "start": 37.67,
+   "end": 42.52,
+   "words": [
+    {
+     "w": "\"example.com\"",
+     "start": 37.67,
+     "end": 38.78,
+     "syl": [
+      [
+       37.67,
+       38.23
+      ],
+      [
+       38.23,
+       38.49
+      ],
+      [
+       38.49,
+       38.78
+      ]
+     ]
+    },
+    {
+     "w": "looks",
+     "start": 38.78,
+     "end": 39.06
+    },
+    {
+     "w": "like",
+     "start": 39.06,
+     "end": 39.23
+    },
+    {
+     "w": "a",
+     "start": 39.23,
+     "end": 39.36
+    },
+    {
+     "w": "domain",
+     "start": 39.36,
+     "end": 39.72
+    },
+    {
+     "w": "name,",
+     "start": 39.72,
+     "end": 40.07
+    },
+    {
+     "w": "so",
+     "start": 40.47,
+     "end": 40.72
+    },
+    {
+     "w": "the",
+     "start": 40.72,
+     "end": 40.84
+    },
+    {
+     "w": "browser",
+     "start": 40.84,
+     "end": 41.27
+    },
+    {
+     "w": "treats",
+     "start": 41.27,
+     "end": 41.62
+    },
+    {
+     "w": "it",
+     "start": 41.62,
+     "end": 41.74
+    },
+    {
+     "w": "as",
+     "start": 41.74,
+     "end": 41.86
+    },
+    {
+     "w": "an",
+     "start": 41.86,
+     "end": 42.02
+    },
+    {
+     "w": "address.",
+     "start": 42.02,
+     "end": 42.52
+    }
+   ]
+  },
+  {
+   "text": "Then it splits the address into parts.",
+   "start": 42.98,
+   "end": 45.0,
+   "words": [
+    {
+     "w": "Then",
+     "start": 42.98,
+     "end": 43.18
+    },
+    {
+     "w": "it",
+     "start": 43.18,
+     "end": 43.26
+    },
+    {
+     "w": "splits",
+     "start": 43.26,
+     "end": 43.66
+    },
+    {
+     "w": "the",
+     "start": 43.66,
+     "end": 43.88
+    },
+    {
+     "w": "address",
+     "start": 43.88,
+     "end": 44.26
+    },
+    {
+     "w": "into",
+     "start": 44.26,
+     "end": 44.5
+    },
+    {
+     "w": "parts.",
+     "start": 44.5,
+     "end": 45.0
+    }
+   ]
+  },
+  {
+   "text": "The scheme says how to talk: https.",
+   "start": 45.44,
+   "end": 48.72,
+   "words": [
+    {
+     "w": "The",
+     "start": 45.44,
+     "end": 45.58
+    },
+    {
+     "w": "scheme",
+     "start": 45.58,
+     "end": 45.94
+    },
+    {
+     "w": "says",
+     "start": 45.94,
+     "end": 46.2
+    },
+    {
+     "w": "how",
+     "start": 46.2,
+     "end": 46.39
+    },
+    {
+     "w": "to",
+     "start": 46.39,
+     "end": 46.51
+    },
+    {
+     "w": "talk:",
+     "start": 46.51,
+     "end": 46.75
+    },
+    {
+     "w": "https.",
+     "start": 47.24,
+     "end": 48.72,
+     "syl": [
+      [
+       47.24,
+       47.55
+      ],
+      [
+       47.55,
+       47.81
+      ],
+      [
+       47.81,
+       48.12
+      ],
+      [
+       48.12,
+       48.35
+      ],
+      [
+       48.35,
+       48.72
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The host says who to talk to: example.com.",
+   "start": 49.18,
+   "end": 52.38,
+   "words": [
+    {
+     "w": "The",
+     "start": 49.18,
+     "end": 49.34
+    },
+    {
+     "w": "host",
+     "start": 49.34,
+     "end": 49.6
+    },
+    {
+     "w": "says",
+     "start": 49.6,
+     "end": 49.92
+    },
+    {
+     "w": "who",
+     "start": 49.92,
+     "end": 50.07
+    },
+    {
+     "w": "to",
+     "start": 50.07,
+     "end": 50.21
+    },
+    {
+     "w": "talk",
+     "start": 50.21,
+     "end": 50.52
+    },
+    {
+     "w": "to:",
+     "start": 50.52,
+     "end": 50.78
+    },
+    {
+     "w": "example.com.",
+     "start": 51.17,
+     "end": 52.38,
+     "syl": [
+      [
+       51.17,
+       51.72
+      ],
+      [
+       51.72,
+       51.97
+      ],
+      [
+       51.97,
+       52.38
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The path says what you want: slash, the home page.",
+   "start": 52.84,
+   "end": 56.47,
+   "words": [
+    {
+     "w": "The",
+     "start": 52.84,
+     "end": 52.98
+    },
+    {
+     "w": "path",
+     "start": 52.98,
+     "end": 53.32
+    },
+    {
+     "w": "says",
+     "start": 53.32,
+     "end": 53.56
+    },
+    {
+     "w": "what",
+     "start": 53.56,
+     "end": 53.72
+    },
+    {
+     "w": "you",
+     "start": 53.72,
+     "end": 53.9
+    },
+    {
+     "w": "want:",
+     "start": 53.9,
+     "end": 54.16
+    },
+    {
+     "w": "slash,",
+     "start": 54.64,
+     "end": 55.21
+    },
+    {
+     "w": "the",
+     "start": 55.62,
+     "end": 55.78
+    },
+    {
+     "w": "home",
+     "start": 55.78,
+     "end": 56.02
+    },
+    {
+     "w": "page.",
+     "start": 56.02,
+     "end": 56.47
+    }
+   ]
+  },
+  {
+   "text": "You probably didn't type \"https\". Modern browsers try the secure version first.",
+   "start": 56.92,
+   "end": 63.19,
+   "words": [
+    {
+     "w": "You",
+     "start": 56.92,
+     "end": 57.12
+    },
+    {
+     "w": "probably",
+     "start": 57.12,
+     "end": 57.65
+    },
+    {
+     "w": "didn't",
+     "start": 57.65,
+     "end": 57.94
+    },
+    {
+     "w": "type",
+     "start": 57.94,
+     "end": 58.21
+    },
+    {
+     "w": "\"https\".",
+     "start": 58.21,
+     "end": 59.71,
+     "syl": [
+      [
+       58.21,
+       58.54
+      ],
+      [
+       58.54,
+       58.8
+      ],
+      [
+       58.8,
+       59.1
+      ],
+      [
+       59.1,
+       59.46
+      ],
+      [
+       59.46,
+       59.71
+      ]
+     ]
+    },
+    {
+     "w": "Modern",
+     "start": 60.57,
+     "end": 61.02
+    },
+    {
+     "w": "browsers",
+     "start": 61.02,
+     "end": 61.54
+    },
+    {
+     "w": "try",
+     "start": 61.54,
+     "end": 61.86
+    },
+    {
+     "w": "the",
+     "start": 61.86,
+     "end": 62.0
+    },
+    {
+     "w": "secure",
+     "start": 62.0,
+     "end": 62.4
+    },
+    {
+     "w": "version",
+     "start": 62.4,
+     "end": 62.82
+    },
+    {
+     "w": "first.",
+     "start": 62.82,
+     "end": 63.19
+    }
+   ]
+  },
+  {
+   "text": "And some sites are on a list built into the browser: never load these insecurely.",
+   "start": 63.75,
+   "end": 68.21,
+   "words": [
+    {
+     "w": "And",
+     "start": 63.75,
+     "end": 63.94
+    },
+    {
+     "w": "some",
+     "start": 63.94,
+     "end": 64.2
+    },
+    {
+     "w": "sites",
+     "start": 64.2,
+     "end": 64.54
+    },
+    {
+     "w": "are",
+     "start": 64.54,
+     "end": 64.7
+    },
+    {
+     "w": "on",
+     "start": 64.7,
+     "end": 64.82
+    },
+    {
+     "w": "a",
+     "start": 64.82,
+     "end": 64.9
+    },
+    {
+     "w": "list",
+     "start": 64.9,
+     "end": 65.14
+    },
+    {
+     "w": "built",
+     "start": 65.14,
+     "end": 65.33
+    },
+    {
+     "w": "into",
+     "start": 65.33,
+     "end": 65.62
+    },
+    {
+     "w": "the",
+     "start": 65.62,
+     "end": 65.73
+    },
+    {
+     "w": "browser:",
+     "start": 65.73,
+     "end": 66.24
+    },
+    {
+     "w": "never",
+     "start": 66.64,
+     "end": 67.0
+    },
+    {
+     "w": "load",
+     "start": 67.0,
+     "end": 67.22
+    },
+    {
+     "w": "these",
+     "start": 67.22,
+     "end": 67.5
+    },
+    {
+     "w": "insecurely.",
+     "start": 67.5,
+     "end": 68.21
+    }
+   ]
+  },
+  {
+   "text": "The packet is ready. Before it leaves, one more check.",
+   "start": 68.66,
+   "end": 72.63,
+   "words": [
+    {
+     "w": "The",
+     "start": 68.66,
+     "end": 68.81
+    },
+    {
+     "w": "packet",
+     "start": 68.81,
+     "end": 69.22
+    },
+    {
+     "w": "is",
+     "start": 69.22,
+     "end": 69.34
+    },
+    {
+     "w": "ready.",
+     "start": 69.34,
+     "end": 69.68
+    },
+    {
+     "w": "Before",
+     "start": 70.54,
+     "end": 70.9
+    },
+    {
+     "w": "it",
+     "start": 70.9,
+     "end": 71.02
+    },
+    {
+     "w": "leaves,",
+     "start": 71.02,
+     "end": 71.45
+    },
+    {
+     "w": "one",
+     "start": 71.86,
+     "end": 72.1
+    },
+    {
+     "w": "more",
+     "start": 72.1,
+     "end": 72.32
+    },
+    {
+     "w": "check.",
+     "start": 72.32,
+     "end": 72.63
+    }
+   ]
+  },
+  {
+   "text": "First, a service worker, if the site has installed one.",
+   "start": 73.73,
+   "end": 77.44,
+   "words": [
+    {
+     "w": "First,",
+     "start": 73.73,
+     "end": 74.09
+    },
+    {
+     "w": "a",
+     "start": 74.56,
+     "end": 74.7
+    },
+    {
+     "w": "service",
+     "start": 74.7,
+     "end": 75.09
+    },
+    {
+     "w": "worker,",
+     "start": 75.09,
+     "end": 75.5
+    },
+    {
+     "w": "if",
+     "start": 75.9,
+     "end": 76.04
+    },
+    {
+     "w": "the",
+     "start": 76.04,
+     "end": 76.18
+    },
+    {
+     "w": "site",
+     "start": 76.18,
+     "end": 76.44
+    },
+    {
+     "w": "has",
+     "start": 76.44,
+     "end": 76.66
+    },
+    {
+     "w": "installed",
+     "start": 76.66,
+     "end": 77.24
+    },
+    {
+     "w": "one.",
+     "start": 77.24,
+     "end": 77.44
+    }
+   ]
+  },
+  {
+   "text": "That's a small script that can answer requests itself, even offline.",
+   "start": 77.9,
+   "end": 82.13,
+   "words": [
+    {
+     "w": "That's",
+     "start": 77.9,
+     "end": 78.18
+    },
+    {
+     "w": "a",
+     "start": 78.18,
+     "end": 78.26
+    },
+    {
+     "w": "small",
+     "start": 78.26,
+     "end": 78.64
+    },
+    {
+     "w": "script",
+     "start": 78.64,
+     "end": 78.98
+    },
+    {
+     "w": "that",
+     "start": 78.98,
+     "end": 79.17
+    },
+    {
+     "w": "can",
+     "start": 79.17,
+     "end": 79.46
+    },
+    {
+     "w": "answer",
+     "start": 79.46,
+     "end": 79.78
+    },
+    {
+     "w": "requests",
+     "start": 79.78,
+     "end": 80.34
+    },
+    {
+     "w": "itself,",
+     "start": 80.34,
+     "end": 80.82
+    },
+    {
+     "w": "even",
+     "start": 81.25,
+     "end": 81.62
+    },
+    {
+     "w": "offline.",
+     "start": 81.62,
+     "end": 82.13
+    }
+   ]
+  },
+  {
+   "text": "Then the browser's cache: have I loaded this recently, and did the server say I could keep it?",
+   "start": 82.58,
+   "end": 87.85,
+   "words": [
+    {
+     "w": "Then",
+     "start": 82.58,
+     "end": 82.78
+    },
+    {
+     "w": "the",
+     "start": 82.78,
+     "end": 82.91
+    },
+    {
+     "w": "browser's",
+     "start": 82.91,
+     "end": 83.44
+    },
+    {
+     "w": "cache:",
+     "start": 83.44,
+     "end": 83.88
+    },
+    {
+     "w": "have",
+     "start": 84.3,
+     "end": 84.54
+    },
+    {
+     "w": "I",
+     "start": 84.54,
+     "end": 84.62
+    },
+    {
+     "w": "loaded",
+     "start": 84.62,
+     "end": 84.92
+    },
+    {
+     "w": "this",
+     "start": 84.92,
+     "end": 85.14
+    },
+    {
+     "w": "recently,",
+     "start": 85.14,
+     "end": 85.73
+    },
+    {
+     "w": "and",
+     "start": 86.12,
+     "end": 86.28
+    },
+    {
+     "w": "did",
+     "start": 86.28,
+     "end": 86.46
+    },
+    {
+     "w": "the",
+     "start": 86.46,
+     "end": 86.6
+    },
+    {
+     "w": "server",
+     "start": 86.6,
+     "end": 86.96
+    },
+    {
+     "w": "say",
+     "start": 86.96,
+     "end": 87.22
+    },
+    {
+     "w": "I",
+     "start": 87.22,
+     "end": 87.3
+    },
+    {
+     "w": "could",
+     "start": 87.3,
+     "end": 87.49
+    },
+    {
+     "w": "keep",
+     "start": 87.49,
+     "end": 87.71
+    },
+    {
+     "w": "it?",
+     "start": 87.71,
+     "end": 87.85
+    }
+   ]
+  },
+  {
+   "text": "If the answer is yes, the browser can skip almost everything that follows.",
+   "start": 88.4,
+   "end": 92.83,
+   "words": [
+    {
+     "w": "If",
+     "start": 88.4,
+     "end": 88.55
+    },
+    {
+     "w": "the",
+     "start": 88.55,
+     "end": 88.76
+    },
+    {
+     "w": "answer",
+     "start": 88.76,
+     "end": 89.12
+    },
+    {
+     "w": "is",
+     "start": 89.12,
+     "end": 89.26
+    },
+    {
+     "w": "yes,",
+     "start": 89.26,
+     "end": 89.66
+    },
+    {
+     "w": "the",
+     "start": 90.07,
+     "end": 90.22
+    },
+    {
+     "w": "browser",
+     "start": 90.22,
+     "end": 90.66
+    },
+    {
+     "w": "can",
+     "start": 90.66,
+     "end": 90.9
+    },
+    {
+     "w": "skip",
+     "start": 90.9,
+     "end": 91.16
+    },
+    {
+     "w": "almost",
+     "start": 91.16,
+     "end": 91.55
+    },
+    {
+     "w": "everything",
+     "start": 91.68,
+     "end": 92.06
+    },
+    {
+     "w": "that",
+     "start": 92.06,
+     "end": 92.18
+    },
+    {
+     "w": "follows.",
+     "start": 92.28,
+     "end": 92.83
+    }
+   ]
+  },
+  {
+   "text": "That's why sites you visit every day feel faster than new ones.",
+   "start": 93.26,
+   "end": 96.61,
+   "words": [
+    {
+     "w": "That's",
+     "start": 93.26,
+     "end": 93.54
+    },
+    {
+     "w": "why",
+     "start": 93.54,
+     "end": 93.78
+    },
+    {
+     "w": "sites",
+     "start": 93.78,
+     "end": 94.08
+    },
+    {
+     "w": "you",
+     "start": 94.08,
+     "end": 94.26
+    },
+    {
+     "w": "visit",
+     "start": 94.26,
+     "end": 94.51
+    },
+    {
+     "w": "every",
+     "start": 94.51,
+     "end": 94.84
+    },
+    {
+     "w": "day",
+     "start": 94.84,
+     "end": 95.12
+    },
+    {
+     "w": "feel",
+     "start": 95.12,
+     "end": 95.4
+    },
+    {
+     "w": "faster",
+     "start": 95.4,
+     "end": 95.8
+    },
+    {
+     "w": "than",
+     "start": 95.8,
+     "end": 96.0
+    },
+    {
+     "w": "new",
+     "start": 96.0,
+     "end": 96.28
+    },
+    {
+     "w": "ones.",
+     "start": 96.28,
+     "end": 96.61
+    }
+   ]
+  },
+  {
+   "text": "For now, a first visit. Nothing is cached. The packet has to go out.",
+   "start": 97.04,
+   "end": 102.75,
+   "words": [
+    {
+     "w": "For",
+     "start": 97.04,
+     "end": 97.26
+    },
+    {
+     "w": "now,",
+     "start": 97.26,
+     "end": 97.49
+    },
+    {
+     "w": "a",
+     "start": 97.88,
+     "end": 98.04
+    },
+    {
+     "w": "first",
+     "start": 98.04,
+     "end": 98.4
+    },
+    {
+     "w": "visit.",
+     "start": 98.4,
+     "end": 98.68
+    },
+    {
+     "w": "Nothing",
+     "start": 99.62,
+     "end": 100.04
+    },
+    {
+     "w": "is",
+     "start": 100.04,
+     "end": 100.17
+    },
+    {
+     "w": "cached.",
+     "start": 100.17,
+     "end": 100.56
+    },
+    {
+     "w": "The",
+     "start": 101.5,
+     "end": 101.65
+    },
+    {
+     "w": "packet",
+     "start": 101.65,
+     "end": 102.04
+    },
+    {
+     "w": "has",
+     "start": 102.04,
+     "end": 102.24
+    },
+    {
+     "w": "to",
+     "start": 102.24,
+     "end": 102.37
+    },
+    {
+     "w": "go",
+     "start": 102.37,
+     "end": 102.64
+    },
+    {
+     "w": "out.",
+     "start": 102.64,
+     "end": 102.75
+    }
+   ]
+  },
+  {
+   "text": "Computers don't find each other by name. They use numbers, called IP addresses.",
+   "start": 103.9,
+   "end": 109.81,
+   "words": [
+    {
+     "w": "Computers",
+     "start": 103.9,
+     "end": 104.48
+    },
+    {
+     "w": "don't",
+     "start": 104.48,
+     "end": 104.71
+    },
+    {
+     "w": "find",
+     "start": 104.8,
+     "end": 105.14
+    },
+    {
+     "w": "each",
+     "start": 105.14,
+     "end": 105.38
+    },
+    {
+     "w": "other",
+     "start": 105.38,
+     "end": 105.6
+    },
+    {
+     "w": "by",
+     "start": 105.6,
+     "end": 105.82
+    },
+    {
+     "w": "name.",
+     "start": 105.82,
+     "end": 106.15
+    },
+    {
+     "w": "They",
+     "start": 107.0,
+     "end": 107.26
+    },
+    {
+     "w": "use",
+     "start": 107.26,
+     "end": 107.48
+    },
+    {
+     "w": "numbers,",
+     "start": 107.48,
+     "end": 107.93
+    },
+    {
+     "w": "called",
+     "start": 108.34,
+     "end": 108.7
+    },
+    {
+     "w": "IP",
+     "start": 108.7,
+     "end": 109.2,
+     "syl": [
+      [
+       108.7,
+       108.88
+      ],
+      [
+       108.88,
+       109.2
+      ]
+     ]
+    },
+    {
+     "w": "addresses.",
+     "start": 109.2,
+     "end": 109.81
+    }
+   ]
+  },
+  {
+   "text": "So the first question is: what's the IP address of example.com?",
+   "start": 110.27,
+   "end": 114.86,
+   "words": [
+    {
+     "w": "So",
+     "start": 110.27,
+     "end": 110.52
+    },
+    {
+     "w": "the",
+     "start": 110.52,
+     "end": 110.63
+    },
+    {
+     "w": "first",
+     "start": 110.63,
+     "end": 110.99
+    },
+    {
+     "w": "question",
+     "start": 110.99,
+     "end": 111.54
+    },
+    {
+     "w": "is:",
+     "start": 111.54,
+     "end": 111.76
+    },
+    {
+     "w": "what's",
+     "start": 112.17,
+     "end": 112.47
+    },
+    {
+     "w": "the",
+     "start": 112.47,
+     "end": 112.72
+    },
+    {
+     "w": "IP",
+     "start": 112.72,
+     "end": 113.18,
+     "syl": [
+      [
+       112.72,
+       112.87
+      ],
+      [
+       112.87,
+       113.18
+      ]
+     ]
+    },
+    {
+     "w": "address",
+     "start": 113.18,
+     "end": 113.58
+    },
+    {
+     "w": "of",
+     "start": 113.58,
+     "end": 113.7
+    },
+    {
+     "w": "example.com?",
+     "start": 113.7,
+     "end": 114.86,
+     "syl": [
+      [
+       113.7,
+       114.19
+      ],
+      [
+       114.19,
+       114.45
+      ],
+      [
+       114.45,
+       114.86
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Finding it is the job of DNS, the Domain Name System.",
+   "start": 115.3,
+   "end": 118.93,
+   "words": [
+    {
+     "w": "Finding",
+     "start": 115.3,
+     "end": 115.7
+    },
+    {
+     "w": "it",
+     "start": 115.7,
+     "end": 115.84
+    },
+    {
+     "w": "is",
+     "start": 115.84,
+     "end": 115.94
+    },
+    {
+     "w": "the",
+     "start": 115.94,
+     "end": 116.08
+    },
+    {
+     "w": "job",
+     "start": 116.08,
+     "end": 116.42
+    },
+    {
+     "w": "of",
+     "start": 116.42,
+     "end": 116.56
+    },
+    {
+     "w": "DNS,",
+     "start": 116.56,
+     "end": 117.28,
+     "syl": [
+      [
+       116.56,
+       116.84
+      ],
+      [
+       116.84,
+       117.04
+      ],
+      [
+       117.04,
+       117.28
+      ]
+     ]
+    },
+    {
+     "w": "the",
+     "start": 117.69,
+     "end": 117.82
+    },
+    {
+     "w": "Domain",
+     "start": 117.82,
+     "end": 118.2
+    },
+    {
+     "w": "Name",
+     "start": 118.2,
+     "end": 118.48
+    },
+    {
+     "w": "System.",
+     "start": 118.48,
+     "end": 118.93
+    }
+   ]
+  },
+  {
+   "text": "The browser checks its own memory of recent lookups, then the operating system's.",
+   "start": 119.38,
+   "end": 123.99,
+   "words": [
+    {
+     "w": "The",
+     "start": 119.38,
+     "end": 119.54
+    },
+    {
+     "w": "browser",
+     "start": 119.54,
+     "end": 119.95
+    },
+    {
+     "w": "checks",
+     "start": 119.95,
+     "end": 120.3
+    },
+    {
+     "w": "its",
+     "start": 120.3,
+     "end": 120.48
+    },
+    {
+     "w": "own",
+     "start": 120.48,
+     "end": 120.62
+    },
+    {
+     "w": "memory",
+     "start": 120.62,
+     "end": 121.0
+    },
+    {
+     "w": "of",
+     "start": 121.0,
+     "end": 121.12
+    },
+    {
+     "w": "recent",
+     "start": 121.12,
+     "end": 121.5
+    },
+    {
+     "w": "lookups,",
+     "start": 121.5,
+     "end": 122.07
+    },
+    {
+     "w": "then",
+     "start": 122.46,
+     "end": 122.68
+    },
+    {
+     "w": "the",
+     "start": 122.68,
+     "end": 122.88
+    },
+    {
+     "w": "operating",
+     "start": 122.88,
+     "end": 123.4
+    },
+    {
+     "w": "system's.",
+     "start": 123.4,
+     "end": 123.99
+    }
+   ]
+  },
+  {
+   "text": "If neither knows, the question goes to a DNS resolver: usually your internet provider's, or a public one you chose.",
+   "start": 124.45,
+   "end": 132.14,
+   "words": [
+    {
+     "w": "If",
+     "start": 124.45,
+     "end": 124.61
+    },
+    {
+     "w": "neither",
+     "start": 124.61,
+     "end": 124.92
+    },
+    {
+     "w": "knows,",
+     "start": 124.92,
+     "end": 125.27
+    },
+    {
+     "w": "the",
+     "start": 125.69,
+     "end": 125.82
+    },
+    {
+     "w": "question",
+     "start": 125.82,
+     "end": 126.3
+    },
+    {
+     "w": "goes",
+     "start": 126.3,
+     "end": 126.56
+    },
+    {
+     "w": "to",
+     "start": 126.56,
+     "end": 126.72
+    },
+    {
+     "w": "a",
+     "start": 126.72,
+     "end": 126.79
+    },
+    {
+     "w": "DNS",
+     "start": 126.79,
+     "end": 127.42,
+     "syl": [
+      [
+       126.79,
+       127.06
+      ],
+      [
+       127.06,
+       127.24
+      ],
+      [
+       127.24,
+       127.42
+      ]
+     ]
+    },
+    {
+     "w": "resolver:",
+     "start": 127.42,
+     "end": 127.97
+    },
+    {
+     "w": "usually",
+     "start": 128.39,
+     "end": 128.88
+    },
+    {
+     "w": "your",
+     "start": 128.88,
+     "end": 129.14
+    },
+    {
+     "w": "internet",
+     "start": 129.14,
+     "end": 129.62
+    },
+    {
+     "w": "provider's,",
+     "start": 129.62,
+     "end": 130.27
+    },
+    {
+     "w": "or",
+     "start": 130.66,
+     "end": 130.84
+    },
+    {
+     "w": "a",
+     "start": 130.84,
+     "end": 130.91
+    },
+    {
+     "w": "public",
+     "start": 130.91,
+     "end": 131.3
+    },
+    {
+     "w": "one",
+     "start": 131.3,
+     "end": 131.5
+    },
+    {
+     "w": "you",
+     "start": 131.5,
+     "end": 131.64
+    },
+    {
+     "w": "chose.",
+     "start": 131.64,
+     "end": 132.14
+    }
+   ]
+  },
+  {
+   "text": "In the worst case, the resolver walks down a tree.",
+   "start": 132.6,
+   "end": 135.64,
+   "words": [
+    {
+     "w": "In",
+     "start": 132.6,
+     "end": 132.74
+    },
+    {
+     "w": "the",
+     "start": 132.74,
+     "end": 132.84
+    },
+    {
+     "w": "worst",
+     "start": 132.84,
+     "end": 133.16
+    },
+    {
+     "w": "case,",
+     "start": 133.16,
+     "end": 133.57
+    },
+    {
+     "w": "the",
+     "start": 133.97,
+     "end": 134.12
+    },
+    {
+     "w": "resolver",
+     "start": 134.12,
+     "end": 134.6
+    },
+    {
+     "w": "walks",
+     "start": 134.6,
+     "end": 134.94
+    },
+    {
+     "w": "down",
+     "start": 134.94,
+     "end": 135.2
+    },
+    {
+     "w": "a",
+     "start": 135.2,
+     "end": 135.26
+    },
+    {
+     "w": "tree.",
+     "start": 135.26,
+     "end": 135.64
+    }
+   ]
+  },
+  {
+   "text": "It asks a root server, which points to the servers for \".com\".",
+   "start": 136.12,
+   "end": 139.88,
+   "words": [
+    {
+     "w": "It",
+     "start": 136.12,
+     "end": 136.34
+    },
+    {
+     "w": "asks",
+     "start": 136.34,
+     "end": 136.66
+    },
+    {
+     "w": "a",
+     "start": 136.66,
+     "end": 136.74
+    },
+    {
+     "w": "root",
+     "start": 136.74,
+     "end": 136.93
+    },
+    {
+     "w": "server,",
+     "start": 136.93,
+     "end": 137.38
+    },
+    {
+     "w": "which",
+     "start": 137.79,
+     "end": 138.06
+    },
+    {
+     "w": "points",
+     "start": 138.06,
+     "end": 138.4
+    },
+    {
+     "w": "to",
+     "start": 138.4,
+     "end": 138.54
+    },
+    {
+     "w": "the",
+     "start": 138.54,
+     "end": 138.66
+    },
+    {
+     "w": "servers",
+     "start": 138.66,
+     "end": 139.06
+    },
+    {
+     "w": "for",
+     "start": 139.06,
+     "end": 139.22
+    },
+    {
+     "w": "\".com\".",
+     "start": 139.22,
+     "end": 139.88,
+     "syl": [
+      [
+       139.22,
+       139.48
+      ],
+      [
+       139.48,
+       139.88
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It asks those, which point to the servers in charge of example.com.",
+   "start": 140.36,
+   "end": 144.7,
+   "words": [
+    {
+     "w": "It",
+     "start": 140.36,
+     "end": 140.58
+    },
+    {
+     "w": "asks",
+     "start": 140.58,
+     "end": 140.92
+    },
+    {
+     "w": "those,",
+     "start": 140.92,
+     "end": 141.31
+    },
+    {
+     "w": "which",
+     "start": 141.72,
+     "end": 141.97
+    },
+    {
+     "w": "point",
+     "start": 141.97,
+     "end": 142.28
+    },
+    {
+     "w": "to",
+     "start": 142.28,
+     "end": 142.42
+    },
+    {
+     "w": "the",
+     "start": 142.42,
+     "end": 142.54
+    },
+    {
+     "w": "servers",
+     "start": 142.54,
+     "end": 142.94
+    },
+    {
+     "w": "in",
+     "start": 142.94,
+     "end": 143.08
+    },
+    {
+     "w": "charge",
+     "start": 143.08,
+     "end": 143.42
+    },
+    {
+     "w": "of",
+     "start": 143.42,
+     "end": 143.56
+    },
+    {
+     "w": "example.com.",
+     "start": 143.56,
+     "end": 144.7,
+     "syl": [
+      [
+       143.56,
+       144.04
+      ],
+      [
+       144.04,
+       144.29
+      ],
+      [
+       144.29,
+       144.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And those servers, the authoritative ones, give the real answer: an IP address.",
+   "start": 145.16,
+   "end": 150.61,
+   "words": [
+    {
+     "w": "And",
+     "start": 145.16,
+     "end": 145.3
+    },
+    {
+     "w": "those",
+     "start": 145.3,
+     "end": 145.54
+    },
+    {
+     "w": "servers,",
+     "start": 145.54,
+     "end": 146.02
+    },
+    {
+     "w": "the",
+     "start": 146.43,
+     "end": 146.58
+    },
+    {
+     "w": "authoritative",
+     "start": 146.58,
+     "end": 147.36
+    },
+    {
+     "w": "ones,",
+     "start": 147.36,
+     "end": 147.67
+    },
+    {
+     "w": "give",
+     "start": 148.08,
+     "end": 148.26
+    },
+    {
+     "w": "the",
+     "start": 148.26,
+     "end": 148.38
+    },
+    {
+     "w": "real",
+     "start": 148.38,
+     "end": 148.7
+    },
+    {
+     "w": "answer:",
+     "start": 148.7,
+     "end": 149.08
+    },
+    {
+     "w": "an",
+     "start": 149.47,
+     "end": 149.66
+    },
+    {
+     "w": "IP",
+     "start": 149.66,
+     "end": 150.12,
+     "syl": [
+      [
+       149.66,
+       149.82
+      ],
+      [
+       149.82,
+       150.12
+      ]
+     ]
+    },
+    {
+     "w": "address.",
+     "start": 150.12,
+     "end": 150.61
+    }
+   ]
+  },
+  {
+   "text": "But the resolver keeps every answer for a while.",
+   "start": 151.08,
+   "end": 153.48,
+   "words": [
+    {
+     "w": "But",
+     "start": 151.08,
+     "end": 151.22
+    },
+    {
+     "w": "the",
+     "start": 151.22,
+     "end": 151.34
+    },
+    {
+     "w": "resolver",
+     "start": 151.34,
+     "end": 151.81
+    },
+    {
+     "w": "keeps",
+     "start": 151.81,
+     "end": 152.2
+    },
+    {
+     "w": "every",
+     "start": 152.2,
+     "end": 152.5
+    },
+    {
+     "w": "answer",
+     "start": 152.5,
+     "end": 152.82
+    },
+    {
+     "w": "for",
+     "start": 152.82,
+     "end": 153.0
+    },
+    {
+     "w": "a",
+     "start": 153.0,
+     "end": 153.08
+    },
+    {
+     "w": "while.",
+     "start": 153.08,
+     "end": 153.48
+    }
+   ]
+  },
+  {
+   "text": "Each answer has a timer, called the TTL, that says how long.",
+   "start": 153.96,
+   "end": 158.44,
+   "words": [
+    {
+     "w": "Each",
+     "start": 153.96,
+     "end": 154.26
+    },
+    {
+     "w": "answer",
+     "start": 154.26,
+     "end": 154.6
+    },
+    {
+     "w": "has",
+     "start": 154.6,
+     "end": 154.82
+    },
+    {
+     "w": "a",
+     "start": 154.82,
+     "end": 154.86
+    },
+    {
+     "w": "timer,",
+     "start": 154.86,
+     "end": 155.31
+    },
+    {
+     "w": "called",
+     "start": 155.72,
+     "end": 156.04
+    },
+    {
+     "w": "the",
+     "start": 156.04,
+     "end": 156.16
+    },
+    {
+     "w": "TTL,",
+     "start": 156.16,
+     "end": 157.0,
+     "syl": [
+      [
+       156.16,
+       156.43
+      ],
+      [
+       156.43,
+       156.82
+      ],
+      [
+       156.82,
+       157.0
+      ]
+     ]
+    },
+    {
+     "w": "that",
+     "start": 157.41,
+     "end": 157.56
+    },
+    {
+     "w": "says",
+     "start": 157.56,
+     "end": 157.86
+    },
+    {
+     "w": "how",
+     "start": 157.86,
+     "end": 158.08
+    },
+    {
+     "w": "long.",
+     "start": 158.08,
+     "end": 158.44
+    }
+   ]
+  },
+  {
+   "text": "And it serves thousands of people, so the top of the tree is almost always cached already.",
+   "start": 158.89,
+   "end": 164.0,
+   "words": [
+    {
+     "w": "And",
+     "start": 158.89,
+     "end": 159.06
+    },
+    {
+     "w": "it",
+     "start": 159.06,
+     "end": 159.14
+    },
+    {
+     "w": "serves",
+     "start": 159.14,
+     "end": 159.58
+    },
+    {
+     "w": "thousands",
+     "start": 159.58,
+     "end": 160.1
+    },
+    {
+     "w": "of",
+     "start": 160.1,
+     "end": 160.17
+    },
+    {
+     "w": "people,",
+     "start": 160.26,
+     "end": 160.64
+    },
+    {
+     "w": "so",
+     "start": 161.05,
+     "end": 161.3
+    },
+    {
+     "w": "the",
+     "start": 161.3,
+     "end": 161.39
+    },
+    {
+     "w": "top",
+     "start": 161.39,
+     "end": 161.65
+    },
+    {
+     "w": "of",
+     "start": 161.65,
+     "end": 161.8
+    },
+    {
+     "w": "the",
+     "start": 161.8,
+     "end": 161.9
+    },
+    {
+     "w": "tree",
+     "start": 161.9,
+     "end": 162.22
+    },
+    {
+     "w": "is",
+     "start": 162.22,
+     "end": 162.4
+    },
+    {
+     "w": "almost",
+     "start": 162.4,
+     "end": 162.77
+    },
+    {
+     "w": "always",
+     "start": 162.77,
+     "end": 163.14
+    },
+    {
+     "w": "cached",
+     "start": 163.14,
+     "end": 163.48
+    },
+    {
+     "w": "already.",
+     "start": 163.48,
+     "end": 164.0
+    }
+   ]
+  },
+  {
+   "text": "So a real lookup rarely visits the root at all.",
+   "start": 164.47,
+   "end": 167.04,
+   "words": [
+    {
+     "w": "So",
+     "start": 164.47,
+     "end": 164.76
+    },
+    {
+     "w": "a",
+     "start": 164.76,
+     "end": 164.82
+    },
+    {
+     "w": "real",
+     "start": 164.82,
+     "end": 165.1
+    },
+    {
+     "w": "lookup",
+     "start": 165.1,
+     "end": 165.46
+    },
+    {
+     "w": "rarely",
+     "start": 165.46,
+     "end": 165.9
+    },
+    {
+     "w": "visits",
+     "start": 165.9,
+     "end": 166.26
+    },
+    {
+     "w": "the",
+     "start": 166.26,
+     "end": 166.42
+    },
+    {
+     "w": "root",
+     "start": 166.42,
+     "end": 166.59
+    },
+    {
+     "w": "at",
+     "start": 166.59,
+     "end": 166.74
+    },
+    {
+     "w": "all.",
+     "start": 166.74,
+     "end": 167.04
+    }
+   ]
+  },
+  {
+   "text": "In my measurement, the whole DNS step took about 10 milliseconds. Something close by already knew the answer.",
+   "start": 167.52,
+   "end": 174.78,
+   "words": [
+    {
+     "w": "In",
+     "start": 167.52,
+     "end": 167.68
+    },
+    {
+     "w": "my",
+     "start": 167.68,
+     "end": 167.86
+    },
+    {
+     "w": "measurement,",
+     "start": 167.86,
+     "end": 168.29
+    },
+    {
+     "w": "the",
+     "start": 168.77,
+     "end": 168.92
+    },
+    {
+     "w": "whole",
+     "start": 168.92,
+     "end": 169.14
+    },
+    {
+     "w": "DNS",
+     "start": 169.14,
+     "end": 169.76,
+     "syl": [
+      [
+       169.14,
+       169.42
+      ],
+      [
+       169.42,
+       169.62
+      ],
+      [
+       169.62,
+       169.76
+      ]
+     ]
+    },
+    {
+     "w": "step",
+     "start": 169.76,
+     "end": 170.0
+    },
+    {
+     "w": "took",
+     "start": 170.09,
+     "end": 170.25
+    },
+    {
+     "w": "about",
+     "start": 170.25,
+     "end": 170.6
+    },
+    {
+     "w": "10",
+     "start": 170.6,
+     "end": 170.84
+    },
+    {
+     "w": "milliseconds.",
+     "start": 170.84,
+     "end": 171.69
+    },
+    {
+     "w": "Something",
+     "start": 172.54,
+     "end": 173.02
+    },
+    {
+     "w": "close",
+     "start": 173.02,
+     "end": 173.4
+    },
+    {
+     "w": "by",
+     "start": 173.4,
+     "end": 173.64
+    },
+    {
+     "w": "already",
+     "start": 173.64,
+     "end": 174.02
+    },
+    {
+     "w": "knew",
+     "start": 174.02,
+     "end": 174.2
+    },
+    {
+     "w": "the",
+     "start": 174.2,
+     "end": 174.4
+    },
+    {
+     "w": "answer.",
+     "start": 174.4,
+     "end": 174.78
+    }
+   ]
+  },
+  {
+   "text": "Now we know where the server is. Next, we have to reach it.",
+   "start": 175.24,
+   "end": 179.54,
+   "words": [
+    {
+     "w": "Now",
+     "start": 175.24,
+     "end": 175.54
+    },
+    {
+     "w": "we",
+     "start": 175.54,
+     "end": 175.7
+    },
+    {
+     "w": "know",
+     "start": 175.7,
+     "end": 175.9
+    },
+    {
+     "w": "where",
+     "start": 175.9,
+     "end": 176.12
+    },
+    {
+     "w": "the",
+     "start": 176.12,
+     "end": 176.24
+    },
+    {
+     "w": "server",
+     "start": 176.24,
+     "end": 176.68
+    },
+    {
+     "w": "is.",
+     "start": 176.68,
+     "end": 176.94
+    },
+    {
+     "w": "Next,",
+     "start": 177.8,
+     "end": 178.19
+    },
+    {
+     "w": "we",
+     "start": 178.67,
+     "end": 178.86
+    },
+    {
+     "w": "have",
+     "start": 178.86,
+     "end": 179.02
+    },
+    {
+     "w": "to",
+     "start": 179.02,
+     "end": 179.18
+    },
+    {
+     "w": "reach",
+     "start": 179.18,
+     "end": 179.48
+    },
+    {
+     "w": "it.",
+     "start": 179.48,
+     "end": 179.54
+    }
+   ]
+  },
+  {
+   "text": "To send data reliably, the browser opens a connection using TCP.",
+   "start": 180.66,
+   "end": 184.96,
+   "words": [
+    {
+     "w": "To",
+     "start": 180.66,
+     "end": 180.86
+    },
+    {
+     "w": "send",
+     "start": 180.86,
+     "end": 181.12
+    },
+    {
+     "w": "data",
+     "start": 181.12,
+     "end": 181.4
+    },
+    {
+     "w": "reliably,",
+     "start": 181.4,
+     "end": 181.98
+    },
+    {
+     "w": "the",
+     "start": 182.38,
+     "end": 182.54
+    },
+    {
+     "w": "browser",
+     "start": 182.54,
+     "end": 183.02
+    },
+    {
+     "w": "opens",
+     "start": 183.02,
+     "end": 183.32
+    },
+    {
+     "w": "a",
+     "start": 183.32,
+     "end": 183.37
+    },
+    {
+     "w": "connection",
+     "start": 183.37,
+     "end": 183.92
+    },
+    {
+     "w": "using",
+     "start": 183.92,
+     "end": 184.19
+    },
+    {
+     "w": "TCP.",
+     "start": 184.19,
+     "end": 184.96,
+     "syl": [
+      [
+       184.19,
+       184.46
+      ],
+      [
+       184.46,
+       184.69
+      ],
+      [
+       184.69,
+       184.96
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "TCP makes sure every piece of data arrives, in order, with nothing lost.",
+   "start": 185.43,
+   "end": 190.62,
+   "words": [
+    {
+     "w": "TCP",
+     "start": 185.43,
+     "end": 186.2,
+     "syl": [
+      [
+       185.43,
+       185.7
+      ],
+      [
+       185.7,
+       185.96
+      ],
+      [
+       185.96,
+       186.2
+      ]
+     ]
+    },
+    {
+     "w": "makes",
+     "start": 186.2,
+     "end": 186.5
+    },
+    {
+     "w": "sure",
+     "start": 186.5,
+     "end": 186.78
+    },
+    {
+     "w": "every",
+     "start": 186.78,
+     "end": 187.04
+    },
+    {
+     "w": "piece",
+     "start": 187.04,
+     "end": 187.34
+    },
+    {
+     "w": "of",
+     "start": 187.34,
+     "end": 187.46
+    },
+    {
+     "w": "data",
+     "start": 187.46,
+     "end": 187.84
+    },
+    {
+     "w": "arrives,",
+     "start": 187.84,
+     "end": 188.39
+    },
+    {
+     "w": "in",
+     "start": 188.78,
+     "end": 189.02
+    },
+    {
+     "w": "order,",
+     "start": 189.02,
+     "end": 189.31
+    },
+    {
+     "w": "with",
+     "start": 189.71,
+     "end": 189.92
+    },
+    {
+     "w": "nothing",
+     "start": 189.92,
+     "end": 190.3
+    },
+    {
+     "w": "lost.",
+     "start": 190.3,
+     "end": 190.62
+    }
+   ]
+  },
+  {
+   "text": "It starts with a three-step greeting.",
+   "start": 191.2,
+   "end": 192.99,
+   "words": [
+    {
+     "w": "It",
+     "start": 191.2,
+     "end": 191.32
+    },
+    {
+     "w": "starts",
+     "start": 191.32,
+     "end": 191.74
+    },
+    {
+     "w": "with",
+     "start": 191.74,
+     "end": 191.92
+    },
+    {
+     "w": "a",
+     "start": 191.92,
+     "end": 191.97
+    },
+    {
+     "w": "three-step",
+     "start": 191.97,
+     "end": 192.56,
+     "syl": [
+      [
+       191.97,
+       192.26
+      ],
+      [
+       192.26,
+       192.56
+      ]
+     ]
+    },
+    {
+     "w": "greeting.",
+     "start": 192.56,
+     "end": 192.99
+    }
+   ]
+  },
+  {
+   "text": "Your computer sends a SYN: \"Can we talk?\"",
+   "start": 193.44,
+   "end": 195.92,
+   "words": [
+    {
+     "w": "Your",
+     "start": 193.44,
+     "end": 193.63
+    },
+    {
+     "w": "computer",
+     "start": 193.63,
+     "end": 194.18
+    },
+    {
+     "w": "sends",
+     "start": 194.18,
+     "end": 194.5
+    },
+    {
+     "w": "a",
+     "start": 194.5,
+     "end": 194.58
+    },
+    {
+     "w": "SYN:",
+     "start": 194.58,
+     "end": 194.89
+    },
+    {
+     "w": "\"Can",
+     "start": 195.29,
+     "end": 195.5
+    },
+    {
+     "w": "we",
+     "start": 195.5,
+     "end": 195.63
+    },
+    {
+     "w": "talk?\"",
+     "start": 195.63,
+     "end": 195.92
+    }
+   ]
+  },
+  {
+   "text": "The server replies with a SYN-ACK: \"Yes. Can we talk?\"",
+   "start": 196.44,
+   "end": 200.5,
+   "words": [
+    {
+     "w": "The",
+     "start": 196.44,
+     "end": 196.58
+    },
+    {
+     "w": "server",
+     "start": 196.58,
+     "end": 196.92
+    },
+    {
+     "w": "replies",
+     "start": 196.92,
+     "end": 197.38
+    },
+    {
+     "w": "with",
+     "start": 197.38,
+     "end": 197.56
+    },
+    {
+     "w": "a",
+     "start": 197.56,
+     "end": 197.66
+    },
+    {
+     "w": "SYN-ACK:",
+     "start": 197.66,
+     "end": 198.06,
+     "syl": [
+      [
+       197.66,
+       197.96
+      ],
+      [
+       197.96,
+       198.06
+      ]
+     ]
+    },
+    {
+     "w": "\"Yes.",
+     "start": 198.56,
+     "end": 199.01
+    },
+    {
+     "w": "Can",
+     "start": 199.87,
+     "end": 200.1
+    },
+    {
+     "w": "we",
+     "start": 200.1,
+     "end": 200.23
+    },
+    {
+     "w": "talk?\"",
+     "start": 200.23,
+     "end": 200.5
+    }
+   ]
+  },
+  {
+   "text": "Your computer answers with an ACK: \"Yes.\"",
+   "start": 201.04,
+   "end": 203.55,
+   "words": [
+    {
+     "w": "Your",
+     "start": 201.04,
+     "end": 201.23
+    },
+    {
+     "w": "computer",
+     "start": 201.23,
+     "end": 201.78
+    },
+    {
+     "w": "answers",
+     "start": 201.78,
+     "end": 202.12
+    },
+    {
+     "w": "with",
+     "start": 202.12,
+     "end": 202.3
+    },
+    {
+     "w": "an",
+     "start": 202.3,
+     "end": 202.5
+    },
+    {
+     "w": "ACK:",
+     "start": 202.5,
+     "end": 202.6
+    },
+    {
+     "w": "\"Yes.\"",
+     "start": 203.09,
+     "end": 203.55
+    }
+   ]
+  },
+  {
+   "text": "That's the three-way handshake.",
+   "start": 204.02,
+   "end": 205.4,
+   "words": [
+    {
+     "w": "That's",
+     "start": 204.02,
+     "end": 204.28
+    },
+    {
+     "w": "the",
+     "start": 204.28,
+     "end": 204.41
+    },
+    {
+     "w": "three-way",
+     "start": 204.41,
+     "end": 204.88,
+     "syl": [
+      [
+       204.41,
+       204.68
+      ],
+      [
+       204.68,
+       204.88
+      ]
+     ]
+    },
+    {
+     "w": "handshake.",
+     "start": 204.88,
+     "end": 205.4
+    }
+   ]
+  },
+  {
+   "text": "It costs one full round trip to the server before any real data moves.",
+   "start": 205.94,
+   "end": 209.76,
+   "words": [
+    {
+     "w": "It",
+     "start": 205.94,
+     "end": 206.1
+    },
+    {
+     "w": "costs",
+     "start": 206.1,
+     "end": 206.56
+    },
+    {
+     "w": "one",
+     "start": 206.56,
+     "end": 206.82
+    },
+    {
+     "w": "full",
+     "start": 206.82,
+     "end": 207.06
+    },
+    {
+     "w": "round",
+     "start": 207.06,
+     "end": 207.35
+    },
+    {
+     "w": "trip",
+     "start": 207.35,
+     "end": 207.62
+    },
+    {
+     "w": "to",
+     "start": 207.62,
+     "end": 207.76
+    },
+    {
+     "w": "the",
+     "start": 207.76,
+     "end": 207.88
+    },
+    {
+     "w": "server",
+     "start": 207.88,
+     "end": 208.22
+    },
+    {
+     "w": "before",
+     "start": 208.22,
+     "end": 208.6
+    },
+    {
+     "w": "any",
+     "start": 208.6,
+     "end": 208.8
+    },
+    {
+     "w": "real",
+     "start": 208.8,
+     "end": 209.02
+    },
+    {
+     "w": "data",
+     "start": 209.02,
+     "end": 209.32
+    },
+    {
+     "w": "moves.",
+     "start": 209.32,
+     "end": 209.76
+    }
+   ]
+  },
+  {
+   "text": "On my connection, one round trip to Wikipedia's servers was about 75 milliseconds.",
+   "start": 210.24,
+   "end": 215.72,
+   "words": [
+    {
+     "w": "On",
+     "start": 210.24,
+     "end": 210.42
+    },
+    {
+     "w": "my",
+     "start": 210.42,
+     "end": 210.57
+    },
+    {
+     "w": "connection,",
+     "start": 210.57,
+     "end": 211.13
+    },
+    {
+     "w": "one",
+     "start": 211.53,
+     "end": 211.8
+    },
+    {
+     "w": "round",
+     "start": 211.8,
+     "end": 212.09
+    },
+    {
+     "w": "trip",
+     "start": 212.09,
+     "end": 212.36
+    },
+    {
+     "w": "to",
+     "start": 212.36,
+     "end": 212.52
+    },
+    {
+     "w": "Wikipedia's",
+     "start": 212.52,
+     "end": 213.22
+    },
+    {
+     "w": "servers",
+     "start": 213.22,
+     "end": 213.62
+    },
+    {
+     "w": "was",
+     "start": 213.62,
+     "end": 213.82
+    },
+    {
+     "w": "about",
+     "start": 213.82,
+     "end": 214.04
+    },
+    {
+     "w": "75",
+     "start": 214.04,
+     "end": 214.88,
+     "syl": [
+      [
+       214.04,
+       214.58
+      ],
+      [
+       214.58,
+       214.88
+      ]
+     ]
+    },
+    {
+     "w": "milliseconds.",
+     "start": 214.88,
+     "end": 215.72
+    }
+   ]
+  },
+  {
+   "text": "Some sites also offer HTTP/3, which runs over a newer protocol called QUIC and needs fewer round trips.",
+   "start": 216.18,
+   "end": 223.48,
+   "words": [
+    {
+     "w": "Some",
+     "start": 216.18,
+     "end": 216.54
+    },
+    {
+     "w": "sites",
+     "start": 216.54,
+     "end": 216.94
+    },
+    {
+     "w": "also",
+     "start": 216.94,
+     "end": 217.3
+    },
+    {
+     "w": "offer",
+     "start": 217.3,
+     "end": 217.6
+    },
+    {
+     "w": "HTTP/3,",
+     "start": 217.6,
+     "end": 218.97,
+     "syl": [
+      [
+       217.6,
+       217.81
+      ],
+      [
+       217.81,
+       218.07
+      ],
+      [
+       218.07,
+       218.37
+      ],
+      [
+       218.37,
+       218.61
+      ],
+      [
+       218.61,
+       218.97
+      ]
+     ]
+    },
+    {
+     "w": "which",
+     "start": 219.36,
+     "end": 219.64
+    },
+    {
+     "w": "runs",
+     "start": 219.64,
+     "end": 219.98
+    },
+    {
+     "w": "over",
+     "start": 219.98,
+     "end": 220.22
+    },
+    {
+     "w": "a",
+     "start": 220.22,
+     "end": 220.3
+    },
+    {
+     "w": "newer",
+     "start": 220.3,
+     "end": 220.65
+    },
+    {
+     "w": "protocol",
+     "start": 220.65,
+     "end": 221.26
+    },
+    {
+     "w": "called",
+     "start": 221.26,
+     "end": 221.62
+    },
+    {
+     "w": "QUIC",
+     "start": 221.62,
+     "end": 221.88
+    },
+    {
+     "w": "and",
+     "start": 221.88,
+     "end": 221.98
+    },
+    {
+     "w": "needs",
+     "start": 221.98,
+     "end": 222.29
+    },
+    {
+     "w": "fewer",
+     "start": 222.29,
+     "end": 222.64
+    },
+    {
+     "w": "round",
+     "start": 222.64,
+     "end": 222.93
+    },
+    {
+     "w": "trips.",
+     "start": 222.93,
+     "end": 223.48
+    }
+   ]
+  },
+  {
+   "text": "A browser usually learns that a site supports it from the site's first answer.",
+   "start": 223.95,
+   "end": 227.92,
+   "words": [
+    {
+     "w": "A",
+     "start": 223.95,
+     "end": 224.09
+    },
+    {
+     "w": "browser",
+     "start": 224.09,
+     "end": 224.6
+    },
+    {
+     "w": "usually",
+     "start": 224.6,
+     "end": 225.02
+    },
+    {
+     "w": "learns",
+     "start": 225.02,
+     "end": 225.34
+    },
+    {
+     "w": "that",
+     "start": 225.34,
+     "end": 225.54
+    },
+    {
+     "w": "a",
+     "start": 225.54,
+     "end": 225.62
+    },
+    {
+     "w": "site",
+     "start": 225.62,
+     "end": 225.86
+    },
+    {
+     "w": "supports",
+     "start": 225.86,
+     "end": 226.34
+    },
+    {
+     "w": "it",
+     "start": 226.34,
+     "end": 226.46
+    },
+    {
+     "w": "from",
+     "start": 226.46,
+     "end": 226.66
+    },
+    {
+     "w": "the",
+     "start": 226.66,
+     "end": 226.8
+    },
+    {
+     "w": "site's",
+     "start": 226.8,
+     "end": 227.14
+    },
+    {
+     "w": "first",
+     "start": 227.14,
+     "end": 227.39
+    },
+    {
+     "w": "answer.",
+     "start": 227.54,
+     "end": 227.92
+    }
+   ]
+  },
+  {
+   "text": "So HTTP/3 is usually used from the second visit on.",
+   "start": 228.39,
+   "end": 232.27,
+   "words": [
+    {
+     "w": "So",
+     "start": 228.39,
+     "end": 228.7
+    },
+    {
+     "w": "HTTP/3",
+     "start": 228.7,
+     "end": 230.04,
+     "syl": [
+      [
+       228.7,
+       228.94
+      ],
+      [
+       228.94,
+       229.19
+      ],
+      [
+       229.19,
+       229.5
+      ],
+      [
+       229.5,
+       229.74
+      ],
+      [
+       229.74,
+       230.04
+      ]
+     ]
+    },
+    {
+     "w": "is",
+     "start": 230.04,
+     "end": 230.2
+    },
+    {
+     "w": "usually",
+     "start": 230.2,
+     "end": 230.68
+    },
+    {
+     "w": "used",
+     "start": 230.68,
+     "end": 230.92
+    },
+    {
+     "w": "from",
+     "start": 230.92,
+     "end": 231.1
+    },
+    {
+     "w": "the",
+     "start": 231.1,
+     "end": 231.24
+    },
+    {
+     "w": "second",
+     "start": 231.24,
+     "end": 231.6
+    },
+    {
+     "w": "visit",
+     "start": 231.6,
+     "end": 232.04
+    },
+    {
+     "w": "on.",
+     "start": 232.04,
+     "end": 232.27
+    }
+   ]
+  },
+  {
+   "text": "Wikipedia doesn't offer HTTP/3 yet, so every one of my visits used HTTP/2, over TCP.",
+   "start": 232.73,
+   "end": 240.67,
+   "words": [
+    {
+     "w": "Wikipedia",
+     "start": 232.73,
+     "end": 233.38
+    },
+    {
+     "w": "doesn't",
+     "start": 233.38,
+     "end": 233.7
+    },
+    {
+     "w": "offer",
+     "start": 233.7,
+     "end": 234.06
+    },
+    {
+     "w": "HTTP/3",
+     "start": 234.06,
+     "end": 235.36,
+     "syl": [
+      [
+       234.06,
+       234.28
+      ],
+      [
+       234.28,
+       234.54
+      ],
+      [
+       234.54,
+       234.84
+      ],
+      [
+       234.84,
+       235.06
+      ],
+      [
+       235.06,
+       235.36
+      ]
+     ]
+    },
+    {
+     "w": "yet,",
+     "start": 235.36,
+     "end": 235.59
+    },
+    {
+     "w": "so",
+     "start": 236.09,
+     "end": 236.4
+    },
+    {
+     "w": "every",
+     "start": 236.4,
+     "end": 236.72
+    },
+    {
+     "w": "one",
+     "start": 236.72,
+     "end": 236.88
+    },
+    {
+     "w": "of",
+     "start": 236.88,
+     "end": 237.0
+    },
+    {
+     "w": "my",
+     "start": 237.0,
+     "end": 237.18
+    },
+    {
+     "w": "visits",
+     "start": 237.18,
+     "end": 237.48
+    },
+    {
+     "w": "used",
+     "start": 237.48,
+     "end": 237.86
+    },
+    {
+     "w": "HTTP/2,",
+     "start": 237.86,
+     "end": 239.19,
+     "syl": [
+      [
+       237.86,
+       238.12
+      ],
+      [
+       238.12,
+       238.38
+      ],
+      [
+       238.38,
+       238.68
+      ],
+      [
+       238.68,
+       238.91
+      ],
+      [
+       238.91,
+       239.19
+      ]
+     ]
+    },
+    {
+     "w": "over",
+     "start": 239.58,
+     "end": 239.87
+    },
+    {
+     "w": "TCP.",
+     "start": 239.87,
+     "end": 240.67,
+     "syl": [
+      [
+       239.87,
+       240.18
+      ],
+      [
+       240.18,
+       240.4
+      ],
+      [
+       240.4,
+       240.67
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The connection is open, but anything in between could read it: your Wi-Fi, your provider, every router on the path.",
+   "start": 241.7,
+   "end": 249.27,
+   "words": [
+    {
+     "w": "The",
+     "start": 241.7,
+     "end": 241.82
+    },
+    {
+     "w": "connection",
+     "start": 241.82,
+     "end": 242.34
+    },
+    {
+     "w": "is",
+     "start": 242.34,
+     "end": 242.54
+    },
+    {
+     "w": "open,",
+     "start": 242.54,
+     "end": 242.84
+    },
+    {
+     "w": "but",
+     "start": 243.24,
+     "end": 243.4
+    },
+    {
+     "w": "anything",
+     "start": 243.4,
+     "end": 243.82
+    },
+    {
+     "w": "in",
+     "start": 243.82,
+     "end": 243.96
+    },
+    {
+     "w": "between",
+     "start": 243.96,
+     "end": 244.35
+    },
+    {
+     "w": "could",
+     "start": 244.35,
+     "end": 244.54
+    },
+    {
+     "w": "read",
+     "start": 244.54,
+     "end": 244.78
+    },
+    {
+     "w": "it:",
+     "start": 244.78,
+     "end": 244.84
+    },
+    {
+     "w": "your",
+     "start": 245.33,
+     "end": 245.88
+    },
+    {
+     "w": "Wi-Fi,",
+     "start": 245.88,
+     "end": 246.42,
+     "syl": [
+      [
+       245.88,
+       246.16
+      ],
+      [
+       246.16,
+       246.42
+      ]
+     ]
+    },
+    {
+     "w": "your",
+     "start": 246.82,
+     "end": 247.05
+    },
+    {
+     "w": "provider,",
+     "start": 247.05,
+     "end": 247.58
+    },
+    {
+     "w": "every",
+     "start": 247.98,
+     "end": 248.3
+    },
+    {
+     "w": "router",
+     "start": 248.3,
+     "end": 248.72
+    },
+    {
+     "w": "on",
+     "start": 248.72,
+     "end": 248.82
+    },
+    {
+     "w": "the",
+     "start": 248.82,
+     "end": 248.93
+    },
+    {
+     "w": "path.",
+     "start": 248.93,
+     "end": 249.27
+    }
+   ]
+  },
+  {
+   "text": "So before a single private byte is sent, the two sides set up encryption.",
+   "start": 249.67,
+   "end": 254.0,
+   "words": [
+    {
+     "w": "So",
+     "start": 249.67,
+     "end": 249.94
+    },
+    {
+     "w": "before",
+     "start": 249.94,
+     "end": 250.28
+    },
+    {
+     "w": "a",
+     "start": 250.28,
+     "end": 250.36
+    },
+    {
+     "w": "single",
+     "start": 250.36,
+     "end": 250.74
+    },
+    {
+     "w": "private",
+     "start": 250.74,
+     "end": 251.14
+    },
+    {
+     "w": "byte",
+     "start": 251.14,
+     "end": 251.37
+    },
+    {
+     "w": "is",
+     "start": 251.37,
+     "end": 251.54
+    },
+    {
+     "w": "sent,",
+     "start": 251.54,
+     "end": 251.79
+    },
+    {
+     "w": "the",
+     "start": 252.27,
+     "end": 252.41
+    },
+    {
+     "w": "two",
+     "start": 252.41,
+     "end": 252.68
+    },
+    {
+     "w": "sides",
+     "start": 252.68,
+     "end": 253.02
+    },
+    {
+     "w": "set",
+     "start": 253.02,
+     "end": 253.26
+    },
+    {
+     "w": "up",
+     "start": 253.26,
+     "end": 253.36
+    },
+    {
+     "w": "encryption.",
+     "start": 253.36,
+     "end": 254.0
+    }
+   ]
+  },
+  {
+   "text": "That's TLS, the \"S\" in HTTPS.",
+   "start": 254.48,
+   "end": 257.88,
+   "words": [
+    {
+     "w": "That's",
+     "start": 254.48,
+     "end": 254.75
+    },
+    {
+     "w": "TLS,",
+     "start": 254.75,
+     "end": 255.53,
+     "syl": [
+      [
+       254.75,
+       255.06
+      ],
+      [
+       255.06,
+       255.3
+      ],
+      [
+       255.3,
+       255.53
+      ]
+     ]
+    },
+    {
+     "w": "the",
+     "start": 255.94,
+     "end": 256.18
+    },
+    {
+     "w": "\"S\"",
+     "start": 256.18,
+     "end": 256.36
+    },
+    {
+     "w": "in",
+     "start": 256.36,
+     "end": 256.48
+    },
+    {
+     "w": "HTTPS.",
+     "start": 256.48,
+     "end": 257.88,
+     "syl": [
+      [
+       256.48,
+       256.71
+      ],
+      [
+       256.71,
+       256.97
+      ],
+      [
+       256.97,
+       257.27
+      ],
+      [
+       257.27,
+       257.62
+      ],
+      [
+       257.62,
+       257.88
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "With TLS 1.3, the current version, the setup takes one round trip.",
+   "start": 258.34,
+   "end": 263.6,
+   "words": [
+    {
+     "w": "With",
+     "start": 258.34,
+     "end": 258.53
+    },
+    {
+     "w": "TLS",
+     "start": 258.53,
+     "end": 259.22,
+     "syl": [
+      [
+       258.53,
+       258.84
+      ],
+      [
+       258.84,
+       259.04
+      ],
+      [
+       259.04,
+       259.22
+      ]
+     ]
+    },
+    {
+     "w": "1.3,",
+     "start": 259.22,
+     "end": 260.14,
+     "syl": [
+      [
+       259.22,
+       259.45
+      ],
+      [
+       259.45,
+       259.8
+      ],
+      [
+       259.8,
+       260.14
+      ]
+     ]
+    },
+    {
+     "w": "the",
+     "start": 260.54,
+     "end": 260.67
+    },
+    {
+     "w": "current",
+     "start": 260.67,
+     "end": 261.01
+    },
+    {
+     "w": "version,",
+     "start": 261.01,
+     "end": 261.46
+    },
+    {
+     "w": "the",
+     "start": 261.86,
+     "end": 262.0
+    },
+    {
+     "w": "setup",
+     "start": 262.0,
+     "end": 262.44
+    },
+    {
+     "w": "takes",
+     "start": 262.44,
+     "end": 262.76
+    },
+    {
+     "w": "one",
+     "start": 262.76,
+     "end": 263.02
+    },
+    {
+     "w": "round",
+     "start": 263.02,
+     "end": 263.3
+    },
+    {
+     "w": "trip.",
+     "start": 263.3,
+     "end": 263.6
+    }
+   ]
+  },
+  {
+   "text": "Your browser says hello, and lists the encryption methods it supports.",
+   "start": 264.08,
+   "end": 268.22,
+   "words": [
+    {
+     "w": "Your",
+     "start": 264.08,
+     "end": 264.31
+    },
+    {
+     "w": "browser",
+     "start": 264.31,
+     "end": 264.78
+    },
+    {
+     "w": "says",
+     "start": 264.78,
+     "end": 265.04
+    },
+    {
+     "w": "hello,",
+     "start": 265.04,
+     "end": 265.43
+    },
+    {
+     "w": "and",
+     "start": 265.83,
+     "end": 266.0
+    },
+    {
+     "w": "lists",
+     "start": 266.0,
+     "end": 266.36
+    },
+    {
+     "w": "the",
+     "start": 266.36,
+     "end": 266.54
+    },
+    {
+     "w": "encryption",
+     "start": 266.54,
+     "end": 267.06
+    },
+    {
+     "w": "methods",
+     "start": 267.06,
+     "end": 267.46
+    },
+    {
+     "w": "it",
+     "start": 267.46,
+     "end": 267.54
+    },
+    {
+     "w": "supports.",
+     "start": 267.54,
+     "end": 268.22
+    }
+   ]
+  },
+  {
+   "text": "It also sends one half of a key exchange.",
+   "start": 268.69,
+   "end": 271.21,
+   "words": [
+    {
+     "w": "It",
+     "start": 268.69,
+     "end": 268.84
+    },
+    {
+     "w": "also",
+     "start": 268.84,
+     "end": 269.24
+    },
+    {
+     "w": "sends",
+     "start": 269.24,
+     "end": 269.64
+    },
+    {
+     "w": "one",
+     "start": 269.64,
+     "end": 269.8
+    },
+    {
+     "w": "half",
+     "start": 269.8,
+     "end": 270.04
+    },
+    {
+     "w": "of",
+     "start": 270.04,
+     "end": 270.16
+    },
+    {
+     "w": "a",
+     "start": 270.16,
+     "end": 270.22
+    },
+    {
+     "w": "key",
+     "start": 270.22,
+     "end": 270.52
+    },
+    {
+     "w": "exchange.",
+     "start": 270.52,
+     "end": 271.21
+    }
+   ]
+  },
+  {
+   "text": "The server picks a method and sends the other half.",
+   "start": 271.68,
+   "end": 274.15,
+   "words": [
+    {
+     "w": "The",
+     "start": 271.68,
+     "end": 271.84
+    },
+    {
+     "w": "server",
+     "start": 271.84,
+     "end": 272.19
+    },
+    {
+     "w": "picks",
+     "start": 272.19,
+     "end": 272.5
+    },
+    {
+     "w": "a",
+     "start": 272.5,
+     "end": 272.58
+    },
+    {
+     "w": "method",
+     "start": 272.58,
+     "end": 272.92
+    },
+    {
+     "w": "and",
+     "start": 272.92,
+     "end": 273.06
+    },
+    {
+     "w": "sends",
+     "start": 273.06,
+     "end": 273.4
+    },
+    {
+     "w": "the",
+     "start": 273.4,
+     "end": 273.58
+    },
+    {
+     "w": "other",
+     "start": 273.58,
+     "end": 273.84
+    },
+    {
+     "w": "half.",
+     "start": 273.84,
+     "end": 274.15
+    }
+   ]
+  },
+  {
+   "text": "From the two halves, both sides calculate the same secret key.",
+   "start": 274.53,
+   "end": 278.37,
+   "words": [
+    {
+     "w": "From",
+     "start": 274.53,
+     "end": 274.74
+    },
+    {
+     "w": "the",
+     "start": 274.74,
+     "end": 274.85
+    },
+    {
+     "w": "two",
+     "start": 274.85,
+     "end": 275.14
+    },
+    {
+     "w": "halves,",
+     "start": 275.14,
+     "end": 275.58
+    },
+    {
+     "w": "both",
+     "start": 276.02,
+     "end": 276.3
+    },
+    {
+     "w": "sides",
+     "start": 276.3,
+     "end": 276.64
+    },
+    {
+     "w": "calculate",
+     "start": 276.64,
+     "end": 277.24
+    },
+    {
+     "w": "the",
+     "start": 277.24,
+     "end": 277.4
+    },
+    {
+     "w": "same",
+     "start": 277.4,
+     "end": 277.72
+    },
+    {
+     "w": "secret",
+     "start": 277.72,
+     "end": 278.09
+    },
+    {
+     "w": "key.",
+     "start": 278.09,
+     "end": 278.37
+    }
+   ]
+  },
+  {
+   "text": "The key itself never crosses the network. Anyone watching sees the halves, and can't work out the secret.",
+   "start": 278.82,
+   "end": 285.57,
+   "words": [
+    {
+     "w": "The",
+     "start": 278.82,
+     "end": 278.96
+    },
+    {
+     "w": "key",
+     "start": 278.96,
+     "end": 279.26
+    },
+    {
+     "w": "itself",
+     "start": 279.26,
+     "end": 279.67
+    },
+    {
+     "w": "never",
+     "start": 279.67,
+     "end": 279.98
+    },
+    {
+     "w": "crosses",
+     "start": 279.98,
+     "end": 280.47
+    },
+    {
+     "w": "the",
+     "start": 280.47,
+     "end": 280.6
+    },
+    {
+     "w": "network.",
+     "start": 280.6,
+     "end": 280.99
+    },
+    {
+     "w": "Anyone",
+     "start": 281.97,
+     "end": 282.42
+    },
+    {
+     "w": "watching",
+     "start": 282.42,
+     "end": 282.84
+    },
+    {
+     "w": "sees",
+     "start": 282.84,
+     "end": 283.11
+    },
+    {
+     "w": "the",
+     "start": 283.11,
+     "end": 283.28
+    },
+    {
+     "w": "halves,",
+     "start": 283.28,
+     "end": 283.69
+    },
+    {
+     "w": "and",
+     "start": 284.09,
+     "end": 284.26
+    },
+    {
+     "w": "can't",
+     "start": 284.26,
+     "end": 284.52
+    },
+    {
+     "w": "work",
+     "start": 284.52,
+     "end": 284.78
+    },
+    {
+     "w": "out",
+     "start": 284.78,
+     "end": 285.03
+    },
+    {
+     "w": "the",
+     "start": 285.03,
+     "end": 285.2
+    },
+    {
+     "w": "secret.",
+     "start": 285.2,
+     "end": 285.57
+    }
+   ]
+  },
+  {
+   "text": "That handshake took about 80 milliseconds: one more round trip.",
+   "start": 286.1,
+   "end": 289.91,
+   "words": [
+    {
+     "w": "That",
+     "start": 286.1,
+     "end": 286.32
+    },
+    {
+     "w": "handshake",
+     "start": 286.32,
+     "end": 286.9
+    },
+    {
+     "w": "took",
+     "start": 286.9,
+     "end": 287.14
+    },
+    {
+     "w": "about",
+     "start": 287.14,
+     "end": 287.39
+    },
+    {
+     "w": "80",
+     "start": 287.39,
+     "end": 287.64
+    },
+    {
+     "w": "milliseconds:",
+     "start": 287.64,
+     "end": 288.43
+    },
+    {
+     "w": "one",
+     "start": 288.83,
+     "end": 289.08
+    },
+    {
+     "w": "more",
+     "start": 289.08,
+     "end": 289.32
+    },
+    {
+     "w": "round",
+     "start": 289.32,
+     "end": 289.6
+    },
+    {
+     "w": "trip.",
+     "start": 289.6,
+     "end": 289.91
+    }
+   ]
+  },
+  {
+   "text": "But how does your browser know it's talking to the real example.com, and not an impostor?",
+   "start": 290.36,
+   "end": 295.57,
+   "words": [
+    {
+     "w": "But",
+     "start": 290.36,
+     "end": 290.54
+    },
+    {
+     "w": "how",
+     "start": 290.54,
+     "end": 290.74
+    },
+    {
+     "w": "does",
+     "start": 290.74,
+     "end": 290.96
+    },
+    {
+     "w": "your",
+     "start": 290.96,
+     "end": 291.18
+    },
+    {
+     "w": "browser",
+     "start": 291.18,
+     "end": 291.62
+    },
+    {
+     "w": "know",
+     "start": 291.62,
+     "end": 291.84
+    },
+    {
+     "w": "it's",
+     "start": 291.84,
+     "end": 292.01
+    },
+    {
+     "w": "talking",
+     "start": 292.01,
+     "end": 292.42
+    },
+    {
+     "w": "to",
+     "start": 292.42,
+     "end": 292.54
+    },
+    {
+     "w": "the",
+     "start": 292.54,
+     "end": 292.66
+    },
+    {
+     "w": "real",
+     "start": 292.66,
+     "end": 292.92
+    },
+    {
+     "w": "example.com,",
+     "start": 292.92,
+     "end": 294.04,
+     "syl": [
+      [
+       292.92,
+       293.4
+      ],
+      [
+       293.4,
+       293.66
+      ],
+      [
+       293.66,
+       294.04
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 294.45,
+     "end": 294.62
+    },
+    {
+     "w": "not",
+     "start": 294.62,
+     "end": 294.84
+    },
+    {
+     "w": "an",
+     "start": 294.84,
+     "end": 294.96
+    },
+    {
+     "w": "impostor?",
+     "start": 294.96,
+     "end": 295.57
+    }
+   ]
+  },
+  {
+   "text": "The server sends its certificate.",
+   "start": 296.02,
+   "end": 297.64,
+   "words": [
+    {
+     "w": "The",
+     "start": 296.02,
+     "end": 296.2
+    },
+    {
+     "w": "server",
+     "start": 296.2,
+     "end": 296.56
+    },
+    {
+     "w": "sends",
+     "start": 296.56,
+     "end": 296.9
+    },
+    {
+     "w": "its",
+     "start": 296.9,
+     "end": 297.06
+    },
+    {
+     "w": "certificate.",
+     "start": 297.06,
+     "end": 297.64
+    }
+   ]
+  },
+  {
+   "text": "The certificate says: this public key belongs to example.com. And a certificate authority has signed it.",
+   "start": 298.18,
+   "end": 304.08,
+   "words": [
+    {
+     "w": "The",
+     "start": 298.18,
+     "end": 298.34
+    },
+    {
+     "w": "certificate",
+     "start": 298.34,
+     "end": 298.91
+    },
+    {
+     "w": "says:",
+     "start": 298.91,
+     "end": 299.32
+    },
+    {
+     "w": "this",
+     "start": 299.72,
+     "end": 299.98
+    },
+    {
+     "w": "public",
+     "start": 299.98,
+     "end": 300.35
+    },
+    {
+     "w": "key",
+     "start": 300.35,
+     "end": 300.56
+    },
+    {
+     "w": "belongs",
+     "start": 300.56,
+     "end": 301.0
+    },
+    {
+     "w": "to",
+     "start": 301.0,
+     "end": 301.16
+    },
+    {
+     "w": "example.com.",
+     "start": 301.16,
+     "end": 302.2,
+     "syl": [
+      [
+       301.16,
+       301.64
+      ],
+      [
+       301.64,
+       301.9
+      ],
+      [
+       301.9,
+       302.2
+      ]
+     ]
+    },
+    {
+     "w": "And",
+     "start": 302.2,
+     "end": 302.32
+    },
+    {
+     "w": "a",
+     "start": 302.32,
+     "end": 302.38
+    },
+    {
+     "w": "certificate",
+     "start": 302.38,
+     "end": 303.0
+    },
+    {
+     "w": "authority",
+     "start": 303.0,
+     "end": 303.5
+    },
+    {
+     "w": "has",
+     "start": 303.5,
+     "end": 303.68
+    },
+    {
+     "w": "signed",
+     "start": 303.68,
+     "end": 304.02
+    },
+    {
+     "w": "it.",
+     "start": 304.02,
+     "end": 304.08
+    }
+   ]
+  },
+  {
+   "text": "But a certificate is public. Anyone can send a copy of it.",
+   "start": 304.62,
+   "end": 308.53,
+   "words": [
+    {
+     "w": "But",
+     "start": 304.62,
+     "end": 304.8
+    },
+    {
+     "w": "a",
+     "start": 304.8,
+     "end": 304.86
+    },
+    {
+     "w": "certificate",
+     "start": 304.86,
+     "end": 305.52
+    },
+    {
+     "w": "is",
+     "start": 305.52,
+     "end": 305.64
+    },
+    {
+     "w": "public.",
+     "start": 305.64,
+     "end": 305.98
+    },
+    {
+     "w": "Anyone",
+     "start": 306.94,
+     "end": 307.38
+    },
+    {
+     "w": "can",
+     "start": 307.38,
+     "end": 307.58
+    },
+    {
+     "w": "send",
+     "start": 307.58,
+     "end": 307.86
+    },
+    {
+     "w": "a",
+     "start": 307.86,
+     "end": 307.91
+    },
+    {
+     "w": "copy",
+     "start": 307.91,
+     "end": 308.34
+    },
+    {
+     "w": "of",
+     "start": 308.34,
+     "end": 308.48
+    },
+    {
+     "w": "it.",
+     "start": 308.48,
+     "end": 308.53
+    }
+   ]
+  },
+  {
+   "text": "So the server also signs the handshake itself, with the private key that matches the certificate.",
+   "start": 309.06,
+   "end": 314.44,
+   "words": [
+    {
+     "w": "So",
+     "start": 309.06,
+     "end": 309.3
+    },
+    {
+     "w": "the",
+     "start": 309.3,
+     "end": 309.44
+    },
+    {
+     "w": "server",
+     "start": 309.44,
+     "end": 309.82
+    },
+    {
+     "w": "also",
+     "start": 309.82,
+     "end": 310.16
+    },
+    {
+     "w": "signs",
+     "start": 310.16,
+     "end": 310.52
+    },
+    {
+     "w": "the",
+     "start": 310.52,
+     "end": 310.68
+    },
+    {
+     "w": "handshake",
+     "start": 310.68,
+     "end": 311.26
+    },
+    {
+     "w": "itself,",
+     "start": 311.26,
+     "end": 311.75
+    },
+    {
+     "w": "with",
+     "start": 312.18,
+     "end": 312.34
+    },
+    {
+     "w": "the",
+     "start": 312.34,
+     "end": 312.48
+    },
+    {
+     "w": "private",
+     "start": 312.48,
+     "end": 312.89
+    },
+    {
+     "w": "key",
+     "start": 312.89,
+     "end": 313.12
+    },
+    {
+     "w": "that",
+     "start": 313.12,
+     "end": 313.25
+    },
+    {
+     "w": "matches",
+     "start": 313.25,
+     "end": 313.73
+    },
+    {
+     "w": "the",
+     "start": 313.73,
+     "end": 313.86
+    },
+    {
+     "w": "certificate.",
+     "start": 313.86,
+     "end": 314.44
+    }
+   ]
+  },
+  {
+   "text": "Only the real example.com has that private key.",
+   "start": 314.99,
+   "end": 317.8,
+   "words": [
+    {
+     "w": "Only",
+     "start": 314.99,
+     "end": 315.3
+    },
+    {
+     "w": "the",
+     "start": 315.3,
+     "end": 315.42
+    },
+    {
+     "w": "real",
+     "start": 315.42,
+     "end": 315.68
+    },
+    {
+     "w": "example.com",
+     "start": 315.68,
+     "end": 316.72,
+     "syl": [
+      [
+       315.68,
+       316.16
+      ],
+      [
+       316.16,
+       316.43
+      ],
+      [
+       316.43,
+       316.72
+      ]
+     ]
+    },
+    {
+     "w": "has",
+     "start": 316.72,
+     "end": 316.92
+    },
+    {
+     "w": "that",
+     "start": 316.92,
+     "end": 317.14
+    },
+    {
+     "w": "private",
+     "start": 317.14,
+     "end": 317.53
+    },
+    {
+     "w": "key.",
+     "start": 317.53,
+     "end": 317.8
+    }
+   ]
+  },
+  {
+   "text": "The browser checks that signature.",
+   "start": 318.28,
+   "end": 320.0,
+   "words": [
+    {
+     "w": "The",
+     "start": 318.28,
+     "end": 318.44
+    },
+    {
+     "w": "browser",
+     "start": 318.44,
+     "end": 318.85
+    },
+    {
+     "w": "checks",
+     "start": 318.85,
+     "end": 319.22
+    },
+    {
+     "w": "that",
+     "start": 319.22,
+     "end": 319.39
+    },
+    {
+     "w": "signature.",
+     "start": 319.39,
+     "end": 320.0
+    }
+   ]
+  },
+  {
+   "text": "It checks the certificate's chain of signatures back to an authority it trusts.",
+   "start": 320.47,
+   "end": 324.59,
+   "words": [
+    {
+     "w": "It",
+     "start": 320.47,
+     "end": 320.61
+    },
+    {
+     "w": "checks",
+     "start": 320.61,
+     "end": 320.94
+    },
+    {
+     "w": "the",
+     "start": 320.94,
+     "end": 321.08
+    },
+    {
+     "w": "certificate's",
+     "start": 321.08,
+     "end": 321.71
+    },
+    {
+     "w": "chain",
+     "start": 321.71,
+     "end": 322.04
+    },
+    {
+     "w": "of",
+     "start": 322.04,
+     "end": 322.16
+    },
+    {
+     "w": "signatures",
+     "start": 322.16,
+     "end": 322.76
+    },
+    {
+     "w": "back",
+     "start": 322.76,
+     "end": 323.02
+    },
+    {
+     "w": "to",
+     "start": 323.02,
+     "end": 323.18
+    },
+    {
+     "w": "an",
+     "start": 323.18,
+     "end": 323.28
+    },
+    {
+     "w": "authority",
+     "start": 323.28,
+     "end": 323.79
+    },
+    {
+     "w": "it",
+     "start": 323.79,
+     "end": 323.93
+    },
+    {
+     "w": "trusts.",
+     "start": 323.93,
+     "end": 324.59
+    }
+   ]
+  },
+  {
+   "text": "And it checks the name matches, and that the certificate hasn't expired.",
+   "start": 325.05,
+   "end": 328.88,
+   "words": [
+    {
+     "w": "And",
+     "start": 325.05,
+     "end": 325.22
+    },
+    {
+     "w": "it",
+     "start": 325.22,
+     "end": 325.32
+    },
+    {
+     "w": "checks",
+     "start": 325.32,
+     "end": 325.64
+    },
+    {
+     "w": "the",
+     "start": 325.64,
+     "end": 325.78
+    },
+    {
+     "w": "name",
+     "start": 325.78,
+     "end": 326.02
+    },
+    {
+     "w": "matches,",
+     "start": 326.02,
+     "end": 326.5
+    },
+    {
+     "w": "and",
+     "start": 326.9,
+     "end": 327.04
+    },
+    {
+     "w": "that",
+     "start": 327.04,
+     "end": 327.2
+    },
+    {
+     "w": "the",
+     "start": 327.2,
+     "end": 327.34
+    },
+    {
+     "w": "certificate",
+     "start": 327.34,
+     "end": 327.96
+    },
+    {
+     "w": "hasn't",
+     "start": 327.96,
+     "end": 328.3
+    },
+    {
+     "w": "expired.",
+     "start": 328.3,
+     "end": 328.88
+    }
+   ]
+  },
+  {
+   "text": "If anything is wrong, you get a full-page warning.",
+   "start": 329.34,
+   "end": 332.26,
+   "words": [
+    {
+     "w": "If",
+     "start": 329.34,
+     "end": 329.48
+    },
+    {
+     "w": "anything",
+     "start": 329.48,
+     "end": 329.94
+    },
+    {
+     "w": "is",
+     "start": 329.94,
+     "end": 330.06
+    },
+    {
+     "w": "wrong,",
+     "start": 330.06,
+     "end": 330.4
+    },
+    {
+     "w": "you",
+     "start": 330.82,
+     "end": 331.01
+    },
+    {
+     "w": "get",
+     "start": 331.01,
+     "end": 331.22
+    },
+    {
+     "w": "a",
+     "start": 331.22,
+     "end": 331.28
+    },
+    {
+     "w": "full-page",
+     "start": 331.28,
+     "end": 331.88,
+     "syl": [
+      [
+       331.28,
+       331.54
+      ],
+      [
+       331.54,
+       331.88
+      ]
+     ]
+    },
+    {
+     "w": "warning.",
+     "start": 331.88,
+     "end": 332.26
+    }
+   ]
+  },
+  {
+   "text": "If everything checks out, the connection is private from here on.",
+   "start": 332.74,
+   "end": 336.35,
+   "words": [
+    {
+     "w": "If",
+     "start": 332.74,
+     "end": 332.88
+    },
+    {
+     "w": "everything",
+     "start": 332.88,
+     "end": 333.38
+    },
+    {
+     "w": "checks",
+     "start": 333.38,
+     "end": 333.74
+    },
+    {
+     "w": "out,",
+     "start": 333.74,
+     "end": 333.86
+    },
+    {
+     "w": "the",
+     "start": 334.35,
+     "end": 334.46
+    },
+    {
+     "w": "connection",
+     "start": 334.46,
+     "end": 334.98
+    },
+    {
+     "w": "is",
+     "start": 334.98,
+     "end": 335.13
+    },
+    {
+     "w": "private",
+     "start": 335.13,
+     "end": 335.53
+    },
+    {
+     "w": "from",
+     "start": 335.53,
+     "end": 335.78
+    },
+    {
+     "w": "here",
+     "start": 335.78,
+     "end": 336.12
+    },
+    {
+     "w": "on.",
+     "start": 336.12,
+     "end": 336.35
+    }
+   ]
+  },
+  {
+   "text": "You might be looking for a padlock.",
+   "start": 336.81,
+   "end": 338.43,
+   "words": [
+    {
+     "w": "You",
+     "start": 336.81,
+     "end": 336.98
+    },
+    {
+     "w": "might",
+     "start": 336.98,
+     "end": 337.2
+    },
+    {
+     "w": "be",
+     "start": 337.2,
+     "end": 337.34
+    },
+    {
+     "w": "looking",
+     "start": 337.34,
+     "end": 337.68
+    },
+    {
+     "w": "for",
+     "start": 337.68,
+     "end": 337.84
+    },
+    {
+     "w": "a",
+     "start": 337.84,
+     "end": 337.94
+    },
+    {
+     "w": "padlock.",
+     "start": 337.94,
+     "end": 338.43
+    }
+   ]
+  },
+  {
+   "text": "Chrome stopped showing it in 2023, and Safari in 2025.",
+   "start": 338.98,
+   "end": 343.85,
+   "words": [
+    {
+     "w": "Chrome",
+     "start": 338.98,
+     "end": 339.38
+    },
+    {
+     "w": "stopped",
+     "start": 339.38,
+     "end": 339.69
+    },
+    {
+     "w": "showing",
+     "start": 339.69,
+     "end": 340.14
+    },
+    {
+     "w": "it",
+     "start": 340.14,
+     "end": 340.26
+    },
+    {
+     "w": "in",
+     "start": 340.26,
+     "end": 340.38
+    },
+    {
+     "w": "2023,",
+     "start": 340.38,
+     "end": 341.5,
+     "syl": [
+      [
+       340.38,
+       340.75
+      ],
+      [
+       340.75,
+       341.14
+      ],
+      [
+       341.14,
+       341.5
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 341.89,
+     "end": 342.1
+    },
+    {
+     "w": "Safari",
+     "start": 342.1,
+     "end": 342.6
+    },
+    {
+     "w": "in",
+     "start": 342.6,
+     "end": 342.71
+    },
+    {
+     "w": "2025.",
+     "start": 342.71,
+     "end": 343.85,
+     "syl": [
+      [
+       342.71,
+       343.08
+      ],
+      [
+       343.08,
+       343.5
+      ],
+      [
+       343.5,
+       343.85
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "A secure connection is now the normal case, so they only warn you when one isn't.",
+   "start": 344.27,
+   "end": 348.73,
+   "words": [
+    {
+     "w": "A",
+     "start": 344.27,
+     "end": 344.42
+    },
+    {
+     "w": "secure",
+     "start": 344.42,
+     "end": 344.79
+    },
+    {
+     "w": "connection",
+     "start": 344.79,
+     "end": 345.32
+    },
+    {
+     "w": "is",
+     "start": 345.32,
+     "end": 345.46
+    },
+    {
+     "w": "now",
+     "start": 345.46,
+     "end": 345.7
+    },
+    {
+     "w": "the",
+     "start": 345.7,
+     "end": 345.84
+    },
+    {
+     "w": "normal",
+     "start": 345.84,
+     "end": 346.16
+    },
+    {
+     "w": "case,",
+     "start": 346.16,
+     "end": 346.58
+    },
+    {
+     "w": "so",
+     "start": 347.0,
+     "end": 347.22
+    },
+    {
+     "w": "they",
+     "start": 347.22,
+     "end": 347.42
+    },
+    {
+     "w": "only",
+     "start": 347.42,
+     "end": 347.68
+    },
+    {
+     "w": "warn",
+     "start": 347.68,
+     "end": 347.92
+    },
+    {
+     "w": "you",
+     "start": 347.92,
+     "end": 348.08
+    },
+    {
+     "w": "when",
+     "start": 348.08,
+     "end": 348.32
+    },
+    {
+     "w": "one",
+     "start": 348.32,
+     "end": 348.5
+    },
+    {
+     "w": "isn't.",
+     "start": 348.5,
+     "end": 348.73
+    }
+   ]
+  },
+  {
+   "text": "Now the browser can finally ask for what it wants. It sends an HTTP request.",
+   "start": 349.85,
+   "end": 355.53,
+   "words": [
+    {
+     "w": "Now",
+     "start": 349.85,
+     "end": 350.12
+    },
+    {
+     "w": "the",
+     "start": 350.12,
+     "end": 350.27
+    },
+    {
+     "w": "browser",
+     "start": 350.27,
+     "end": 350.7
+    },
+    {
+     "w": "can",
+     "start": 350.7,
+     "end": 350.92
+    },
+    {
+     "w": "finally",
+     "start": 350.92,
+     "end": 351.4
+    },
+    {
+     "w": "ask",
+     "start": 351.4,
+     "end": 351.58
+    },
+    {
+     "w": "for",
+     "start": 351.58,
+     "end": 351.82
+    },
+    {
+     "w": "what",
+     "start": 351.82,
+     "end": 351.98
+    },
+    {
+     "w": "it",
+     "start": 351.98,
+     "end": 352.1
+    },
+    {
+     "w": "wants.",
+     "start": 352.1,
+     "end": 352.57
+    },
+    {
+     "w": "It",
+     "start": 353.43,
+     "end": 353.56
+    },
+    {
+     "w": "sends",
+     "start": 353.56,
+     "end": 353.92
+    },
+    {
+     "w": "an",
+     "start": 353.92,
+     "end": 354.04
+    },
+    {
+     "w": "HTTP",
+     "start": 354.04,
+     "end": 355.02,
+     "syl": [
+      [
+       354.04,
+       354.26
+      ],
+      [
+       354.26,
+       354.51
+      ],
+      [
+       354.51,
+       354.82
+      ],
+      [
+       354.82,
+       355.02
+      ]
+     ]
+    },
+    {
+     "w": "request.",
+     "start": 355.02,
+     "end": 355.53
+    }
+   ]
+  },
+  {
+   "text": "The method: GET. \"Please send me this.\"",
+   "start": 356.08,
+   "end": 359.35,
+   "words": [
+    {
+     "w": "The",
+     "start": 356.08,
+     "end": 356.24
+    },
+    {
+     "w": "method:",
+     "start": 356.24,
+     "end": 356.62
+    },
+    {
+     "w": "GET.",
+     "start": 357.03,
+     "end": 357.26
+    },
+    {
+     "w": "\"Please",
+     "start": 358.23,
+     "end": 358.56
+    },
+    {
+     "w": "send",
+     "start": 358.56,
+     "end": 358.84
+    },
+    {
+     "w": "me",
+     "start": 358.84,
+     "end": 359.0
+    },
+    {
+     "w": "this.\"",
+     "start": 359.0,
+     "end": 359.35
+    }
+   ]
+  },
+  {
+   "text": "The path: slash, the home page.",
+   "start": 359.8,
+   "end": 362.54,
+   "words": [
+    {
+     "w": "The",
+     "start": 359.8,
+     "end": 359.94
+    },
+    {
+     "w": "path:",
+     "start": 359.94,
+     "end": 360.28
+    },
+    {
+     "w": "slash,",
+     "start": 360.72,
+     "end": 361.28
+    },
+    {
+     "w": "the",
+     "start": 361.69,
+     "end": 361.84
+    },
+    {
+     "w": "home",
+     "start": 361.84,
+     "end": 362.09
+    },
+    {
+     "w": "page.",
+     "start": 362.09,
+     "end": 362.54
+    }
+   ]
+  },
+  {
+   "text": "Then headers: which site it's for, and which languages and formats you accept.",
+   "start": 362.98,
+   "end": 367.72,
+   "words": [
+    {
+     "w": "Then",
+     "start": 362.98,
+     "end": 363.2
+    },
+    {
+     "w": "headers:",
+     "start": 363.2,
+     "end": 363.64
+    },
+    {
+     "w": "which",
+     "start": 364.04,
+     "end": 364.32
+    },
+    {
+     "w": "site",
+     "start": 364.32,
+     "end": 364.6
+    },
+    {
+     "w": "it's",
+     "start": 364.6,
+     "end": 364.78
+    },
+    {
+     "w": "for,",
+     "start": 364.78,
+     "end": 365.12
+    },
+    {
+     "w": "and",
+     "start": 365.52,
+     "end": 365.68
+    },
+    {
+     "w": "which",
+     "start": 365.68,
+     "end": 365.92
+    },
+    {
+     "w": "languages",
+     "start": 365.92,
+     "end": 366.5
+    },
+    {
+     "w": "and",
+     "start": 366.5,
+     "end": 366.68
+    },
+    {
+     "w": "formats",
+     "start": 366.68,
+     "end": 367.16
+    },
+    {
+     "w": "you",
+     "start": 367.16,
+     "end": 367.34
+    },
+    {
+     "w": "accept.",
+     "start": 367.34,
+     "end": 367.72
+    }
+   ]
+  },
+  {
+   "text": "And, if you've been here before, the cookies this site gave you.",
+   "start": 368.3,
+   "end": 372.21,
+   "words": [
+    {
+     "w": "And,",
+     "start": 368.3,
+     "end": 368.61
+    },
+    {
+     "w": "if",
+     "start": 369.01,
+     "end": 369.14
+    },
+    {
+     "w": "you've",
+     "start": 369.14,
+     "end": 369.36
+    },
+    {
+     "w": "been",
+     "start": 369.36,
+     "end": 369.54
+    },
+    {
+     "w": "here",
+     "start": 369.54,
+     "end": 369.77
+    },
+    {
+     "w": "before,",
+     "start": 369.77,
+     "end": 370.24
+    },
+    {
+     "w": "the",
+     "start": 370.64,
+     "end": 370.77
+    },
+    {
+     "w": "cookies",
+     "start": 370.77,
+     "end": 371.2
+    },
+    {
+     "w": "this",
+     "start": 371.2,
+     "end": 371.4
+    },
+    {
+     "w": "site",
+     "start": 371.4,
+     "end": 371.68
+    },
+    {
+     "w": "gave",
+     "start": 371.68,
+     "end": 371.94
+    },
+    {
+     "w": "you.",
+     "start": 371.94,
+     "end": 372.21
+    }
+   ]
+  },
+  {
+   "text": "On the server, a program reads the request and decides what to send back.",
+   "start": 372.69,
+   "end": 376.68,
+   "words": [
+    {
+     "w": "On",
+     "start": 372.69,
+     "end": 372.84
+    },
+    {
+     "w": "the",
+     "start": 372.84,
+     "end": 372.98
+    },
+    {
+     "w": "server,",
+     "start": 372.98,
+     "end": 373.37
+    },
+    {
+     "w": "a",
+     "start": 373.77,
+     "end": 373.91
+    },
+    {
+     "w": "program",
+     "start": 373.91,
+     "end": 374.38
+    },
+    {
+     "w": "reads",
+     "start": 374.38,
+     "end": 374.66
+    },
+    {
+     "w": "the",
+     "start": 374.66,
+     "end": 374.8
+    },
+    {
+     "w": "request",
+     "start": 374.8,
+     "end": 375.17
+    },
+    {
+     "w": "and",
+     "start": 375.17,
+     "end": 375.38
+    },
+    {
+     "w": "decides",
+     "start": 375.38,
+     "end": 375.84
+    },
+    {
+     "w": "what",
+     "start": 375.84,
+     "end": 376.01
+    },
+    {
+     "w": "to",
+     "start": 376.01,
+     "end": 376.16
+    },
+    {
+     "w": "send",
+     "start": 376.16,
+     "end": 376.46
+    },
+    {
+     "w": "back.",
+     "start": 376.46,
+     "end": 376.68
+    }
+   ]
+  },
+  {
+   "text": "It might be a file that's ready. It might be a page made just now, from a database.",
+   "start": 377.24,
+   "end": 382.71,
+   "words": [
+    {
+     "w": "It",
+     "start": 377.24,
+     "end": 377.4
+    },
+    {
+     "w": "might",
+     "start": 377.4,
+     "end": 377.62
+    },
+    {
+     "w": "be",
+     "start": 377.62,
+     "end": 377.78
+    },
+    {
+     "w": "a",
+     "start": 377.78,
+     "end": 377.88
+    },
+    {
+     "w": "file",
+     "start": 377.88,
+     "end": 378.2
+    },
+    {
+     "w": "that's",
+     "start": 378.2,
+     "end": 378.46
+    },
+    {
+     "w": "ready.",
+     "start": 378.46,
+     "end": 378.79
+    },
+    {
+     "w": "It",
+     "start": 379.63,
+     "end": 379.78
+    },
+    {
+     "w": "might",
+     "start": 379.78,
+     "end": 380.02
+    },
+    {
+     "w": "be",
+     "start": 380.02,
+     "end": 380.18
+    },
+    {
+     "w": "a",
+     "start": 380.18,
+     "end": 380.25
+    },
+    {
+     "w": "page",
+     "start": 380.25,
+     "end": 380.58
+    },
+    {
+     "w": "made",
+     "start": 380.58,
+     "end": 380.8
+    },
+    {
+     "w": "just",
+     "start": 380.8,
+     "end": 381.06
+    },
+    {
+     "w": "now,",
+     "start": 381.06,
+     "end": 381.35
+    },
+    {
+     "w": "from",
+     "start": 381.78,
+     "end": 382.0
+    },
+    {
+     "w": "a",
+     "start": 382.0,
+     "end": 382.08
+    },
+    {
+     "w": "database.",
+     "start": 382.08,
+     "end": 382.71
+    }
+   ]
+  },
+  {
+   "text": "The response starts with a status code.",
+   "start": 383.16,
+   "end": 385.21,
+   "words": [
+    {
+     "w": "The",
+     "start": 383.16,
+     "end": 383.3
+    },
+    {
+     "w": "response",
+     "start": 383.3,
+     "end": 383.8
+    },
+    {
+     "w": "starts",
+     "start": 383.8,
+     "end": 384.18
+    },
+    {
+     "w": "with",
+     "start": 384.18,
+     "end": 384.38
+    },
+    {
+     "w": "a",
+     "start": 384.38,
+     "end": 384.46
+    },
+    {
+     "w": "status",
+     "start": 384.46,
+     "end": 384.87
+    },
+    {
+     "w": "code.",
+     "start": 384.87,
+     "end": 385.21
+    }
+   ]
+  },
+  {
+   "text": "200 means: OK, here it is.",
+   "start": 385.68,
+   "end": 388.75,
+   "words": [
+    {
+     "w": "200",
+     "start": 385.68,
+     "end": 386.34,
+     "syl": [
+      [
+       385.68,
+       385.98
+      ],
+      [
+       385.98,
+       386.34
+      ]
+     ]
+    },
+    {
+     "w": "means:",
+     "start": 386.34,
+     "end": 386.78
+    },
+    {
+     "w": "OK,",
+     "start": 387.17,
+     "end": 387.62,
+     "syl": [
+      [
+       387.17,
+       387.34
+      ],
+      [
+       387.34,
+       387.62
+      ]
+     ]
+    },
+    {
+     "w": "here",
+     "start": 388.03,
+     "end": 388.3
+    },
+    {
+     "w": "it",
+     "start": 388.3,
+     "end": 388.48
+    },
+    {
+     "w": "is.",
+     "start": 388.48,
+     "end": 388.75
+    }
+   ]
+  },
+  {
+   "text": "301 means: this has moved permanently.",
+   "start": 389.19,
+   "end": 391.97,
+   "words": [
+    {
+     "w": "301",
+     "start": 389.19,
+     "end": 389.78,
+     "syl": [
+      [
+       389.19,
+       389.4
+      ],
+      [
+       389.4,
+       389.64
+      ],
+      [
+       389.64,
+       389.78
+      ]
+     ]
+    },
+    {
+     "w": "means:",
+     "start": 389.78,
+     "end": 390.2
+    },
+    {
+     "w": "this",
+     "start": 390.62,
+     "end": 390.82
+    },
+    {
+     "w": "has",
+     "start": 390.82,
+     "end": 391.04
+    },
+    {
+     "w": "moved",
+     "start": 391.04,
+     "end": 391.24
+    },
+    {
+     "w": "permanently.",
+     "start": 391.34,
+     "end": 391.97
+    }
+   ]
+  },
+  {
+   "text": "The browser then starts again at the new address.",
+   "start": 392.44,
+   "end": 394.9,
+   "words": [
+    {
+     "w": "The",
+     "start": 392.44,
+     "end": 392.6
+    },
+    {
+     "w": "browser",
+     "start": 392.6,
+     "end": 393.04
+    },
+    {
+     "w": "then",
+     "start": 393.04,
+     "end": 393.28
+    },
+    {
+     "w": "starts",
+     "start": 393.28,
+     "end": 393.66
+    },
+    {
+     "w": "again",
+     "start": 393.66,
+     "end": 393.92
+    },
+    {
+     "w": "at",
+     "start": 393.92,
+     "end": 394.01
+    },
+    {
+     "w": "the",
+     "start": 394.01,
+     "end": 394.16
+    },
+    {
+     "w": "new",
+     "start": 394.16,
+     "end": 394.4
+    },
+    {
+     "w": "address.",
+     "start": 394.4,
+     "end": 394.9
+    }
+   ]
+  },
+  {
+   "text": "404 means: there's nothing here.",
+   "start": 395.34,
+   "end": 397.76,
+   "words": [
+    {
+     "w": "404",
+     "start": 395.34,
+     "end": 396.0,
+     "syl": [
+      [
+       395.34,
+       395.64
+      ],
+      [
+       395.64,
+       395.74
+      ],
+      [
+       395.74,
+       396.0
+      ]
+     ]
+    },
+    {
+     "w": "means:",
+     "start": 396.0,
+     "end": 396.42
+    },
+    {
+     "w": "there's",
+     "start": 396.82,
+     "end": 397.1
+    },
+    {
+     "w": "nothing",
+     "start": 397.1,
+     "end": 397.44
+    },
+    {
+     "w": "here.",
+     "start": 397.44,
+     "end": 397.76
+    }
+   ]
+  },
+  {
+   "text": "After the status come headers: what kind of content this is, and how long it may be kept.",
+   "start": 398.21,
+   "end": 403.44,
+   "words": [
+    {
+     "w": "After",
+     "start": 398.21,
+     "end": 398.52
+    },
+    {
+     "w": "the",
+     "start": 398.52,
+     "end": 398.64
+    },
+    {
+     "w": "status",
+     "start": 398.64,
+     "end": 399.05
+    },
+    {
+     "w": "come",
+     "start": 399.05,
+     "end": 399.3
+    },
+    {
+     "w": "headers:",
+     "start": 399.3,
+     "end": 399.72
+    },
+    {
+     "w": "what",
+     "start": 400.13,
+     "end": 400.33
+    },
+    {
+     "w": "kind",
+     "start": 400.33,
+     "end": 400.68
+    },
+    {
+     "w": "of",
+     "start": 400.68,
+     "end": 400.79
+    },
+    {
+     "w": "content",
+     "start": 400.79,
+     "end": 401.22
+    },
+    {
+     "w": "this",
+     "start": 401.22,
+     "end": 401.5
+    },
+    {
+     "w": "is,",
+     "start": 401.5,
+     "end": 401.74
+    },
+    {
+     "w": "and",
+     "start": 402.15,
+     "end": 402.3
+    },
+    {
+     "w": "how",
+     "start": 402.3,
+     "end": 402.52
+    },
+    {
+     "w": "long",
+     "start": 402.52,
+     "end": 402.78
+    },
+    {
+     "w": "it",
+     "start": 402.78,
+     "end": 402.88
+    },
+    {
+     "w": "may",
+     "start": 402.88,
+     "end": 403.06
+    },
+    {
+     "w": "be",
+     "start": 403.06,
+     "end": 403.18
+    },
+    {
+     "w": "kept.",
+     "start": 403.18,
+     "end": 403.44
+    }
+   ]
+  },
+  {
+   "text": "Then the body: the HTML of the page, usually compressed.",
+   "start": 404.04,
+   "end": 408.31,
+   "words": [
+    {
+     "w": "Then",
+     "start": 404.04,
+     "end": 404.24
+    },
+    {
+     "w": "the",
+     "start": 404.24,
+     "end": 404.34
+    },
+    {
+     "w": "body:",
+     "start": 404.34,
+     "end": 404.73
+    },
+    {
+     "w": "the",
+     "start": 405.12,
+     "end": 405.34
+    },
+    {
+     "w": "HTML",
+     "start": 405.34,
+     "end": 406.24,
+     "syl": [
+      [
+       405.34,
+       405.59
+      ],
+      [
+       405.59,
+       405.9
+      ],
+      [
+       405.9,
+       406.08
+      ],
+      [
+       406.08,
+       406.24
+      ]
+     ]
+    },
+    {
+     "w": "of",
+     "start": 406.24,
+     "end": 406.32
+    },
+    {
+     "w": "the",
+     "start": 406.32,
+     "end": 406.44
+    },
+    {
+     "w": "page,",
+     "start": 406.44,
+     "end": 406.85
+    },
+    {
+     "w": "usually",
+     "start": 407.27,
+     "end": 407.76
+    },
+    {
+     "w": "compressed.",
+     "start": 407.76,
+     "end": 408.31
+    }
+   ]
+  },
+  {
+   "text": "Then about 90 milliseconds of waiting. Most of that is one more round trip. The server itself took only about 15.",
+   "start": 408.86,
+   "end": 416.96,
+   "words": [
+    {
+     "w": "Then",
+     "start": 408.86,
+     "end": 409.06
+    },
+    {
+     "w": "about",
+     "start": 409.06,
+     "end": 409.3
+    },
+    {
+     "w": "90",
+     "start": 409.3,
+     "end": 409.72
+    },
+    {
+     "w": "milliseconds",
+     "start": 409.72,
+     "end": 410.46
+    },
+    {
+     "w": "of",
+     "start": 410.46,
+     "end": 410.56
+    },
+    {
+     "w": "waiting.",
+     "start": 410.56,
+     "end": 410.97
+    },
+    {
+     "w": "Most",
+     "start": 411.82,
+     "end": 412.09
+    },
+    {
+     "w": "of",
+     "start": 412.09,
+     "end": 412.24
+    },
+    {
+     "w": "that",
+     "start": 412.24,
+     "end": 412.46
+    },
+    {
+     "w": "is",
+     "start": 412.46,
+     "end": 412.68
+    },
+    {
+     "w": "one",
+     "start": 412.68,
+     "end": 412.82
+    },
+    {
+     "w": "more",
+     "start": 412.82,
+     "end": 413.06
+    },
+    {
+     "w": "round",
+     "start": 413.06,
+     "end": 413.35
+    },
+    {
+     "w": "trip.",
+     "start": 413.35,
+     "end": 413.65
+    },
+    {
+     "w": "The",
+     "start": 414.62,
+     "end": 414.74
+    },
+    {
+     "w": "server",
+     "start": 414.74,
+     "end": 415.16
+    },
+    {
+     "w": "itself",
+     "start": 415.16,
+     "end": 415.51
+    },
+    {
+     "w": "took",
+     "start": 415.51,
+     "end": 415.78
+    },
+    {
+     "w": "only",
+     "start": 415.78,
+     "end": 416.04
+    },
+    {
+     "w": "about",
+     "start": 416.04,
+     "end": 416.38
+    },
+    {
+     "w": "15.",
+     "start": 416.38,
+     "end": 416.96
+    }
+   ]
+  },
+  {
+   "text": "The first byte arrived about a quarter of a second after I pressed Enter.",
+   "start": 417.4,
+   "end": 421.11,
+   "words": [
+    {
+     "w": "The",
+     "start": 417.4,
+     "end": 417.54
+    },
+    {
+     "w": "first",
+     "start": 417.54,
+     "end": 417.9
+    },
+    {
+     "w": "byte",
+     "start": 417.9,
+     "end": 418.16
+    },
+    {
+     "w": "arrived",
+     "start": 418.16,
+     "end": 418.58
+    },
+    {
+     "w": "about",
+     "start": 418.58,
+     "end": 418.82
+    },
+    {
+     "w": "a",
+     "start": 418.82,
+     "end": 418.9
+    },
+    {
+     "w": "quarter",
+     "start": 418.9,
+     "end": 419.3
+    },
+    {
+     "w": "of",
+     "start": 419.3,
+     "end": 419.44
+    },
+    {
+     "w": "a",
+     "start": 419.44,
+     "end": 419.5
+    },
+    {
+     "w": "second",
+     "start": 419.5,
+     "end": 419.94
+    },
+    {
+     "w": "after",
+     "start": 419.94,
+     "end": 420.26
+    },
+    {
+     "w": "I",
+     "start": 420.26,
+     "end": 420.41
+    },
+    {
+     "w": "pressed",
+     "start": 420.41,
+     "end": 420.78
+    },
+    {
+     "w": "Enter.",
+     "start": 420.78,
+     "end": 421.11
+    }
+   ]
+  },
+  {
+   "text": "The HTML is only the start.",
+   "start": 422.12,
+   "end": 424.11,
+   "words": [
+    {
+     "w": "The",
+     "start": 422.12,
+     "end": 422.34
+    },
+    {
+     "w": "HTML",
+     "start": 422.34,
+     "end": 423.28,
+     "syl": [
+      [
+       422.34,
+       422.58
+      ],
+      [
+       422.58,
+       422.9
+      ],
+      [
+       422.9,
+       423.06
+      ],
+      [
+       423.06,
+       423.28
+      ]
+     ]
+    },
+    {
+     "w": "is",
+     "start": 423.28,
+     "end": 423.44
+    },
+    {
+     "w": "only",
+     "start": 423.44,
+     "end": 423.68
+    },
+    {
+     "w": "the",
+     "start": 423.68,
+     "end": 423.82
+    },
+    {
+     "w": "start.",
+     "start": 423.82,
+     "end": 424.11
+    }
+   ]
+  },
+  {
+   "text": "It points to other files: stylesheets, scripts, images, fonts.",
+   "start": 424.7,
+   "end": 430.39,
+   "words": [
+    {
+     "w": "It",
+     "start": 424.7,
+     "end": 424.87
+    },
+    {
+     "w": "points",
+     "start": 424.87,
+     "end": 425.2
+    },
+    {
+     "w": "to",
+     "start": 425.2,
+     "end": 425.4
+    },
+    {
+     "w": "other",
+     "start": 425.4,
+     "end": 425.64
+    },
+    {
+     "w": "files:",
+     "start": 425.64,
+     "end": 426.13
+    },
+    {
+     "w": "stylesheets,",
+     "start": 426.55,
+     "end": 427.47
+    },
+    {
+     "w": "scripts,",
+     "start": 427.88,
+     "end": 428.51
+    },
+    {
+     "w": "images,",
+     "start": 428.91,
+     "end": 429.43
+    },
+    {
+     "w": "fonts.",
+     "start": 429.92,
+     "end": 430.39
+    }
+   ]
+  },
+  {
+   "text": "The browser starts fetching them while it's still reading, the moment it sees each one.",
+   "start": 430.84,
+   "end": 435.4,
+   "words": [
+    {
+     "w": "The",
+     "start": 430.84,
+     "end": 431.02
+    },
+    {
+     "w": "browser",
+     "start": 431.02,
+     "end": 431.48
+    },
+    {
+     "w": "starts",
+     "start": 431.48,
+     "end": 431.88
+    },
+    {
+     "w": "fetching",
+     "start": 431.88,
+     "end": 432.24
+    },
+    {
+     "w": "them",
+     "start": 432.24,
+     "end": 432.42
+    },
+    {
+     "w": "while",
+     "start": 432.42,
+     "end": 432.74
+    },
+    {
+     "w": "it's",
+     "start": 432.74,
+     "end": 432.88
+    },
+    {
+     "w": "still",
+     "start": 432.88,
+     "end": 433.16
+    },
+    {
+     "w": "reading,",
+     "start": 433.16,
+     "end": 433.55
+    },
+    {
+     "w": "the",
+     "start": 433.94,
+     "end": 434.12
+    },
+    {
+     "w": "moment",
+     "start": 434.12,
+     "end": 434.48
+    },
+    {
+     "w": "it",
+     "start": 434.48,
+     "end": 434.55
+    },
+    {
+     "w": "sees",
+     "start": 434.55,
+     "end": 434.88
+    },
+    {
+     "w": "each",
+     "start": 434.88,
+     "end": 435.08
+    },
+    {
+     "w": "one.",
+     "start": 435.08,
+     "end": 435.4
+    }
+   ]
+  },
+  {
+   "text": "Files from the same server reuse the connection we already set up. No new DNS, no new handshakes.",
+   "start": 435.84,
+   "end": 443.03,
+   "words": [
+    {
+     "w": "Files",
+     "start": 435.84,
+     "end": 436.24
+    },
+    {
+     "w": "from",
+     "start": 436.24,
+     "end": 436.44
+    },
+    {
+     "w": "the",
+     "start": 436.44,
+     "end": 436.56
+    },
+    {
+     "w": "same",
+     "start": 436.56,
+     "end": 436.88
+    },
+    {
+     "w": "server",
+     "start": 436.88,
+     "end": 437.24
+    },
+    {
+     "w": "reuse",
+     "start": 437.24,
+     "end": 437.64
+    },
+    {
+     "w": "the",
+     "start": 437.64,
+     "end": 437.75
+    },
+    {
+     "w": "connection",
+     "start": 437.75,
+     "end": 438.24
+    },
+    {
+     "w": "we",
+     "start": 438.24,
+     "end": 438.46
+    },
+    {
+     "w": "already",
+     "start": 438.46,
+     "end": 438.86
+    },
+    {
+     "w": "set",
+     "start": 438.86,
+     "end": 439.14
+    },
+    {
+     "w": "up.",
+     "start": 439.14,
+     "end": 439.21
+    },
+    {
+     "w": "No",
+     "start": 440.18,
+     "end": 440.46
+    },
+    {
+     "w": "new",
+     "start": 440.46,
+     "end": 440.64
+    },
+    {
+     "w": "DNS,",
+     "start": 440.64,
+     "end": 441.35,
+     "syl": [
+      [
+       440.64,
+       440.92
+      ],
+      [
+       440.92,
+       441.14
+      ],
+      [
+       441.14,
+       441.35
+      ]
+     ]
+    },
+    {
+     "w": "no",
+     "start": 441.76,
+     "end": 442.04
+    },
+    {
+     "w": "new",
+     "start": 442.04,
+     "end": 442.26
+    },
+    {
+     "w": "handshakes.",
+     "start": 442.26,
+     "end": 443.03
+    }
+   ]
+  },
+  {
+   "text": "But files from another server repeat everything: DNS, TCP, TLS.",
+   "start": 443.48,
+   "end": 449.42,
+   "words": [
+    {
+     "w": "But",
+     "start": 443.48,
+     "end": 443.68
+    },
+    {
+     "w": "files",
+     "start": 443.68,
+     "end": 444.08
+    },
+    {
+     "w": "from",
+     "start": 444.08,
+     "end": 444.3
+    },
+    {
+     "w": "another",
+     "start": 444.3,
+     "end": 444.64
+    },
+    {
+     "w": "server",
+     "start": 444.64,
+     "end": 444.98
+    },
+    {
+     "w": "repeat",
+     "start": 444.98,
+     "end": 445.34
+    },
+    {
+     "w": "everything:",
+     "start": 445.34,
+     "end": 445.91
+    },
+    {
+     "w": "DNS,",
+     "start": 446.32,
+     "end": 447.03,
+     "syl": [
+      [
+       446.32,
+       446.6
+      ],
+      [
+       446.6,
+       446.86
+      ],
+      [
+       446.86,
+       447.03
+      ]
+     ]
+    },
+    {
+     "w": "TCP,",
+     "start": 447.43,
+     "end": 448.21,
+     "syl": [
+      [
+       447.43,
+       447.72
+      ],
+      [
+       447.72,
+       447.94
+      ],
+      [
+       447.94,
+       448.21
+      ]
+     ]
+    },
+    {
+     "w": "TLS.",
+     "start": 448.6,
+     "end": 449.42,
+     "syl": [
+      [
+       448.6,
+       448.94
+      ],
+      [
+       448.94,
+       449.22
+      ],
+      [
+       449.22,
+       449.42
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And most pages load from several servers: images, fonts, analytics, video.",
+   "start": 449.88,
+   "end": 456.03,
+   "words": [
+    {
+     "w": "And",
+     "start": 449.88,
+     "end": 450.04
+    },
+    {
+     "w": "most",
+     "start": 450.04,
+     "end": 450.36
+    },
+    {
+     "w": "pages",
+     "start": 450.36,
+     "end": 450.8
+    },
+    {
+     "w": "load",
+     "start": 450.8,
+     "end": 451.06
+    },
+    {
+     "w": "from",
+     "start": 451.06,
+     "end": 451.34
+    },
+    {
+     "w": "several",
+     "start": 451.34,
+     "end": 451.74
+    },
+    {
+     "w": "servers:",
+     "start": 451.74,
+     "end": 452.23
+    },
+    {
+     "w": "images,",
+     "start": 452.61,
+     "end": 453.13
+    },
+    {
+     "w": "fonts,",
+     "start": 453.62,
+     "end": 454.04
+    },
+    {
+     "w": "analytics,",
+     "start": 454.45,
+     "end": 455.16
+    },
+    {
+     "w": "video.",
+     "start": 455.56,
+     "end": 456.03
+    }
+   ]
+  },
+  {
+   "text": "The first request: DNS about 10 milliseconds. The connection about 160, and half of that is TLS. Waiting about 90.",
+   "start": 457.07,
+   "end": 467.45,
+   "words": [
+    {
+     "w": "The",
+     "start": 457.07,
+     "end": 457.22
+    },
+    {
+     "w": "first",
+     "start": 457.22,
+     "end": 457.49
+    },
+    {
+     "w": "request:",
+     "start": 457.49,
+     "end": 458.05
+    },
+    {
+     "w": "DNS",
+     "start": 458.54,
+     "end": 459.18,
+     "syl": [
+      [
+       458.54,
+       458.8
+      ],
+      [
+       458.8,
+       459.0
+      ],
+      [
+       459.0,
+       459.18
+      ]
+     ]
+    },
+    {
+     "w": "about",
+     "start": 459.18,
+     "end": 459.44
+    },
+    {
+     "w": "10",
+     "start": 459.44,
+     "end": 459.68
+    },
+    {
+     "w": "milliseconds.",
+     "start": 459.68,
+     "end": 460.52
+    },
+    {
+     "w": "The",
+     "start": 461.38,
+     "end": 461.5
+    },
+    {
+     "w": "connection",
+     "start": 461.5,
+     "end": 462.0
+    },
+    {
+     "w": "about",
+     "start": 462.0,
+     "end": 462.34
+    },
+    {
+     "w": "160,",
+     "start": 462.34,
+     "end": 463.4,
+     "syl": [
+      [
+       462.34,
+       462.5
+      ],
+      [
+       462.5,
+       462.84
+      ],
+      [
+       462.84,
+       463.4
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 463.8,
+     "end": 463.98
+    },
+    {
+     "w": "half",
+     "start": 463.98,
+     "end": 464.24
+    },
+    {
+     "w": "of",
+     "start": 464.24,
+     "end": 464.3
+    },
+    {
+     "w": "that",
+     "start": 464.3,
+     "end": 464.54
+    },
+    {
+     "w": "is",
+     "start": 464.54,
+     "end": 464.67
+    },
+    {
+     "w": "TLS.",
+     "start": 464.67,
+     "end": 465.48,
+     "syl": [
+      [
+       464.67,
+       464.98
+      ],
+      [
+       464.98,
+       465.11
+      ],
+      [
+       465.11,
+       465.48
+      ]
+     ]
+    },
+    {
+     "w": "Waiting",
+     "start": 466.34,
+     "end": 466.72
+    },
+    {
+     "w": "about",
+     "start": 466.72,
+     "end": 466.95
+    },
+    {
+     "w": "90.",
+     "start": 466.95,
+     "end": 467.45
+    }
+   ]
+  },
+  {
+   "text": "That's about 160 milliseconds of handshakes before the page could even be asked for: more than half the wait for the first byte.",
+   "start": 467.92,
+   "end": 475.42,
+   "words": [
+    {
+     "w": "That's",
+     "start": 467.92,
+     "end": 468.2
+    },
+    {
+     "w": "about",
+     "start": 468.2,
+     "end": 468.54
+    },
+    {
+     "w": "160",
+     "start": 468.54,
+     "end": 469.48,
+     "syl": [
+      [
+       468.54,
+       468.7
+      ],
+      [
+       468.7,
+       469.03
+      ],
+      [
+       469.03,
+       469.48
+      ]
+     ]
+    },
+    {
+     "w": "milliseconds",
+     "start": 469.48,
+     "end": 470.22
+    },
+    {
+     "w": "of",
+     "start": 470.22,
+     "end": 470.34
+    },
+    {
+     "w": "handshakes",
+     "start": 470.34,
+     "end": 470.98
+    },
+    {
+     "w": "before",
+     "start": 470.98,
+     "end": 471.32
+    },
+    {
+     "w": "the",
+     "start": 471.32,
+     "end": 471.42
+    },
+    {
+     "w": "page",
+     "start": 471.42,
+     "end": 471.74
+    },
+    {
+     "w": "could",
+     "start": 471.74,
+     "end": 471.96
+    },
+    {
+     "w": "even",
+     "start": 471.96,
+     "end": 472.22
+    },
+    {
+     "w": "be",
+     "start": 472.22,
+     "end": 472.44
+    },
+    {
+     "w": "asked",
+     "start": 472.44,
+     "end": 472.64
+    },
+    {
+     "w": "for:",
+     "start": 472.74,
+     "end": 473.09
+    },
+    {
+     "w": "more",
+     "start": 473.49,
+     "end": 473.74
+    },
+    {
+     "w": "than",
+     "start": 473.74,
+     "end": 473.94
+    },
+    {
+     "w": "half",
+     "start": 473.94,
+     "end": 474.18
+    },
+    {
+     "w": "the",
+     "start": 474.18,
+     "end": 474.3
+    },
+    {
+     "w": "wait",
+     "start": 474.3,
+     "end": 474.54
+    },
+    {
+     "w": "for",
+     "start": 474.54,
+     "end": 474.7
+    },
+    {
+     "w": "the",
+     "start": 474.7,
+     "end": 474.82
+    },
+    {
+     "w": "first",
+     "start": 474.82,
+     "end": 475.16
+    },
+    {
+     "w": "byte.",
+     "start": 475.16,
+     "end": 475.42
+    }
+   ]
+  },
+  {
+   "text": "Every other file from en.wikipedia.org reused that first connection.",
+   "start": 476.0,
+   "end": 480.22,
+   "words": [
+    {
+     "w": "Every",
+     "start": 476.0,
+     "end": 476.34
+    },
+    {
+     "w": "other",
+     "start": 476.34,
+     "end": 476.56
+    },
+    {
+     "w": "file",
+     "start": 476.56,
+     "end": 476.94
+    },
+    {
+     "w": "from",
+     "start": 476.94,
+     "end": 477.2
+    },
+    {
+     "w": "en.wikipedia.org",
+     "start": 477.2,
+     "end": 478.68,
+     "syl": [
+      [
+       477.2,
+       477.32
+      ],
+      [
+       477.32,
+       477.54
+      ],
+      [
+       477.54,
+       478.22
+      ],
+      [
+       478.22,
+       478.45
+      ],
+      [
+       478.45,
+       478.68
+      ]
+     ]
+    },
+    {
+     "w": "reused",
+     "start": 478.68,
+     "end": 479.11
+    },
+    {
+     "w": "that",
+     "start": 479.11,
+     "end": 479.32
+    },
+    {
+     "w": "first",
+     "start": 479.32,
+     "end": 479.66
+    },
+    {
+     "w": "connection.",
+     "start": 479.66,
+     "end": 480.22
+    }
+   ]
+  },
+  {
+   "text": "The images come from a second server, upload.wikimedia.org, and it repeated everything: its own DNS, and about 160 milliseconds of TCP and TLS.",
+   "start": 480.68,
+   "end": 492.46,
+   "words": [
+    {
+     "w": "The",
+     "start": 480.68,
+     "end": 480.86
+    },
+    {
+     "w": "images",
+     "start": 480.86,
+     "end": 481.28
+    },
+    {
+     "w": "come",
+     "start": 481.28,
+     "end": 481.54
+    },
+    {
+     "w": "from",
+     "start": 481.54,
+     "end": 481.74
+    },
+    {
+     "w": "a",
+     "start": 481.74,
+     "end": 481.82
+    },
+    {
+     "w": "second",
+     "start": 481.82,
+     "end": 482.22
+    },
+    {
+     "w": "server,",
+     "start": 482.22,
+     "end": 482.59
+    },
+    {
+     "w": "upload.wikimedia.org,",
+     "start": 482.99,
+     "end": 484.82,
+     "syl": [
+      [
+       482.99,
+       483.44
+      ],
+      [
+       483.44,
+       483.68
+      ],
+      [
+       483.68,
+       484.34
+      ],
+      [
+       484.34,
+       484.58
+      ],
+      [
+       484.58,
+       484.82
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 485.31,
+     "end": 485.46
+    },
+    {
+     "w": "it",
+     "start": 485.46,
+     "end": 485.53
+    },
+    {
+     "w": "repeated",
+     "start": 485.53,
+     "end": 486.08
+    },
+    {
+     "w": "everything:",
+     "start": 486.08,
+     "end": 486.57
+    },
+    {
+     "w": "its",
+     "start": 486.97,
+     "end": 487.2
+    },
+    {
+     "w": "own",
+     "start": 487.2,
+     "end": 487.32
+    },
+    {
+     "w": "DNS,",
+     "start": 487.32,
+     "end": 488.03,
+     "syl": [
+      [
+       487.32,
+       487.58
+      ],
+      [
+       487.58,
+       487.78
+      ],
+      [
+       487.78,
+       488.03
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 488.43,
+     "end": 488.58
+    },
+    {
+     "w": "about",
+     "start": 488.58,
+     "end": 488.92
+    },
+    {
+     "w": "160",
+     "start": 488.92,
+     "end": 489.88,
+     "syl": [
+      [
+       488.92,
+       489.1
+      ],
+      [
+       489.1,
+       489.42
+      ],
+      [
+       489.42,
+       489.88
+      ]
+     ]
+    },
+    {
+     "w": "milliseconds",
+     "start": 489.88,
+     "end": 490.6
+    },
+    {
+     "w": "of",
+     "start": 490.6,
+     "end": 490.73
+    },
+    {
+     "w": "TCP",
+     "start": 490.73,
+     "end": 491.5,
+     "syl": [
+      [
+       490.73,
+       491.02
+      ],
+      [
+       491.02,
+       491.25
+      ],
+      [
+       491.25,
+       491.5
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 491.5,
+     "end": 491.65
+    },
+    {
+     "w": "TLS.",
+     "start": 491.65,
+     "end": 492.46,
+     "syl": [
+      [
+       491.65,
+       491.96
+      ],
+      [
+       491.96,
+       492.09
+      ],
+      [
+       492.09,
+       492.46
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The page appeared at about 0.7 seconds, and finished loading at about 0.8.",
+   "start": 492.94,
+   "end": 498.19,
+   "words": [
+    {
+     "w": "The",
+     "start": 492.94,
+     "end": 493.06
+    },
+    {
+     "w": "page",
+     "start": 493.06,
+     "end": 493.36
+    },
+    {
+     "w": "appeared",
+     "start": 493.36,
+     "end": 493.74
+    },
+    {
+     "w": "at",
+     "start": 493.74,
+     "end": 493.82
+    },
+    {
+     "w": "about",
+     "start": 493.82,
+     "end": 494.05
+    },
+    {
+     "w": "0.7",
+     "start": 494.05,
+     "end": 495.16,
+     "syl": [
+      [
+       494.05,
+       494.47
+      ],
+      [
+       494.47,
+       494.8
+      ],
+      [
+       494.8,
+       495.16
+      ]
+     ]
+    },
+    {
+     "w": "seconds,",
+     "start": 495.16,
+     "end": 495.66
+    },
+    {
+     "w": "and",
+     "start": 496.06,
+     "end": 496.26
+    },
+    {
+     "w": "finished",
+     "start": 496.26,
+     "end": 496.6
+    },
+    {
+     "w": "loading",
+     "start": 496.6,
+     "end": 496.98
+    },
+    {
+     "w": "at",
+     "start": 496.98,
+     "end": 497.06
+    },
+    {
+     "w": "about",
+     "start": 497.06,
+     "end": 497.29
+    },
+    {
+     "w": "0.8.",
+     "start": 497.29,
+     "end": 498.19,
+     "syl": [
+      [
+       497.29,
+       497.71
+      ],
+      [
+       497.71,
+       498.06
+      ],
+      [
+       498.06,
+       498.19
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "But one of my three runs took almost 6 seconds: the page itself was slow to arrive. \"Instant\" isn't guaranteed.",
+   "start": 498.74,
+   "end": 506.04,
+   "words": [
+    {
+     "w": "But",
+     "start": 498.74,
+     "end": 499.0
+    },
+    {
+     "w": "one",
+     "start": 499.0,
+     "end": 499.14
+    },
+    {
+     "w": "of",
+     "start": 499.14,
+     "end": 499.26
+    },
+    {
+     "w": "my",
+     "start": 499.26,
+     "end": 499.43
+    },
+    {
+     "w": "three",
+     "start": 499.43,
+     "end": 499.68
+    },
+    {
+     "w": "runs",
+     "start": 499.68,
+     "end": 500.0
+    },
+    {
+     "w": "took",
+     "start": 500.0,
+     "end": 500.16
+    },
+    {
+     "w": "almost",
+     "start": 500.3,
+     "end": 500.61
+    },
+    {
+     "w": "6",
+     "start": 500.61,
+     "end": 500.98
+    },
+    {
+     "w": "seconds:",
+     "start": 500.98,
+     "end": 501.48
+    },
+    {
+     "w": "the",
+     "start": 501.89,
+     "end": 502.02
+    },
+    {
+     "w": "page",
+     "start": 502.02,
+     "end": 502.32
+    },
+    {
+     "w": "itself",
+     "start": 502.32,
+     "end": 502.74
+    },
+    {
+     "w": "was",
+     "start": 502.74,
+     "end": 502.92
+    },
+    {
+     "w": "slow",
+     "start": 502.92,
+     "end": 503.17
+    },
+    {
+     "w": "to",
+     "start": 503.17,
+     "end": 503.34
+    },
+    {
+     "w": "arrive.",
+     "start": 503.34,
+     "end": 503.78
+    },
+    {
+     "w": "\"Instant\"",
+     "start": 504.64,
+     "end": 505.12
+    },
+    {
+     "w": "isn't",
+     "start": 505.12,
+     "end": 505.36
+    },
+    {
+     "w": "guaranteed.",
+     "start": 505.36,
+     "end": 506.04
+    }
+   ]
+  },
+  {
+   "text": "Reloaded straight away: no DNS, no new connection, because the old one was still open. First byte in 79 milliseconds, loaded in 0.3 seconds.",
+   "start": 506.48,
+   "end": 518.34,
+   "words": [
+    {
+     "w": "Reloaded",
+     "start": 506.48,
+     "end": 506.94
+    },
+    {
+     "w": "straight",
+     "start": 506.94,
+     "end": 507.34
+    },
+    {
+     "w": "away:",
+     "start": 507.34,
+     "end": 507.65
+    },
+    {
+     "w": "no",
+     "start": 508.04,
+     "end": 508.28
+    },
+    {
+     "w": "DNS,",
+     "start": 508.28,
+     "end": 509.0,
+     "syl": [
+      [
+       508.28,
+       508.56
+      ],
+      [
+       508.56,
+       508.76
+      ],
+      [
+       508.76,
+       509.0
+      ]
+     ]
+    },
+    {
+     "w": "no",
+     "start": 509.41,
+     "end": 509.7
+    },
+    {
+     "w": "new",
+     "start": 509.7,
+     "end": 509.87
+    },
+    {
+     "w": "connection,",
+     "start": 509.87,
+     "end": 510.42
+    },
+    {
+     "w": "because",
+     "start": 510.85,
+     "end": 511.3
+    },
+    {
+     "w": "the",
+     "start": 511.3,
+     "end": 511.5
+    },
+    {
+     "w": "old",
+     "start": 511.5,
+     "end": 511.78
+    },
+    {
+     "w": "one",
+     "start": 511.78,
+     "end": 511.92
+    },
+    {
+     "w": "was",
+     "start": 511.92,
+     "end": 512.08
+    },
+    {
+     "w": "still",
+     "start": 512.08,
+     "end": 512.42
+    },
+    {
+     "w": "open.",
+     "start": 512.42,
+     "end": 512.72
+    },
+    {
+     "w": "First",
+     "start": 513.59,
+     "end": 513.98
+    },
+    {
+     "w": "byte",
+     "start": 513.98,
+     "end": 514.26
+    },
+    {
+     "w": "in",
+     "start": 514.26,
+     "end": 514.4
+    },
+    {
+     "w": "79",
+     "start": 514.4,
+     "end": 515.12,
+     "syl": [
+      [
+       514.4,
+       514.86
+      ],
+      [
+       514.86,
+       515.12
+      ]
+     ]
+    },
+    {
+     "w": "milliseconds,",
+     "start": 515.12,
+     "end": 515.9
+    },
+    {
+     "w": "loaded",
+     "start": 516.3,
+     "end": 516.68
+    },
+    {
+     "w": "in",
+     "start": 516.68,
+     "end": 516.8
+    },
+    {
+     "w": "0.3",
+     "start": 516.8,
+     "end": 517.76,
+     "syl": [
+      [
+       516.8,
+       517.16
+      ],
+      [
+       517.16,
+       517.48
+      ],
+      [
+       517.48,
+       517.76
+      ]
+     ]
+    },
+    {
+     "w": "seconds.",
+     "start": 517.76,
+     "end": 518.34
+    }
+   ]
+  },
+  {
+   "text": "I used to believe a slow site always meant a slow server.",
+   "start": 518.81,
+   "end": 521.77,
+   "words": [
+    {
+     "w": "I",
+     "start": 518.81,
+     "end": 519.02
+    },
+    {
+     "w": "used",
+     "start": 519.02,
+     "end": 519.21
+    },
+    {
+     "w": "to",
+     "start": 519.21,
+     "end": 519.34
+    },
+    {
+     "w": "believe",
+     "start": 519.34,
+     "end": 519.68
+    },
+    {
+     "w": "a",
+     "start": 519.68,
+     "end": 519.76
+    },
+    {
+     "w": "slow",
+     "start": 519.76,
+     "end": 520.1
+    },
+    {
+     "w": "site",
+     "start": 520.1,
+     "end": 520.36
+    },
+    {
+     "w": "always",
+     "start": 520.36,
+     "end": 520.68
+    },
+    {
+     "w": "meant",
+     "start": 520.68,
+     "end": 520.96
+    },
+    {
+     "w": "a",
+     "start": 520.96,
+     "end": 521.04
+    },
+    {
+     "w": "slow",
+     "start": 521.04,
+     "end": 521.38
+    },
+    {
+     "w": "server.",
+     "start": 521.38,
+     "end": 521.77
+    }
+   ]
+  },
+  {
+   "text": "But when I measured it, Wikipedia's server answered in about 15 milliseconds.",
+   "start": 522.22,
+   "end": 526.78,
+   "words": [
+    {
+     "w": "But",
+     "start": 522.22,
+     "end": 522.38
+    },
+    {
+     "w": "when",
+     "start": 522.38,
+     "end": 522.56
+    },
+    {
+     "w": "I",
+     "start": 522.56,
+     "end": 522.68
+    },
+    {
+     "w": "measured",
+     "start": 522.68,
+     "end": 523.04
+    },
+    {
+     "w": "it,",
+     "start": 523.04,
+     "end": 523.11
+    },
+    {
+     "w": "Wikipedia's",
+     "start": 523.61,
+     "end": 524.34
+    },
+    {
+     "w": "server",
+     "start": 524.34,
+     "end": 524.74
+    },
+    {
+     "w": "answered",
+     "start": 524.74,
+     "end": 525.06
+    },
+    {
+     "w": "in",
+     "start": 525.06,
+     "end": 525.16
+    },
+    {
+     "w": "about",
+     "start": 525.16,
+     "end": 525.45
+    },
+    {
+     "w": "15",
+     "start": 525.45,
+     "end": 525.94
+    },
+    {
+     "w": "milliseconds.",
+     "start": 525.94,
+     "end": 526.78
+    }
+   ]
+  },
+  {
+   "text": "Almost all the waiting was round trips: the handshakes, and the request and the answer crossing the network.",
+   "start": 527.25,
+   "end": 533.27,
+   "words": [
+    {
+     "w": "Almost",
+     "start": 527.25,
+     "end": 527.59
+    },
+    {
+     "w": "all",
+     "start": 527.72,
+     "end": 527.88
+    },
+    {
+     "w": "the",
+     "start": 527.88,
+     "end": 528.0
+    },
+    {
+     "w": "waiting",
+     "start": 528.0,
+     "end": 528.32
+    },
+    {
+     "w": "was",
+     "start": 528.32,
+     "end": 528.52
+    },
+    {
+     "w": "round",
+     "start": 528.52,
+     "end": 528.8
+    },
+    {
+     "w": "trips:",
+     "start": 528.8,
+     "end": 529.28
+    },
+    {
+     "w": "the",
+     "start": 529.7,
+     "end": 529.86
+    },
+    {
+     "w": "handshakes,",
+     "start": 529.86,
+     "end": 530.59
+    },
+    {
+     "w": "and",
+     "start": 530.98,
+     "end": 531.12
+    },
+    {
+     "w": "the",
+     "start": 531.12,
+     "end": 531.22
+    },
+    {
+     "w": "request",
+     "start": 531.22,
+     "end": 531.6
+    },
+    {
+     "w": "and",
+     "start": 531.6,
+     "end": 531.78
+    },
+    {
+     "w": "the",
+     "start": 531.78,
+     "end": 532.0
+    },
+    {
+     "w": "answer",
+     "start": 532.0,
+     "end": 532.29
+    },
+    {
+     "w": "crossing",
+     "start": 532.29,
+     "end": 532.76
+    },
+    {
+     "w": "the",
+     "start": 532.76,
+     "end": 532.88
+    },
+    {
+     "w": "network.",
+     "start": 532.88,
+     "end": 533.27
+    }
+   ]
+  },
+  {
+   "text": "I haven't had a serious DNS or certificate problem myself yet. But I've seen \"DNS_PROBE_FINISHED_NXDOMAIN\" and certificate warnings while browsing, and now I know what's going wrong behind them.",
+   "start": 533.84,
+   "end": 546.12,
+   "words": [
+    {
+     "w": "I",
+     "start": 533.84,
+     "end": 533.98
+    },
+    {
+     "w": "haven't",
+     "start": 533.98,
+     "end": 534.28
+    },
+    {
+     "w": "had",
+     "start": 534.28,
+     "end": 534.48
+    },
+    {
+     "w": "a",
+     "start": 534.48,
+     "end": 534.58
+    },
+    {
+     "w": "serious",
+     "start": 534.58,
+     "end": 535.02
+    },
+    {
+     "w": "DNS",
+     "start": 535.02,
+     "end": 535.66,
+     "syl": [
+      [
+       535.02,
+       535.3
+      ],
+      [
+       535.3,
+       535.48
+      ],
+      [
+       535.48,
+       535.66
+      ]
+     ]
+    },
+    {
+     "w": "or",
+     "start": 535.66,
+     "end": 535.84
+    },
+    {
+     "w": "certificate",
+     "start": 535.84,
+     "end": 536.47
+    },
+    {
+     "w": "problem",
+     "start": 536.47,
+     "end": 536.9
+    },
+    {
+     "w": "myself",
+     "start": 536.9,
+     "end": 537.42
+    },
+    {
+     "w": "yet.",
+     "start": 537.42,
+     "end": 537.66
+    },
+    {
+     "w": "But",
+     "start": 538.64,
+     "end": 538.8
+    },
+    {
+     "w": "I've",
+     "start": 538.8,
+     "end": 538.98
+    },
+    {
+     "w": "seen",
+     "start": 538.98,
+     "end": 539.22
+    },
+    {
+     "w": "\"DNS_PROBE_FINISHED_NXDOMAIN\"",
+     "start": 539.22,
+     "end": 541.4,
+     "syl": [
+      [
+       539.22,
+       539.48
+      ],
+      [
+       539.48,
+       539.66
+      ],
+      [
+       539.66,
+       539.86
+      ],
+      [
+       539.86,
+       540.13
+      ],
+      [
+       540.22,
+       540.53
+      ],
+      [
+       540.53,
+       540.8
+      ],
+      [
+       540.8,
+       540.98
+      ],
+      [
+       540.98,
+       541.4
+      ]
+     ]
+    },
+    {
+     "w": "and",
+     "start": 541.4,
+     "end": 541.52
+    },
+    {
+     "w": "certificate",
+     "start": 541.52,
+     "end": 542.12
+    },
+    {
+     "w": "warnings",
+     "start": 542.12,
+     "end": 542.6
+    },
+    {
+     "w": "while",
+     "start": 542.6,
+     "end": 542.89
+    },
+    {
+     "w": "browsing,",
+     "start": 542.89,
+     "end": 543.42
+    },
+    {
+     "w": "and",
+     "start": 543.82,
+     "end": 544.0
+    },
+    {
+     "w": "now",
+     "start": 544.0,
+     "end": 544.3
+    },
+    {
+     "w": "I",
+     "start": 544.3,
+     "end": 544.4
+    },
+    {
+     "w": "know",
+     "start": 544.4,
+     "end": 544.62
+    },
+    {
+     "w": "what's",
+     "start": 544.62,
+     "end": 544.88
+    },
+    {
+     "w": "going",
+     "start": 544.88,
+     "end": 545.2
+    },
+    {
+     "w": "wrong",
+     "start": 545.2,
+     "end": 545.46
+    },
+    {
+     "w": "behind",
+     "start": 545.46,
+     "end": 545.84
+    },
+    {
+     "w": "them.",
+     "start": 545.84,
+     "end": 546.12
+    }
+   ]
+  },
+  {
+   "text": "At this point the browser has the HTML, the styles and the scripts. It still has to draw.",
+   "start": 547.16,
+   "end": 553.65,
+   "words": [
+    {
+     "w": "At",
+     "start": 547.16,
+     "end": 547.3
+    },
+    {
+     "w": "this",
+     "start": 547.3,
+     "end": 547.56
+    },
+    {
+     "w": "point",
+     "start": 547.56,
+     "end": 547.86
+    },
+    {
+     "w": "the",
+     "start": 547.86,
+     "end": 548.01
+    },
+    {
+     "w": "browser",
+     "start": 548.01,
+     "end": 548.46
+    },
+    {
+     "w": "has",
+     "start": 548.46,
+     "end": 548.66
+    },
+    {
+     "w": "the",
+     "start": 548.66,
+     "end": 548.88
+    },
+    {
+     "w": "HTML,",
+     "start": 548.88,
+     "end": 549.85,
+     "syl": [
+      [
+       548.88,
+       549.12
+      ],
+      [
+       549.12,
+       549.44
+      ],
+      [
+       549.44,
+       549.6
+      ],
+      [
+       549.6,
+       549.85
+      ]
+     ]
+    },
+    {
+     "w": "the",
+     "start": 549.97,
+     "end": 550.12
+    },
+    {
+     "w": "styles",
+     "start": 550.12,
+     "end": 550.66
+    },
+    {
+     "w": "and",
+     "start": 550.78,
+     "end": 550.92
+    },
+    {
+     "w": "the",
+     "start": 550.92,
+     "end": 551.02
+    },
+    {
+     "w": "scripts.",
+     "start": 551.02,
+     "end": 551.63
+    },
+    {
+     "w": "It",
+     "start": 552.48,
+     "end": 552.6
+    },
+    {
+     "w": "still",
+     "start": 552.6,
+     "end": 552.92
+    },
+    {
+     "w": "has",
+     "start": 552.92,
+     "end": 553.15
+    },
+    {
+     "w": "to",
+     "start": 553.15,
+     "end": 553.32
+    },
+    {
+     "w": "draw.",
+     "start": 553.32,
+     "end": 553.65
+    }
+   ]
+  },
+  {
+   "text": "How it turns code into pixels is a story of its own: the next video.",
+   "start": 554.11,
+   "end": 558.3,
+   "words": [
+    {
+     "w": "How",
+     "start": 554.11,
+     "end": 554.34
+    },
+    {
+     "w": "it",
+     "start": 554.34,
+     "end": 554.44
+    },
+    {
+     "w": "turns",
+     "start": 554.44,
+     "end": 554.81
+    },
+    {
+     "w": "code",
+     "start": 554.81,
+     "end": 555.18
+    },
+    {
+     "w": "into",
+     "start": 555.18,
+     "end": 555.41
+    },
+    {
+     "w": "pixels",
+     "start": 555.41,
+     "end": 555.88
+    },
+    {
+     "w": "is",
+     "start": 555.88,
+     "end": 556.04
+    },
+    {
+     "w": "a",
+     "start": 556.04,
+     "end": 556.1
+    },
+    {
+     "w": "story",
+     "start": 556.1,
+     "end": 556.48
+    },
+    {
+     "w": "of",
+     "start": 556.48,
+     "end": 556.6
+    },
+    {
+     "w": "its",
+     "start": 556.6,
+     "end": 556.8
+    },
+    {
+     "w": "own:",
+     "start": 556.8,
+     "end": 557.0
+    },
+    {
+     "w": "the",
+     "start": 557.41,
+     "end": 557.56
+    },
+    {
+     "w": "next",
+     "start": 557.56,
+     "end": 557.83
+    },
+    {
+     "w": "video.",
+     "start": 557.83,
+     "end": 558.3
+    }
+   ]
+  },
+  {
+   "text": "Pressing Enter set off about a dozen systems.",
+   "start": 559.34,
+   "end": 561.79,
+   "words": [
+    {
+     "w": "Pressing",
+     "start": 559.34,
+     "end": 559.8
+    },
+    {
+     "w": "Enter",
+     "start": 559.8,
+     "end": 560.1
+    },
+    {
+     "w": "set",
+     "start": 560.1,
+     "end": 560.34
+    },
+    {
+     "w": "off",
+     "start": 560.34,
+     "end": 560.5
+    },
+    {
+     "w": "about",
+     "start": 560.5,
+     "end": 560.76
+    },
+    {
+     "w": "a",
+     "start": 560.76,
+     "end": 560.82
+    },
+    {
+     "w": "dozen",
+     "start": 560.82,
+     "end": 561.2
+    },
+    {
+     "w": "systems.",
+     "start": 561.2,
+     "end": 561.79
+    }
+   ]
+  },
+  {
+   "text": "The browser read what you typed, and checked what it already had.",
+   "start": 562.25,
+   "end": 565.73,
+   "words": [
+    {
+     "w": "The",
+     "start": 562.25,
+     "end": 562.4
+    },
+    {
+     "w": "browser",
+     "start": 562.4,
+     "end": 562.86
+    },
+    {
+     "w": "read",
+     "start": 562.86,
+     "end": 563.08
+    },
+    {
+     "w": "what",
+     "start": 563.08,
+     "end": 563.24
+    },
+    {
+     "w": "you",
+     "start": 563.24,
+     "end": 563.39
+    },
+    {
+     "w": "typed,",
+     "start": 563.39,
+     "end": 563.7
+    },
+    {
+     "w": "and",
+     "start": 564.23,
+     "end": 564.4
+    },
+    {
+     "w": "checked",
+     "start": 564.4,
+     "end": 564.68
+    },
+    {
+     "w": "what",
+     "start": 564.68,
+     "end": 564.84
+    },
+    {
+     "w": "it",
+     "start": 564.84,
+     "end": 564.95
+    },
+    {
+     "w": "already",
+     "start": 564.95,
+     "end": 565.42
+    },
+    {
+     "w": "had.",
+     "start": 565.42,
+     "end": 565.73
+    }
+   ]
+  },
+  {
+   "text": "DNS turned a name into an address, from a cache, in about 10 milliseconds.",
+   "start": 566.18,
+   "end": 571.38,
+   "words": [
+    {
+     "w": "DNS",
+     "start": 566.18,
+     "end": 566.81,
+     "syl": [
+      [
+       566.18,
+       566.44
+      ],
+      [
+       566.44,
+       566.62
+      ],
+      [
+       566.62,
+       566.81
+      ]
+     ]
+    },
+    {
+     "w": "turned",
+     "start": 566.81,
+     "end": 567.16
+    },
+    {
+     "w": "a",
+     "start": 567.16,
+     "end": 567.24
+    },
+    {
+     "w": "name",
+     "start": 567.24,
+     "end": 567.48
+    },
+    {
+     "w": "into",
+     "start": 567.48,
+     "end": 567.7
+    },
+    {
+     "w": "an",
+     "start": 567.7,
+     "end": 567.88
+    },
+    {
+     "w": "address,",
+     "start": 567.88,
+     "end": 568.34
+    },
+    {
+     "w": "from",
+     "start": 568.79,
+     "end": 569.0
+    },
+    {
+     "w": "a",
+     "start": 569.0,
+     "end": 569.05
+    },
+    {
+     "w": "cache,",
+     "start": 569.05,
+     "end": 569.49
+    },
+    {
+     "w": "in",
+     "start": 569.88,
+     "end": 570.04
+    },
+    {
+     "w": "about",
+     "start": 570.04,
+     "end": 570.29
+    },
+    {
+     "w": "10",
+     "start": 570.29,
+     "end": 570.54
+    },
+    {
+     "w": "milliseconds.",
+     "start": 570.54,
+     "end": 571.38
+    }
+   ]
+  },
+  {
+   "text": "TCP opened a connection: one round trip.",
+   "start": 571.85,
+   "end": 574.81,
+   "words": [
+    {
+     "w": "TCP",
+     "start": 571.85,
+     "end": 572.66,
+     "syl": [
+      [
+       571.85,
+       572.14
+      ],
+      [
+       572.14,
+       572.38
+      ],
+      [
+       572.38,
+       572.66
+      ]
+     ]
+    },
+    {
+     "w": "opened",
+     "start": 572.66,
+     "end": 572.94
+    },
+    {
+     "w": "a",
+     "start": 572.94,
+     "end": 572.99
+    },
+    {
+     "w": "connection:",
+     "start": 572.99,
+     "end": 573.54
+    },
+    {
+     "w": "one",
+     "start": 573.94,
+     "end": 574.22
+    },
+    {
+     "w": "round",
+     "start": 574.22,
+     "end": 574.5
+    },
+    {
+     "w": "trip.",
+     "start": 574.5,
+     "end": 574.81
+    }
+   ]
+  },
+  {
+   "text": "TLS made it private, and the server proved it was really itself: one more round trip.",
+   "start": 575.29,
+   "end": 580.74,
+   "words": [
+    {
+     "w": "TLS",
+     "start": 575.29,
+     "end": 575.95,
+     "syl": [
+      [
+       575.29,
+       575.6
+      ],
+      [
+       575.6,
+       575.8
+      ],
+      [
+       575.8,
+       575.95
+      ]
+     ]
+    },
+    {
+     "w": "made",
+     "start": 575.95,
+     "end": 576.2
+    },
+    {
+     "w": "it",
+     "start": 576.2,
+     "end": 576.33
+    },
+    {
+     "w": "private,",
+     "start": 576.33,
+     "end": 576.72
+    },
+    {
+     "w": "and",
+     "start": 577.19,
+     "end": 577.32
+    },
+    {
+     "w": "the",
+     "start": 577.32,
+     "end": 577.46
+    },
+    {
+     "w": "server",
+     "start": 577.46,
+     "end": 577.8
+    },
+    {
+     "w": "proved",
+     "start": 577.8,
+     "end": 578.07
+    },
+    {
+     "w": "it",
+     "start": 578.07,
+     "end": 578.24
+    },
+    {
+     "w": "was",
+     "start": 578.24,
+     "end": 578.42
+    },
+    {
+     "w": "really",
+     "start": 578.42,
+     "end": 578.74
+    },
+    {
+     "w": "itself:",
+     "start": 578.74,
+     "end": 579.22
+    },
+    {
+     "w": "one",
+     "start": 579.65,
+     "end": 579.9
+    },
+    {
+     "w": "more",
+     "start": 579.9,
+     "end": 580.16
+    },
+    {
+     "w": "round",
+     "start": 580.16,
+     "end": 580.44
+    },
+    {
+     "w": "trip.",
+     "start": 580.44,
+     "end": 580.74
+    }
+   ]
+  },
+  {
+   "text": "HTTP asked for the page, and the server answered.",
+   "start": 581.22,
+   "end": 584.79,
+   "words": [
+    {
+     "w": "HTTP",
+     "start": 581.22,
+     "end": 582.42,
+     "syl": [
+      [
+       581.22,
+       581.54
+      ],
+      [
+       581.54,
+       581.8
+      ],
+      [
+       581.8,
+       582.1
+      ],
+      [
+       582.1,
+       582.42
+      ]
+     ]
+    },
+    {
+     "w": "asked",
+     "start": 582.42,
+     "end": 582.72
+    },
+    {
+     "w": "for",
+     "start": 582.72,
+     "end": 582.84
+    },
+    {
+     "w": "the",
+     "start": 582.84,
+     "end": 582.95
+    },
+    {
+     "w": "page,",
+     "start": 582.95,
+     "end": 583.36
+    },
+    {
+     "w": "and",
+     "start": 583.75,
+     "end": 583.88
+    },
+    {
+     "w": "the",
+     "start": 583.88,
+     "end": 584.02
+    },
+    {
+     "w": "server",
+     "start": 584.02,
+     "end": 584.4
+    },
+    {
+     "w": "answered.",
+     "start": 584.4,
+     "end": 584.79
+    }
+   ]
+  },
+  {
+   "text": "Then every other file came in, over that connection, or over new ones to other servers.",
+   "start": 585.24,
+   "end": 590.51,
+   "words": [
+    {
+     "w": "Then",
+     "start": 585.24,
+     "end": 585.48
+    },
+    {
+     "w": "every",
+     "start": 585.48,
+     "end": 585.74
+    },
+    {
+     "w": "other",
+     "start": 585.74,
+     "end": 585.99
+    },
+    {
+     "w": "file",
+     "start": 585.99,
+     "end": 586.31
+    },
+    {
+     "w": "came",
+     "start": 586.31,
+     "end": 586.62
+    },
+    {
+     "w": "in,",
+     "start": 586.62,
+     "end": 586.82
+    },
+    {
+     "w": "over",
+     "start": 587.21,
+     "end": 587.46
+    },
+    {
+     "w": "that",
+     "start": 587.46,
+     "end": 587.67
+    },
+    {
+     "w": "connection,",
+     "start": 587.67,
+     "end": 588.23
+    },
+    {
+     "w": "or",
+     "start": 588.62,
+     "end": 588.84
+    },
+    {
+     "w": "over",
+     "start": 588.84,
+     "end": 589.08
+    },
+    {
+     "w": "new",
+     "start": 589.08,
+     "end": 589.34
+    },
+    {
+     "w": "ones",
+     "start": 589.34,
+     "end": 589.55
+    },
+    {
+     "w": "to",
+     "start": 589.55,
+     "end": 589.74
+    },
+    {
+     "w": "other",
+     "start": 589.74,
+     "end": 589.98
+    },
+    {
+     "w": "servers.",
+     "start": 589.98,
+     "end": 590.51
+    }
+   ]
+  },
+  {
+   "text": "Most of the waiting was round trips, not servers.",
+   "start": 590.99,
+   "end": 594.07,
+   "words": [
+    {
+     "w": "Most",
+     "start": 590.99,
+     "end": 591.32
+    },
+    {
+     "w": "of",
+     "start": 591.32,
+     "end": 591.42
+    },
+    {
+     "w": "the",
+     "start": 591.42,
+     "end": 591.54
+    },
+    {
+     "w": "waiting",
+     "start": 591.54,
+     "end": 591.86
+    },
+    {
+     "w": "was",
+     "start": 591.86,
+     "end": 592.06
+    },
+    {
+     "w": "round",
+     "start": 592.06,
+     "end": 592.35
+    },
+    {
+     "w": "trips,",
+     "start": 592.35,
+     "end": 592.84
+    },
+    {
+     "w": "not",
+     "start": 593.25,
+     "end": 593.49
+    },
+    {
+     "w": "servers.",
+     "start": 593.49,
+     "end": 594.07
+    }
+   ]
+  },
+  {
+   "text": "On my connection, all of that took about 0.8 seconds.",
+   "start": 594.55,
+   "end": 598.38,
+   "words": [
+    {
+     "w": "On",
+     "start": 594.55,
+     "end": 594.72
+    },
+    {
+     "w": "my",
+     "start": 594.72,
+     "end": 594.88
+    },
+    {
+     "w": "connection,",
+     "start": 594.88,
+     "end": 595.45
+    },
+    {
+     "w": "all",
+     "start": 595.84,
+     "end": 596.08
+    },
+    {
+     "w": "of",
+     "start": 596.08,
+     "end": 596.16
+    },
+    {
+     "w": "that",
+     "start": 596.16,
+     "end": 596.37
+    },
+    {
+     "w": "took",
+     "start": 596.37,
+     "end": 596.53
+    },
+    {
+     "w": "about",
+     "start": 596.53,
+     "end": 596.86
+    },
+    {
+     "w": "0.8",
+     "start": 596.86,
+     "end": 597.75,
+     "syl": [
+      [
+       596.86,
+       597.28
+      ],
+      [
+       597.28,
+       597.62
+      ],
+      [
+       597.62,
+       597.75
+      ]
+     ]
+    },
+    {
+     "w": "seconds.",
+     "start": 597.75,
+     "end": 598.38
+    }
+   ]
+  },
+  {
+   "text": "The next time a page loads, you'll know where those 0.8 seconds went.",
+   "start": 598.85,
+   "end": 603.34,
+   "words": [
+    {
+     "w": "The",
+     "start": 598.85,
+     "end": 598.98
+    },
+    {
+     "w": "next",
+     "start": 598.98,
+     "end": 599.27
+    },
+    {
+     "w": "time",
+     "start": 599.27,
+     "end": 599.56
+    },
+    {
+     "w": "a",
+     "start": 599.56,
+     "end": 599.64
+    },
+    {
+     "w": "page",
+     "start": 599.64,
+     "end": 599.96
+    },
+    {
+     "w": "loads,",
+     "start": 599.96,
+     "end": 600.38
+    },
+    {
+     "w": "you'll",
+     "start": 600.8,
+     "end": 601.04
+    },
+    {
+     "w": "know",
+     "start": 601.04,
+     "end": 601.28
+    },
+    {
+     "w": "where",
+     "start": 601.28,
+     "end": 601.44
+    },
+    {
+     "w": "those",
+     "start": 601.44,
+     "end": 601.68
+    },
+    {
+     "w": "0.8",
+     "start": 601.68,
+     "end": 602.55,
+     "syl": [
+      [
+       601.68,
+       602.08
+      ],
+      [
+       602.08,
+       602.42
+      ],
+      [
+       602.42,
+       602.55
+      ]
+     ]
+    },
+    {
+     "w": "seconds",
+     "start": 602.55,
+     "end": 603.04
+    },
+    {
+     "w": "went.",
+     "start": 603.04,
+     "end": 603.34
+    }
+   ]
+  }
+ ]
+}
